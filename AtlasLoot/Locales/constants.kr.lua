@@ -290,6 +290,10 @@ AL["World Bosses"] = "야외 우두머리"
 AL["World Events"] = "이벤트"
 AL["Yellow Gems"] = "노란색 보석"
 AL["Zen'Vorka"] = "젠보르카"
+--Chamber of Heart
+AL["Chamber of Heart"] = "Chamber of Heart"
+AL["MOTHER"] = "MOTHER"
+AL["Wrathion"] = "Wrathion <The Black Prince>"
 --special events
 AL["Special Events"] = "Special Events"
 --DeathsRising

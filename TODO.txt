@@ -1,6 +1,114 @@
-- list of goods sold by mother
-- list of loot from N'Zoth
-- list of loot from Mogu
-- list of loot from Schwarzes Imperium
-- list of loot from Aqir
-- etc
+Uldum
+
+    itemID  Name                                    NPCID   Name                        TargetID    Name
+
+    Mounts
+
+    174641  Reins of the Drake of the Four Winds    157134  Ishak of the Four Winds
+    174769  Malevolent Drone                        162147  Corpse Eater
+    174753  Waste Marauder                          157146  Rotfeaster
+
+    Battle Pets
+
+    174478  Wicked Lurker                           157593  Amalgamation of Flesh
+    174475  Stinky Sack                             154604  Lord Aj'qirai
+    174476  Black Chitinous Plate                   162140  Skikx'traz
+
+    Toys
+    
+    169303  Hell-Bent Bracers                       158636  The Grand Executor
+    174874  Budget K'thir Disguise                  157473  Yiphrim the Will Ravager    
+    175142  All-Seeing Right Eye                    158633  Gaze of N'Zoth              175140      All-Seeing Eyes
+
+    Transmogs
+
+    174224  Greatsword of Cruelty
+    174227  Writhing Feeler
+    174222  Unspeakable Bloodletter
+
+    Items
+
+    174875  Obelisk of the Sun                      152788  Uat-ka the Sun's Wrath
+
+    Recipes
+
+    174491  Tome of Unspeakable Delicacies
+
+    171318  Recipe: Unbound Alchemist Stone
+
+    171313  Schematic: A-N0M-A-L0U5 Gearspun Goggles
+    174362  Schematic: A-N0M-A-L0U5 Bionic Bifocals
+    171314  Schematic: A-N0M-A-L0U5 Synthetic Specs
+    174364  Schematic: A-N0M-A-L0U5 Orthogonal Optics
+
+    174366  Pattern: Unsettling Dredged Leather Boots
+    174371  Pattern: Unsettling Seaweave Breeches
+    174370  Pattern: Unsettling Seaweave Gloves
+    174368  Pattern: Unsettling Cragscale Boots
+    174367  Pattern: Unsettling Dredged Leather Leggings
+    174369  Pattern: Unsettling Cragscale Greaves
+
+    171317  Plans: Unsettling Osmenite Girdle
+    171316  Plans: Unsettling Osmenite Legguards
+
+    174365  Design: Unbound Leviathan's Eye Loop
+
+Vale of Eternal Blossoms
+
+    itemID  Name                                    NPCID   Name                        TargetID    Name
+
+    Mounts
+
+    173887  Clutch of Ha-Li                         157153  Ha-Li
+    174841  Ren's Stalwart Hound                    157160  Houndlord Ren
+    174840  Xinlao                                  157466  Anh-De the Loyal
+
+    86547   Skyshard                                                                    90655       Reins of the Thundering Ruby Cloud Serpent
+    174927  Zan-Tien Lasso                                                              174752      Ivory Cloud Serpent
+    174230  Pristine Cloud Serpent Scale            157162  Rei Lun                     174649      Rajani Warserpent
+
+    Battle Pets
+
+    174473  K'uddly                                 157176  The Forgotten
+    174474  Corrupted Tentacle                      154495  Will of N'Zoth
+
+    Toys
+
+    174873  Trans-mogu-rifier                       155958  Tashara
+    175141  All-Seeing Left Eye                     154495  Will of N'Zoth              175140      All-Seeing Eyes
+
+    Transmogs
+
+    174220  Ambered Greatstaff
+    174225  Bulwark of the Traitorous Disciple
+    174221  Cleaver of the Fractured Dynasty
+    174229  Lantern of the Damned
+    174223  Ooze-Imbued Rifle
+    174226  Paragon's Will
+
+    Items
+
+    174071  Sanguifang's Pulsating Canine           156083  Sanguifang
+
+    Recipes
+
+    174491  Tome of Unspeakable Delicacies
+
+    171318  Recipe: Unbound Alchemist Stone
+
+    171313  Schematic: A-N0M-A-L0U5 Gearspun Goggles
+    174362  Schematic: A-N0M-A-L0U5 Bionic Bifocals
+    171314  Schematic: A-N0M-A-L0U5 Synthetic Specs
+    174364  Schematic: A-N0M-A-L0U5 Orthogonal Optics
+
+    174366  Pattern: Unsettling Dredged Leather Boots
+    174371  Pattern: Unsettling Seaweave Breeches
+    174370  Pattern: Unsettling Seaweave Gloves
+    174368  Pattern: Unsettling Cragscale Boots
+    174367  Pattern: Unsettling Dredged Leather Leggings
+    174369  Pattern: Unsettling Cragscale Greaves
+
+    171317  Plans: Unsettling Osmenite Girdle
+    171316  Plans: Unsettling Osmenite Legguards
+
+    174365  Design: Unbound Leviathan's Eye Loop

@@ -289,6 +289,10 @@ AL["World Bosses"] = "World Bosses"
 AL["World Events"] = "World Events"
 AL["Yellow Gems"] = "Yellow Gems"
 AL["Zen'Vorka"] = "Zen'Vorka"
+--Chamber of Heart
+AL["Chamber of Heart"] = "Chamber of Heart"
+AL["MOTHER"] = "MOTHER"
+AL["Wrathion"] = "Wrathion <The Black Prince>"
 --special events
 AL["Special Events"] = "Special Events"
 --DeathsRising

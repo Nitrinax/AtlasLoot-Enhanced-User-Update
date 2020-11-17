@@ -1,3 +1,65 @@
+# CHANGES from r4839-u1 to r4839-u2
+
+Atlasloot
+
+	Locales
+
+		- added locale strings for chamber of heart, mother and wrathion to constants.<lang>.lua
+		- added translations for chamber of heart, mother and wrathion in most languages except for cn, tw and kr
+
+Atlasloot_Collections
+
+	data.lua
+
+		location added
+
+			- chamber of heart
+
+		vendors added
+		
+			- mother
+			- wrathion
+
+		items added
+
+			- mother
+
+				- Azerite-Fueled Timequartz Rank 3
+				- Branch of Rejuvenating Rings Rank 3
+				- Calibrated Existence Gauge Rank 3
+				- Churning Blood of the Conquered Rank 3
+				- Enhanced Purification Protocols Rank 3
+				- Fetish of the Hidden Labyrinths Rank 3
+				- Fluctuating Worldvein Rank 3
+				- Gleaming Star Shard Rank 3
+				- Grid of Bursting Vitality Rank 3
+				- Lingering Seed of Renewal Rank 3
+				- Manual of Unbalanced Tactics Rank 3
+				- Null Force Nullifier Rank 3
+				- Pearl of Perspicuous Intentions Rank 3
+				- Perfection-Enhancing Gearbox Rank 3
+				- Polarized Azerite Slivershards Rank 3
+				- Quickening Azerite Geode Rank 3
+				- Regenerating Barrier of the Depths Rank 3
+				- Resonating Elemental Heart Rank 3
+				- Rib-Bone Choker of Dominance Rank 3
+				- Sphere of Leeched Mobility Rank 3
+				- Stabilizing Lens of the Focusing Iris Rank 3
+				- Stalwart Battlefield Memento Rank 3
+				- Tempered Azerite Formation Rank 3
+				- Tempered Scale of the Scarlet Broodmother Rank 3
+				- Token of Death's Glee Rank 3
+				- Tome of the Quickening Tides Rank 3
+				- Vessel of Horrific Visions - 1750 Echoes of Ny'alotha
+				- Volatile Void Droplet Rank 3 - 2500 Echoes of Ny'alotha
+				- Ward of Mutual Aid Rank 3
+
+			- wrathion
+
+				- Wicked Swarmer - 100000 Corrupted Mementos
+				- Gouged Eye of N'Zoth - 25000 Corrupted Mementos
+				- Black Dragonscale Backpack - 5000 Corrupted Mementos
+				- Vessel of Horrific Visions - 10000 Coalescing Visions
 
 # CHANGES from original 8.13.00/r4839-alpha to r4839-u1
 

@@ -185,6 +185,10 @@ AL["Welcome to Atlasloot Enhanced. Please take a moment to set your preferences.
 AL["World Bosses"] = "Chefes do Mundo"
 AL["World Events"] = "Eventos Mundiais"
 AL["Yellow Gems"] = "Gemas amarelas"
+--Chamber of Heart
+AL["Chamber of Heart"] = "Câmara do Coração"
+AL["MOTHER"] = "M.A.D.R.E."
+AL["Wrathion"] = "Wrathion <O Príncipe Negro>"
 --special events
 AL["Special Events"] = "Eventos especiais"
 --DeathsRising

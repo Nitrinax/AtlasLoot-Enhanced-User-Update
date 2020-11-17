@@ -292,7 +292,11 @@ AL["Welcome to Atlasloot Enhanced. Please take a moment to set your preferences.
 AL["World Bosses"] = "Мировые боссы"
 AL["World Events"] = "Игровые события"
 AL["Yellow Gems"] = "Желтые самоцветы"
-AL["Zen'Vorka"] = "Зен'Ворка "
+AL["Zen'Vorka"] = "Зен'Ворка"
+--Chamber of Heart
+AL["Chamber of Heart"] = "Зал Сердца"
+AL["MOTHER"] = "МАТРИАРХ"
+AL["Wrathion"] = "Гневион <Черный принц>"
 --special events
 AL["Special Events"] = "Специальные мероприятия"
 --DeathsRising

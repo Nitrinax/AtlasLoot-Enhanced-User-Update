@@ -292,6 +292,10 @@ AL["World Bosses"] = "Boss Mondiaux"
 AL["World Events"] = "Évènements Mondiaux"
 AL["Yellow Gems"] = "Gemmes jaune"
 AL["Zen'Vorka"] = "Zen'Vorka"
+--Chamber of Heart
+AL["Chamber of Heart"] = "Chambre du Cœur"
+AL["MOTHER"] = "D.A.M.E."
+AL["Wrathion"] = "Irion <Le prince noir>"
 --special events
 AL["Special Events"] = "Événements spéciaux"
 --DeathsRising
