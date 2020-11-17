@@ -1,3 +1,21 @@
+# CHANGES from r4839-u2 to r4839-u3
+
+Atlasloot
+
+	Locales
+
+		- added locale strings for "Visions of N'Zoth", invasions and horrific visions to constants.<lang>.lua
+		- added translations for "Visions of N'Zoth", invasions and horrific visions in most languages except for cn, tw and kr
+
+Atlasloot_WorldEvents
+
+	data.lua
+
+		- added "Visions of N'Zoth" as a permanent event
+		- added special loot from invasion for bosses in Uldum and Vale of Eternal Blossoms
+		- added special loot from horrofic visions in stormwind and orgrimmar
+		- added new recipes from mobs in in Uldum and Vale of Eternal Blossoms
+
 # CHANGES from r4839-u1 to r4839-u2
 
 Atlasloot

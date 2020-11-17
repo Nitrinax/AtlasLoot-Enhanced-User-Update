@@ -189,6 +189,10 @@ AL["Yellow Gems"] = "Gemas amarelas"
 AL["Chamber of Heart"] = "Câmara do Coração"
 AL["MOTHER"] = "M.A.D.R.E."
 AL["Wrathion"] = "Wrathion <O Príncipe Negro>"
+--Visions of N'Zoth
+AL["Visions of N'Zoth"] = "Visões de N'Zoth"
+AL["Invasions"] = "Invasão"
+AL["Horrific Visions"] = "Visões Horrendas"
 --special events
 AL["Special Events"] = "Eventos especiais"
 --DeathsRising

@@ -297,6 +297,10 @@ AL["Zen'Vorka"] = "Зен'Ворка"
 AL["Chamber of Heart"] = "Зал Сердца"
 AL["MOTHER"] = "МАТРИАРХ"
 AL["Wrathion"] = "Гневион <Черный принц>"
+--Visions of N'Zoth
+AL["Visions of N'Zoth"] = "Видения Н'Зота"
+AL["Invasions"] = "Инвазии"
+AL["Horrific Visions"] = "Ужасные видения"
 --special events
 AL["Special Events"] = "Специальные мероприятия"
 --DeathsRising

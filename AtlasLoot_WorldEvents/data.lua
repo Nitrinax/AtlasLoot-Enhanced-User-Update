@@ -873,6 +873,232 @@ data["FishingExtravaganza"] = {
 	}
 }
 
+data["VisionsofNZoth"] = {
+	name = AL["Visions of N'Zoth"].." - "..AL["Invasions"],
+	ContentType = PERMRECEVENTS_CONTENT,
+	items = {
+
+		-- world bosses
+
+		-- {	-- Grand Empress Shek'zara
+		-- 	name = BB["Grand Empress Shek'zara"],
+		-- 	[NORMAL_DIFF] = {
+		-- 		{ 1, 174234 }, -- Maniacal Speaker's Cover
+		-- 		{ 2, 174243 }, -- Guise of the Voracious Prowler
+		-- 		{ 3, 174255 }, -- Greaves of Shattered Thoughts
+		-- 		{ 4, 174264 }, -- Chitinous Conqueror's Legplates
+		-- 		{ 5, 174268 }, -- Loop of Abhorrent Celerity
+		-- 	},
+		-- },
+
+		-- {	-- Vuk'laz the Earthbreaker
+		-- 	name = BB["Vuk'laz the Earthbreaker"],
+		-- 	[NORMAL_DIFF] = {
+		-- 		{ 1, 174237 }, -- Breeches of Faithful Execution
+		-- 		{ 2, 174247 }, -- Grotesque Mutilator's Leggings
+		-- 		{ 3, 174250 }, -- Psyche Tormentor's Visage
+		-- 		{ 4, 174258 }, -- Greathelm of Indiscriminate Brutality
+		-- 		{ 5, 174469 }, -- Band of Insidious Ruminations
+		-- 	},
+		-- },
+
+		{	-- Mounts
+			name = AL["Mounts"],
+			[NORMAL_DIFF] = {
+				
+				{ 1, 174859 }, -- Reins of the Springfur Alpaca
+				{ 2, 174641 }, -- Reins of the Drake of the Four Winds
+				{ 3, 174769 }, -- Malevolent Drone
+				{ 4, 174753 }, -- Waste Marauder
+				{ 5, 173887 }, -- Clutch of Ha-Li
+				{ 6, 174841 }, -- Ren's Stalwart Hound
+				{ 7, 174840 }, -- Xinlao
+				{ 8, 174771 }, -- Shadowbarb Drone
+			},
+		},
+		
+		{	-- Items for Mounts
+			name = AL["Mounts"].. " "..AL["Items"],
+			[NORMAL_DIFF] = {
+				{ 1, 174927 }, -- Zan-Tien Lasso
+				{ 2, 174230 }, -- Pristine Cloud Serpent Scale
+			},
+		},
+
+		{	-- Battle Pets
+			name = AL["Pets"],
+			[NORMAL_DIFF] = {
+				{ 1, 174462 }, -- Void Cocoon
+				{ 2, 174478 }, -- Wicked Lurker
+				{ 3, 174475 }, -- Stinky Sack
+				{ 4, 174476 }, -- Black Chitinous Plate
+				{ 5, 174473 }, -- K'uddly
+				{ 6, 174474 }, -- Corrupted Tentacle
+				{ 7, 175049 }, -- Shadowbarb Hatchling
+			},
+		},
+
+		{	-- Toys
+			name = AL["Toys"],
+			[NORMAL_DIFF] = {
+				{ 1, 169303 }, -- Hell-Bent Bracers
+				{ 2, 174874 }, -- Budget K'thir Disguise
+				{ 3, 175142 }, -- All-Seeing Right Eye
+				{ 4, 175141 }, -- All-Seeing Left Eye
+				{ 5, 174873 }, -- Trans-mogu-rifier
+				{ 6, 175063 }, -- Aqir Egg Cluster
+			},
+		},
+
+		{	-- Transmogs
+			name = AL["Transmoggable Replicas"],
+			[NORMAL_DIFF] = {
+				{ 1, 174224 }, -- Greatsword of Cruelty
+				{ 2, 174227 }, -- Writhing Feeler
+				{ 3, 174222 }, -- Unspeakable Bloodletter
+				{ 4, 174855 }, -- Bow of Calamity
+				{ 5, 174220 }, -- Ambered Greatstaff
+				{ 6, 174225 }, -- Bulwark of the Traitorous Disciple
+				{ 7, 174221 }, -- Cleaver of the Fractured Dynasty
+				{ 8, 174229 }, -- Lantern of the Damned
+				{ 9, 174223 }, -- Ooze-Imbued Rifle
+				{ 10, 174226 }, -- Paragon's Will
+			},
+		},
+
+		{	-- Items
+			name = AL["Items"],
+			[NORMAL_DIFF] = {
+				{ 1, 174875 }, -- Obelisk of the Sun
+				{ 2, 174071 }, -- Sanguifang's Pulsating Canine
+			},
+		},
+		{	-- Recipes General
+			name = AL["Recipes"],
+			[NORMAL_DIFF] = {
+				{ 1, 171312 }, -- Recipe: Void Focus
+			},
+		},
+		{	-- Recipes Cooking
+			name = AL["Recipes"].. " - "..GetSpellInfo(2550),
+			[NORMAL_DIFF] = {
+				{ 1, 174491 }, -- Tome of Unspeakable Delicacies
+			},
+		},
+		{	-- Recipes Alchemy
+			name = AL["Recipes"].. " - "..GetSpellInfo(2259),
+			[NORMAL_DIFF] = {
+				{ 1, 171318 }, -- Recipe: Unbound Alchemist Stone
+			},
+		},
+		{	-- Recipes Engineering
+			name = AL["Recipes"].. " - "..GetSpellInfo(4036),
+			[NORMAL_DIFF] = {
+				{ 1, 171313 }, -- Schematic: A-N0M-A-L0U5 Gearspun Goggles
+				{ 2, 174362 }, -- Schematic: A-N0M-A-L0U5 Bionic Bifocals
+				{ 3, 171314 }, -- Schematic: A-N0M-A-L0U5 Synthetic Specs
+				{ 4, 174364 }, -- Schematic: A-N0M-A-L0U5 Orthogonal Optics
+			},
+		},
+		{	-- Recipes Tailoring
+			name = AL["Recipes"].. " - "..GetSpellInfo(3908),
+			[NORMAL_DIFF] = {
+				{ 1, 174371 }, -- Pattern: Unsettling Seaweave Breeches
+				{ 2, 174370 }, -- Pattern: Unsettling Seaweave Gloves
+			},
+		},
+		{	-- Recipes Leatherworking
+			name = AL["Recipes"].. " - "..GetSpellInfo(2108),
+			[NORMAL_DIFF] = {
+				{ 1, 174366 }, -- Pattern: Unsettling Dredged Leather Boots
+				{ 2, 174367 }, -- Pattern: Unsettling Dredged Leather Leggings
+				{ 3, 174368 }, -- Pattern: Unsettling Cragscale Boots
+				{ 4, 174369 }, -- Pattern: Unsettling Cragscale Greaves
+			},
+		},
+		{	-- Recipes Blacksmithing
+			name = AL["Recipes"].. " - "..GetSpellInfo(2018),
+			[NORMAL_DIFF] = {
+				{ 1, 171317 }, -- Plans: Unsettling Osmenite Girdle
+				{ 2, 171316 }, -- Plans: Unsettling Osmenite Legguards
+			},
+		},
+		{	-- Recipes Jewelcrafting
+			name = AL["Recipes"].. " - "..GetSpellInfo(25229),
+			[NORMAL_DIFF] = {
+				{ 1, 174365 }, -- Design: Unbound Leviathan's Eye Loop
+			},
+		},
+	}
+}
+
+data["HorrificVisions"] = {
+	name = AL["Visions of N'Zoth"].." - "..AL["Horrific Visions"],
+	ContentType = PERMRECEVENTS_CONTENT,
+	items = {
+
+		{	-- Mounts
+			name = AL["Mounts"],
+			[NORMAL_DIFF] = {				
+				{ 1, 174653 }, -- Mail Muncher
+				{ 2, 174770 }, -- Wicked Swarmer
+			},
+		},
+
+		{	-- Battle Pets
+			name = AL["Pets"],
+			[NORMAL_DIFF] = {
+				{ 1, 174461 }, -- Swirling Black Bottle
+				{ 2, 174459 }, -- Voidwoven Cat Collar
+				{ 3, 174458 }, -- Void-Scarred Hare
+				{ 4, 174460 }, -- Box Labeled "Danger: Void Rat Inside
+ 				{ 5, 174457 }, -- C'Thuffer
+ 				{ 6, 174646 }, -- Void-Link Frostwolf Collar
+ 				{ 7, 173726 }, -- Box With Faintly Glowing 'Air' Holes
+			},
+		},
+
+		{	-- Items
+		name = AL["Items"],
+			[NORMAL_DIFF] = {
+				{ 1, 174932 }, -- Illusion: Void Edge
+			},
+		},
+	}
+}
+
+-- data["HorrificVisionsStormwind"] = {
+-- 	name = ALIL["Horrific Visions - Stormwind"],
+-- 	ContentType = PERMRECEVENTS_CONTENT,
+-- 	items = {
+-- 		{	-- Battle Pets
+-- 			name = ALIL["Battle Pets"],
+-- 			[NORMAL_DIFF] = {
+-- 				{ 1, 174461 }, -- Swirling Black Bottle
+-- 				{ 2, 174459 }, -- Voidwoven Cat Collar
+-- 				{ 3, 174458 }, -- Void-Scarred Hare
+-- 				{ 4, 174460 }, -- Box Labeled "Danger: Void Rat Inside
+-- 			},
+-- 		},
+-- 	}
+-- }
+
+-- data["HorrificVisionsOrgrimmar"] = {
+-- 	name = ALIL["Horrific Visions - Orgrimmar"],
+-- 	ContentType = PERMRECEVENTS_CONTENT,
+-- 	items = {
+-- 		{	-- Battle Pets
+-- 			name = ALIL["Battle Pets"],
+-- 			[NORMAL_DIFF] = {
+-- 				{ 1, 174461 }, -- Swirling Black Bottle
+-- 				{ 2, 174457 }, -- C'Thuffer
+-- 				{ 3, 174646 }, -- Void-Link Frostwolf Collar
+-- 				{ 4, 173726 }, -- Box With Faintly Glowing 'Air' Holes
+-- 			},
+-- 		},
+-- 	}
+-- }
+
 data["LoveisintheAir"] = {
 	name = AL["Love is in the Air"].." ("..ALIL["February"]..")",
 	ContentType = SEASONALEVENTS_CONTENT,
