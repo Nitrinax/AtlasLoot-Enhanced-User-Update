@@ -873,6 +873,32 @@ data["FishingExtravaganza"] = {
 	}
 }
 
+data["LegionAssaults"] = {
+	--name = GetSpellInfo(235122).." - "..ALIL["BrokenIsles"],
+	name = GetSpellInfo(235122).." - "..C_Map.GetMapInfo(619).name,
+	ContentType = PERMRECEVENTS_CONTENT,
+	items = {
+		{	-- Transmogs
+			name = AL["Transmoggable Replicas"],
+			[NORMAL_DIFF] = {
+				{ 1, 138762 }, -- Niskaran Morning Star
+				{ 2, 139158 }, -- Battle Mace of the Niskaran Guard
+				{ 3, 139163 }, -- Star of Niskara
+				{ 4, 139155 }, -- Legion's Edge			
+				{ 5, 139157 }, -- Dread Vanquisher's Hacker
+				{ 6, 139156 }, -- Argus Decapitator
+				{ 7, 139159 }, -- Face of Ruin
+				{ 8, 139160 }, -- Eredar Battle Staff
+				{ 9, 139161 }, -- Soulmage's Spire
+				{ 10, 139162 }, -- Blood Guard's Tooth
+				{ 11, 139164 }, -- Wrathblade
+				{ 12, 139165 }, -- Bloodseeker's Bulwark
+				{ 13, 139166 }, -- Soulstealer's Barrier
+			},
+		},
+	}
+}
+
 data["VisionsofNZoth"] = {
 	name = AL["Visions of N'Zoth"].." - "..AL["Invasions"],
 	ContentType = PERMRECEVENTS_CONTENT,

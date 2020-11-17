@@ -1,3 +1,12 @@
+# CHANGES from r4839-u3 to r4839-u4
+
+Atlasloot_WorldEvents
+
+	data.lua
+
+		- added forgotten event "Legion Assaults" as a permanent event
+		- added transmog loot to Legion Assaults
+
 # CHANGES from r4839-u2 to r4839-u3
 
 Atlasloot
