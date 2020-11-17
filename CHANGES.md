@@ -1,3 +1,31 @@
+# CHANGES from r4839-u4 to r4839-u5
+
+Atlasloot
+
+	ItemDB
+
+		ItemDB.lua
+
+			- replaced code for getting a map name by map id with a shorter version
+
+AtlasLoot_Collections
+
+	data.lua
+
+		- added warlords season 2 and 3 tabards to pvp section
+
+		- added legion epic world drops (boe)
+		- moved legion tabards to normal
+		- added legion tabards for alliance races Ren'dorei, Lightforged
+		- added legion tabards for horde races Highmountain, Shal'dorei
+		- added legion pvp season 3 - 7 tabards to pvp section
+		- removed legion legendary Distilled Titan Essence 
+		
+		- added bfa faction tabards
+		- added bfa pvp season 1 - 4 tabards to pvp section
+		- added bfa epic world drops (boe)
+		- added bfa legendary Ashjra'kamas, Shroud of Resolve
+
 # CHANGES from r4839-u3 to r4839-u4
 
 Atlasloot_WorldEvents

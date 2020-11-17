@@ -698,6 +698,108 @@ data["BOEWORLDEPICS"] = {
 	name = AL["BoE World Epics"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
+		-- { -- Shadowlands
+		-- 	name = EXPANSION_NAME8,
+		-- 	[NORMAL_DIFF] = {
+		-- 		{ 1, 000000 },	-- XXXXXXXXXX
+		-- 	},
+		-- },
+		{ -- Battle for Azeroth
+			name = EXPANSION_NAME7,
+			[NORMAL_DIFF] = {
+				--cloak
+				{ 1, 163953 },	-- Jula's Jovial Drape
+				{ 2, 163932 },	-- Wolfpelt Greatcloak
+				--hands
+				{ 4, 163941 },	-- Hauer's Gloves of Strategy
+				{ 5, 163945 },	-- Mystrah's Magnificent Mitts
+				{ 6, 163948 },	-- Moarse's Coarse-Chain Gauntlets
+				{ 7, 163952 },	-- Oprescu's Gilded Touch
+				--waist
+				{ 9, 163940 },	-- Extra-Light Light Emitting Cord
+				{ 10, 163944 },	-- Waatah's Double-Knotted Cord
+				{ 11, 163931 },	-- Chain Links of Fraying Awe
+				{ 12, 163951 },	-- Cinch of the Sainted General
+				--legs
+				{ 16, 163939 },	-- Mallusof's Pantaloons of Stability
+				{ 17, 163943 },	-- Neleimour's Patterned Leggings
+				{ 18, 163947 },	-- Robust Legwraps of D'nusa
+				{ 19, 163950 },	-- Edla's Embellished Legguards
+				--feet
+				{ 21, 163938 },	-- Kalieve's Kickers
+				{ 22, 163942 },	-- Slippers of the Unruly Fairies
+				{ 23, 163946 },	-- Gayeong's Gentle Step
+				{ 24, 163949 },	-- Celedhring's Unrelenting Stride			
+				--finger
+				{ 26, 163934 },	-- Gnarled Mood Ring
+				{ 27, 163933 },	-- Aguas' Band of Augury
+				--trinket
+				{ 101, 163936 },	-- 'Bygone Bee' Almanac
+				{ 102, 163935 },	-- Landoi's Scrutiny
+				{ 103, 163937 },	-- Leyshock's Grand Compilation
+				--one-hand
+				{ 105, 163959 },	-- Self-Rotating Dagger of Xing
+				{ 106, 163958 },	-- Freezie's Bubble Popper
+				{ 107, 159840 },	-- Teebu's Scorching Straight Sword
+				{ 108, 163960 },	-- Flaming Gavel of Truth
+				{ 109, 163963 },	-- Silirrion's Tenderizer
+				{ 110, 163961 },	-- Kelada's Elucidation				
+				--staff, axe, polearm
+				{ 112, 163956 },	-- Treiya's Shining Pillar
+				{ 113, 163955 },	-- Khayurn, Blade of the Wolves
+				{ 114, 163967 },	-- Shtuf's Ruler
+				{ 115, 163965 },	-- Glave's Angular Glaive
+				--range/wand
+				{ 116, 163969 },	-- Ameelton's Shot-Thrower
+				{ 117, 163968 },	-- Yang's Other Recurve
+				{ 118, 163957 },	-- Carmodius Crystalline Stylus
+				--shield/off-hand
+				{ 120, 163954 },	-- Oswain's Impassive Guard
+				{ 121, 163966 },	-- Miss Miggi's Towering Spire
+			},
+		},
+		{ -- Legion
+			name = EXPANSION_NAME6,
+			[NORMAL_DIFF] = {		
+				--cloth
+				{ 1, 141564 },	-- Telubis' Binding of Patience
+				{ 2, 141565 },	-- Mir's Enthralling Grasp
+				{ 3, 141566 },	-- Serrinne's Maleficent Habit
+				{ 4, 141567 },	-- Cyno's Mantle of Sin
+				--leather
+				{ 6, 141568 },	-- Boughs of Archdruid Van-Yali
+				{ 7, 141569 },	-- Samnoh's Exceptional Leggings
+				{ 8, 141570 },	-- Cainen's Preeminent Chestguard
+				{ 9, 141571 },	-- Mavanah's Shifting Wristguards
+				--mail
+				{ 11, 141572 },	-- Geta of Tay'Shute
+				{ 12, 141573 },	-- Shokell's Grim Cinch
+				{ 13, 141574 },	-- Ulfgor's Greaves of Bravery
+				{ 14, 141575 },	-- Gorrog's Serene Gaze
+				--plate
+				{ 16, 141576 },	-- Aethrynn's Everwarm Chestplate
+				{ 17, 141577 },	-- Fists of Thane Kray-Tan
+				{ 18, 141578 },	-- Claud's War-Ravaged Boots
+				{ 19, 141579 },	-- Welded Hardskin Helmet
+				--ring
+				{ 21, 141580 },	-- Vastly Oversized Ring
+				{ 22, 141581 },	-- Demar's Band of Amore
+				{ 23, 141582 },	-- Fran's Intractable Loop
+				{ 24, 141583 },	-- Sameed's Vision Ring
+				--trinket
+				{ 26, 141584 },	-- Eyasu's Mulligan
+				{ 27, 141585 },	-- Six-Feather Fan
+				{ 28, 141586 },	-- Marfisi's Giant Censer
+				--amulet
+				{ 101, 141587 }, -- Queen Yh'saerie's Pendant
+				{ 102, 141588 }, -- Talisman of Jaimil Lightheart
+				--amulet
+				{ 104, 141589 }, -- Treia's Handcrafted Shroud
+				{ 105, 141590 }, -- Cloak of Martayl Oceanstrider
+				--weapon
+				{ 107, 132921 }, -- Athrog's Dethhamma
+			},
+		},
 		{ -- Warlords of Draenor
 			name = EXPANSION_NAME5,
 			[NORMAL_DIFF] = {
@@ -2330,7 +2432,7 @@ data["LEGION_LEGENDARIES"] = {
 				{ 3, 144259 }, -- Kil'jaeden's Burning Wish
 				{ 4, 132444 }, -- Prydaz, Xavaric's Magnum Opus
 				{ 5, 132452 }, -- Sephuz's Secret
-				{ 16, 143613 }, -- Distilled Titan Essence
+				--{ 16, 143613 }, -- Distilled Titan Essence
 			},
 		},
 		{ -- DEATHKNIGHT
@@ -2595,6 +2697,12 @@ data["LEGENDARIES"] = {
 	name = AL["Legendary Items"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
+		{-- Battle for Azeroth
+			name = EXPANSION_NAME7,
+			[NORMAL_DIFF] = {
+				{ 1, 169223 },	-- Ashjra'kamas, Shroud of Resolve
+			},
+		},
 		{-- Warlords of Draenor
 			name = EXPANSION_NAME5,
 			[ALLIANCE_DIFF] = {
@@ -2782,10 +2890,63 @@ data["TABARDS"] = {
 	ContentType = COLLECTION_CONTENT,
 	TableType = I_A_ITTYPE,
 	items = {
+		-- { -- Shadowlands
+		-- 	name = EXPANSION_NAME8,
+		-- 	CoinTexture = "Reputation",
+		-- 	[NORMAL_DIFF] = {
+		-- 		{ 1, 178336 }, -- Tabard of the Wild Hunt
+		-- 		{ 2, 178991 }, -- Tabard of the Ascended
+		-- 		{ 3, 179282 }, -- Court of Harvesters Tabard
+		-- 		{ 4, 180456 }, -- Colors of the Undying Army
+		-- 	},
+		-- 	[ALLIANCE_DIFF] = {
+		-- 		{ 1, 000000 }, -- XXXXXXXXXX
+		-- 		{ 2, 180431 }, -- Sinful Gladiator's Tabard
+		-- 	},
+		-- 	[HORDE_DIFF] = {
+		-- 		{ 1, 000000 }, -- XXXXXXXXXX
+		-- 	},
+		-- },
+		{ -- Battle for Azeroth
+			name = EXPANSION_NAME7,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, 133670 }, -- Slayer's Tabard
+				{ 2, 160543 }, -- Tabard of the Tortollan Seekers
+				{ 3, 160544 }, -- Champions of Azeroth Tabard
+				{ 4, 167811, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Brawler's Guild Tabard
+				{ 5, 168915 }, -- Tabard of Brew
+				{ 6, 168619 }, -- Rustbolt Resistance Tabard
+				{ 7, 174647 }, -- Rajani Tabard
+				{ 8, 174648 }, -- Uldum Accord Tabard
+			},
+			[ALLIANCE_DIFF] = {
+				{ 1, 160539 }, -- Tabard of the 7th Legion
+				{ 2, 160540 }, -- Proudmoore Admiralty Tabard
+				{ 3, 160541 }, -- Order of Embers Tabard
+				{ 4, 160542 }, -- Storm's Wake Tabard
+				{ 5, 161329 }, -- Tabard of the Dark Iron
+				{ 6, 165010 }, -- Tabard of Kul Tiras
+				{ 7, 168610 }, -- Tabard of the Waveblade Ankoan
+				{ 8, 174068 }, -- Mechagonian Tabard
+				{ 9, 168100 }, -- Alliance Tabard
+			},
+			[HORDE_DIFF] = {
+				{ 1, 160545 }, -- Tabard of the Honorbound
+				{ 2, 160546 }, -- Tabard of the Zandalari Empire
+				{ 3, 160547 }, -- Talanji's Expedition Tabard
+				{ 4, 160548 }, -- Tabard of the Voldunai
+				{ 5, 161328 }, -- Tabard of the Mag'har Clans
+				{ 6, 165001 }, -- Tabard of the Zandalari
+				{ 7, 169274 }, -- Tabard of the Unshackled
+				{ 8, 174069 }, -- Tabard of the Vulpera
+				{ 9, 178120 }, -- Horde Tabard
+			},
+		},
 		{ -- Legion
 			name = EXPANSION_NAME6,
 			CoinTexture = "Reputation",
-			[ALLIANCE_DIFF] = {
+			[NORMAL_DIFF] = {
 				{ 1, 140575, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Nightfallen Tabard
 				{ 2, 140576, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Tabard of the Highmountain Tribe
 				{ 3, 140577, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Court of Farondis Tabard
@@ -2797,8 +2958,13 @@ data["TABARDS"] = {
 				{ 9, 152399, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Army of the Light Tabard
 				{ 10, 152669, [PRICE_EXTRA_ITTYPE] = "money:3000000" }, -- Argussian Reach Tabard
 			},
+			[ALLIANCE_DIFF] = {
+				{ 1, 157758 }, -- Ren'dorei Tabard
+				{ 2, 157756 }, -- Lightforged Tabard
+			},
 			[HORDE_DIFF] = {
-				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 1, 157757 }, -- Highmountain Tabard
+				{ 2, 157759 }, -- Shal'dorei Tabard
 			},
 		},
 		{ -- WoD
@@ -2981,18 +3147,57 @@ data["TABARDS"] = {
 		},
 		{ -- PvP
 			name = AL["PvP"],
+			[NORMAL_DIFF] = {
+				--shadowlands
+				-- { 1, 180432 },	-- 9.0 PvP - PvP Reward - Tabard - 2
+				-- { 2, 180433 },	-- 9.0 PvP - PvP Reward - Tabard - 3
+				-- { 3, 180434 },	-- 9.0 PvP - PvP Reward - Tabard - 4
+				-- { 4, 180435 },	-- 9.0 PvP - PvP Reward - Tabard - 5
+				--duel
+				{ 1, 163055 },	-- Dueler's Tabard
+			},
 			[ALLIANCE_DIFF] = {
-				{ 1, 115972, [PRICE_EXTRA_ITTYPE] = "conquest:1000" },	-- Primal Gladiator's Tabard
-				{ 3, 15196, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Private's Tabard
-				{ 4, 15198, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Knight's Colors
+				--battle for azeroth season 1-4
+				{ 1, 172652 },	-- Corrupted Gladiator's Tabard
+				{ 2, 167363 },	-- Notorious Gladiator's Tabard
+				{ 3, 164910 },	-- Sinister Gladiator's Tabard
+				{ 4, 164573 },	-- Dread Gladiator's Tabard
+				--legion season 3-7				
+				{ 6, 149451 },	-- Demonic Gladiator's Tabard
+				{ 7, 149447 },	-- Dominant Gladiator's Tabard
+				{ 8, 149443 },	-- Fierce Gladiator's Tabard
+				{ 9, 147339 },	-- Ferocious Gladiator's Tabard
+				{ 10, 147337 },	-- Cruel Gladiator's Tabard
+				--warlords season 1-3
+				{ 12, 127369 },	-- Warmongering Gladiator's Tabard
+				{ 13, 127366 },	-- Wild Gladiator's Tabard				
+				{ 14, 115972, [PRICE_EXTRA_ITTYPE] = "conquest:1000" },	-- Primal Gladiator's Tabard
+				--misc
+				{ 16, 15196, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Private's Tabard
+				{ 17, 15198, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Knight's Colors
 				{ 18, 19506, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Silverwing Battle Tabard
 				{ 19, 19032, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Stormpike Battle Tabard
 				{ 20, 20132, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Arathor Battle Tabard
 			},
 			[HORDE_DIFF] = {
-				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 3, 15197, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Scout's Tabard
-				{ 4, 15199, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Stone Guard's Herald
+				--battle for azeroth season 1-4
+				{ 1, 172651 },	-- Corrupted Gladiator's Tabard
+				{ 2, 167362 },	-- Notorious Gladiator's Tabard
+				{ 3, 164909 },	-- Sinister Gladiator's Tabard
+				{ 4, 164572 },	-- Dread Gladiator's Tabard
+				--legion season 3-7
+				{ 6, 149450 },	-- Demonic Gladiator's Tabard
+				{ 7, 149446 },	-- Dominant Gladiator's Tabard
+				{ 8, 149442 },	-- Fierce Gladiator's Tabard
+				{ 9, 147338 },	-- Ferocious Gladiator's Tabard
+				{ 10, 147336 },	-- Cruel Gladiator's Tabard
+				--warlords season 1-3
+				{ 12, 127371 },	-- Warmongering Gladiator's Tabard
+				{ 13, 127365 },	-- Wild Gladiator's Tabard
+				{ 14, 115972, [PRICE_EXTRA_ITTYPE] = "conquest:1000" },	-- Primal Gladiator's Tabard
+				--misc
+				{ 16, 15197, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Scout's Tabard
+				{ 17, 15199, [PRICE_EXTRA_ITTYPE] = "markofhonor:1" },	-- Stone Guard's Herald
 				{ 18, 19505, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Warsong Battle Tabard
 				{ 19, 19031, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Frostwolf Battle Tabard
 				{ 20, 20131, [PRICE_EXTRA_ITTYPE] = "markofhonor:10" },	-- Battle Tabard of the Defilers
