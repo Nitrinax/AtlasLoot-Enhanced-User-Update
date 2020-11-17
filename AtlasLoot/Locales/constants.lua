@@ -289,4 +289,7 @@ AL["World Bosses"] = "World Bosses"
 AL["World Events"] = "World Events"
 AL["Yellow Gems"] = "Yellow Gems"
 AL["Zen'Vorka"] = "Zen'Vorka"
-
+--special events
+AL["Special Events"] = "Special Events"
+--DeathsRising
+AL["DeathsRising"] = "Death's Rising"

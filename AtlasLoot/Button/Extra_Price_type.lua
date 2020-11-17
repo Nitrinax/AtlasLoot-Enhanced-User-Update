@@ -30,6 +30,13 @@ local STRING_GREEN = "|cff1eff00"
 
 local PRICE_INFO = {
 	-- items
+	["SerpentScale"] = { itemID = 174230 }, -- Pristine Cloud Serpent Scale, added in patch 8.3.0.33062
+	["RoyalJelly"] = { itemID = 168828 }, -- Royal Jelly, added in patch 8.2.5.31958
+	["RichJelly"] = { itemID = 168825 }, -- Rich Jelly, added in patch 8.2.5.31958
+	["ThinJelly"] = { itemID = 168822 }, -- Thin Jelly, added in patch 8.2.5.31958
+	["Oscillator"] = { itemID = 168832 }, -- Galvanic Oscillator, added in patch 8.2.0.30918
+	["Ignitercoil"] = { itemID = 168327 }, -- Chain Ignitercoil, added in patch 8.2.0.30918
+	["SpareCrate"] = { itemID = 169610 }, -- S.P.A.R.E. Crate, added in patch 8.2.0.30918
 	["PetCharm"]		= { itemID = 163036 }, -- Polished Pet Charm, added in patch 8.0.1.26624
 	["markofhonor"] 	= { itemID = 137642 }, -- Mark of Honor
 	["bfclaw"] 		= { itemID = 124099 }, -- Blackfang Claw
@@ -140,6 +147,12 @@ local PRICE_INFO = {
 	["78875"] = { itemID = 78875 }, -- Shoulders of the Corrupted Conqueror
 	["78876"] = { itemID = 78876 }, -- Shoulders of the Corrupted Protector
 	-- currencies
+	["ArgentCommendation"] = { currencyID = 1754 }, -- Argent Commendation, added in patch 9.0.1.36216					
+	["EchoesofNyalotha"]	= { currencyID = 1803 }, -- Echoes of Nyalotha, added in patch 8.3.7.35249
+	["CoalescingVisions"]	= { currencyID = 1755 }, -- Coalescing Visions, added in patch 8.3.0.33062
+	["CorruptedMementos"]	= { currencyID = 1719 }, -- Corrupted Mementos, added in patch 8.3.0.33062
+	["PrismaticManapearl"]	= { currencyID = 1721 }, -- Prismatic Manapearl, added in patch 8.2.0.30918
+	["WarResources"]	= { currencyID = 1560 }, -- War Resources, in patch 8.0.1.25902
 	["WrithingEssence"]	= { currencyID = 1501 }, -- Writhing Essence, added in 7.3.0
 	["ArgusWaystone"]	= { currencyID = 1506 }, -- Argus Waystone, added in 7.3.0
 	["VeiledArgunite"]	= { currencyID = 1508 }, -- Veiled Argunite, added in 7.3.0

@@ -185,4 +185,7 @@ AL["Welcome to Atlasloot Enhanced. Please take a moment to set your preferences.
 AL["World Bosses"] = "Chefes do Mundo"
 AL["World Events"] = "Eventos Mundiais"
 AL["Yellow Gems"] = "Gemas amarelas"
-
+--special events
+AL["Special Events"] = "Eventos especiais"
+--DeathsRising
+AL["DeathsRising"] = "Morte Ascendente"

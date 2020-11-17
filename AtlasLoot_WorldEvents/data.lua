@@ -37,6 +37,7 @@ local QUEST_EXTRA_ITTYPE = data:AddExtraItemTableType("Quest")
 
 local PERMRECEVENTS_CONTENT = data:AddContentType(AL["Permanent/Recurring Events"], ATLASLOOT_PERMRECEVENTS_COLOR)
 local SEASONALEVENTS_CONTENT = data:AddContentType(AL["Seasonal Events"], ATLASLOOT_SEASONALEVENTS_COLOR)
+local SPECIALEVENTS_CONTENT = data:AddContentType(AL["Special Events"], ATLASLOOT_SPECIALEVENTS_COLOR)
 
 data["ArgentTournament"] = {
 	name = AL["Argent Tournament"].." ("..ALIL["Icecrown"]..")",
@@ -1623,6 +1624,266 @@ data["Winterveil"] = {
 				{ 25, 17196 },	-- Holiday Spirits
 				{ 26, 17403 },	-- Steamwheedle Fizzy Spirits
 				{ 27, 17402 },	-- Greatfather's Winter Ale
+			},
+		},
+	}
+}
+
+data["DeathsRising"] = {
+	name = AL["DeathsRising"].." ("..ALIL["Icecrown"]..")",
+	ContentType = SPECIALEVENTS_CONTENT,
+	items = {
+		{
+			name = BB["Noth the Plaguebringer"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+		  		{ 1, 183676 }, -- Hailstone Loop
+		  		{ 2, 183654 }, -- Etched Dragonbone Stompers
+		  		{ 3, 183642 }, -- Robes of Rasped Breaths
+			},
+		},
+		{
+			name = BB["Patchwerk"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+		 		{ 1, 183643 }, -- Severance of Mortality
+		 		{ 2, 183645 }, -- Cinch of the Tortured
+		 		{ 3, 183644 }, -- Regurgitator's Shoulderpads
+			},
+		},
+		{
+			name = BB["Blood-Queen Lana'thel"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+		 		{ 1, 183647 }, -- Bloodspatter
+		 		{ 2, 183648 }, -- Veincrusher Gauntlets
+		 		{ 3, 183646 }, -- Chestguard of Siphoned Vitality
+			},
+		},
+		{
+			name = BB["Professor Putricide"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+		 		{ 1, 183650 }, -- Miniscule Abomination in a Jar
+		 		{ 2, 183651 }, -- Chestplate of Septic Sutures
+		 		{ 3, 183649 }, -- Bag of Discarded Entrails
+			},
+		},
+		{
+			name = BB["Lady Deathwhisper"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183653 }, -- Deathwhisper Vestment
+				{ 2, 183655 }, -- Handgrips of Rime and Sleet
+				{ 3, 183652 }, -- Zod's Echoing Longbow
+			},
+		},
+		{
+			name = BB["Skadi the Ruthless"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183670 }, -- Skadi's Saronite Belt
+				{ 2, 183656 }, -- Drake Rider's Jerkin
+				{ 3, 183657 }, -- Skadi's Scaled Sollerets
+				{ 4, 44151 }, -- Reins of the Blue Proto-Drake
+			},
+		},
+		{
+			name = BB["Ingvar the Plunderer"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183659 }, -- Annhylde's Band
+				{ 2, 183658 }, -- Ingvar's Monolithic Skullcleaver
+				{ 3, 183668 }, -- Razor-Barbed Leather Belt
+			},
+		},
+		{
+			name = BB["Prince Keleseth"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183680 }, -- Royal Sanguine Cloak
+				{ 2, 183678 }, -- Keleseth's Influencer
+				{ 3, 183661 }, -- Drake Stabler's Gauntlets
+			},
+		},
+		{
+			name = BB["The Black Knight"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183638 }, -- Phantasmic Kris
+				{ 2, 183636 }, -- Helm of the Violent Fracas
+				{ 3, 183637 }, -- Shoulderpads of the Notorious Knave
+			},
+		},
+		{
+			name = BB["Bronjahm"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183634 }, -- Papa's Mint Condition Bag
+				{ 2, 183675 }, -- Cold Sweat Mitts
+				{ 3, 183635 }, -- Grieving Gauntlets
+				{ 4, 183639 }, -- Gaze of Bewilderment
+			},
+		},
+		{
+			name = BB["Scourgelord Tyrannus"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183633 }, -- Fringed Wyrmleather Leggings
+				{ 2, 183632 }, -- Protector of Stolen Souls
+				{ 3, 183674 }, -- Rimewoven Pantaloons
+			},
+		},
+		{
+			name = BB["Forgemaster Garfrost"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183631 }, -- Ring of Carnelian and Sinew
+				{ 2, 183666 }, -- Legguards of the Frosty Fathoms
+				{ 3, 183630 }, -- Garfrost's Two-Ton Bludgeon
+			},
+		},
+		{
+			name = BB["Marwyn"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183687 }, -- Frayed Flesh-Stitched Shoulderguards
+				{ 2, 183663 }, -- Sightless Capuchin of Ulmaas
+				{ 3, 183662 }, -- Frostsworn Rattleshirt
+			},
+		},
+		{
+			name = BB["Falric"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183665 }, -- Valonforth's Marred Pauldrons
+				{ 2, 183664 }, -- Bracer of Ground Molars
+				{ 3, 183667 }, -- Geistslicer
+			},
+		},
+		{
+			name = BB["The Prophet Tharon'ja"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183685 }, -- Phantasmic Seal of the Prophet
+				{ 2, 183684 }, -- Tharon'ja's Protectorate
+				{ 3, 183686 }, -- Breeches of the Skeletal Serpent
+			},
+		},
+		{
+			name = BB["Novos the Summoner"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183627 }, -- Summoner's Granite Gavel
+				{ 2, 183672 }, -- Cuirass of Undeath
+				{ 3, 183671 }, -- Necromantic Wristwraps
+			},
+		},
+		{
+			name = BB["Trollgore"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183626 }, -- Troll Gorer
+				{ 2, 183669 }, -- Cowl of the Rampaging Troll
+				{ 3, 183640 }, -- Leggings of Disreputable Charms
+			},
+		},
+		{
+			name = BB["Krik'thir the Gatewatcher"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183683 }, -- Skittering Vestments
+				{ 2, 183682 }, -- Cinch of the Servant
+				{ 3, 183681 }, -- Webrending Machete
+			},
+		},
+		{
+			name = BB["Prince Taldaram"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183625 }, -- Reforged Necklace of Taldaram
+				{ 2, 183679 }, -- Taldaram's Supple Slippers
+				{ 3, 183677 }, -- Blood-Drinker's Belt
+			},
+		},
+		{
+			name = BB["Elder Nadox"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 183673 }, -- Nerubian Aegis Ring
+				{ 2, 183641 }, -- Shoulderpads of Corpal Rigidity
+				{ 3, 183624 }, -- Serrated Blade of Nadox
+			},
+		},
+		{
+			name = AL["Vendor"].." ("..ALIL["Icecrown"]..")",
+			[NORMAL_DIFF] = {
+				{ 1, 180454, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Anti-Doom Broom
+				{ 2, 183621, [PRICE_EXTRA_ITTYPE] = "ArgentCom:20" },	-- Putrid Geist
+			},
+			[ALLIANCE_DIFF] = {
+				-- cloth
+				{ 1, 183546, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Circlet
+				{ 2, 183545, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Mantle
+				{ 3, 183524, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Drape
+				{ 4, 183525, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Robe
+				{ 5, 183532, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Bracers
+				{ 6, 183547, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Gloves
+				{ 7, 183548, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cord
+				{ 8, 183529, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Leggings
+				{ 9, 183527, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Treads
+				-- leather
+				{ 16, 183557, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cowl
+				{ 17, 183556, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Pauldrons
+				{ 18, 183549, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cloak
+				{ 19, 183526, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Tunic
+				{ 20, 183534, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Wriststraps
+				{ 21, 183528, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Grips
+				{ 22, 183559, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Belt
+				{ 23, 183531, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Leggings
+				{ 24, 183558, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Boots
+				-- mail
+				{ 101, 183561, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Helmet
+				{ 102, 183560, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Shoulderguards
+				{ 103, 183550, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cape
+				{ 104, 183563, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Mail Shirt
+				{ 105, 183533, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Wristclamps
+				{ 106, 183562, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Overgloves
+				{ 107, 183565, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cinch
+				{ 108, 183530, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Pants
+				{ 109, 183564, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Folded Boots
+				-- plate
+				{ 116, 183569, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Greathelm
+				{ 117, 183567, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Spaulders
+				{ 118, 183551, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Lined Cloak
+				{ 119, 183571, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Breastplate
+				{ 120, 183566, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Wristplates
+				{ 121, 183570, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Gauntlets
+				{ 122, 183573, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Buckle
+				{ 123, 183568, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Greaves
+				{ 124, 183572, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Greaves
+			},
+			[HORDE_DIFF] = {
+				-- cloth
+				{ 1, 183575, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Skullcap
+				{ 2, 183574, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Mantle
+				{ 3, 183552, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Drape
+				{ 4, 183535, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Robe
+				{ 5, 183541, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Bracers
+				{ 6, 183576, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Gloves
+				{ 7, 183577, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cord
+				{ 8, 183539, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Leggings
+				{ 9, 183538, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Treads
+				-- leather
+				{ 16, 183579, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Mask
+				{ 17, 183578, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Pauldrons
+				{ 18, 183553, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cloak
+				{ 19, 183537, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Tunic
+				{ 20, 183544, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Wriststraps
+				{ 21, 183580, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Grips
+				{ 22, 183582, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Belt
+				{ 23, 183540, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Leggings
+				{ 24, 183581, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Boots
+				-- mail
+				{ 101, 183585, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Helmet
+				{ 102, 183583, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Shoulderguards
+				{ 103, 183554, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Lined Cloak
+				{ 104, 183536, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Mail Shirt
+				{ 105, 183543, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Wristclamps
+				{ 106, 183586, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Overgloves
+				{ 107, 183588, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cinch
+				{ 108, 183584, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Pants
+				{ 109, 183587, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Folded Boots
+				-- plate
+				{ 116, 183591, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Tuskhelm
+				{ 117, 183589, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Spaulders
+				{ 118, 183555, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Cape
+				{ 119, 183593, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Breastplate
+				{ 120, 183542, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Wristplates
+				{ 121, 183592, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Gauntlets
+				{ 122, 183595, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Buckle
+				{ 123, 183590, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Greaves
+				{ 124, 183594, [PRICE_EXTRA_ITTYPE] = "ArgentCom:15" },	-- Argent Conscript's Greaves
 			},
 		},
 	}

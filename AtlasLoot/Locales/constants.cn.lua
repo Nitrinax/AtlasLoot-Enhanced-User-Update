@@ -293,4 +293,7 @@ AL["World Bosses"] = "世界首领"
 AL["World Events"] = "世界事件"
 AL["Yellow Gems"] = "黄色宝石"
 AL["Zen'Vorka"] = "赞沃卡"
-
+--special events
+AL["Special Events"] = "Special Events"
+--DeathsRising
+AL["DeathsRising"] = "Death's Rising"

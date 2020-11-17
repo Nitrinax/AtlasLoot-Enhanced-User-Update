@@ -402,7 +402,9 @@ function ItemDB.ContentProto:GetName()
 	elseif self.EncounterJournalID then
 		return EJ_GetInstanceInfo(self.EncounterJournalID)
 	elseif self.MapID then
-		return GetMapNameByID(self.MapID)
+		--return GetMapNameByID(self.MapID)
+		myMapDetails = C_Map.GetMapInfo(self.MapID)		
+		return myMapDetails.name
 	elseif self.FactionID then
 		return GetFactionInfoByID(self.FactionID) --or "Faction "..self.FactionID
 	else

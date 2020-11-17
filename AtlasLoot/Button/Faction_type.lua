@@ -170,19 +170,23 @@ local FACTION_IMAGES = {
 	-- BfA
 	[2164] = "Interface\\Icons\\inv_faction_championsofazeroth", 	-- Champions of Azeroth
 	[2163] = "Interface\\Icons\\inv_faction_tortollanseekers", 	-- Tortollan Seekers
-	[2159] = "Interface\\Icons\\inv_tabard_alliancewareffort", 	-- 7th Legion
+	--[2159] = "Interface\\Icons\\inv_tabard_alliancewareffort", 	-- 7th Legion
+	[2159] = "Interface\\Icons\\ui_alliance_7legionmedal", -- 7th Legion
 	[2161] = "Interface\\Icons\\inv_faction_orderofembers", 	-- Order of Embers
 	[2160] = "Interface\\Icons\\inv_faction_proudmooreadmiralty", -- Proudmoore Admiralty
 	[2162] = "Interface\\Icons\\inv_faction_stormswake", -- Storm's Wake
 	[2156] = "Interface\\Icons\\inv_faction_talanjisexpedition", -- Talanji's Expedition
-	[2157] = "Interface\\Icons\\inv_tabard_hordewareffort", -- The Honorbound
+	--[2157] = "Interface\\Icons\\inv_tabard_hordewareffort", -- The Honorbound
+	[2157] = "Interface\\Icons\\ui_horde_honorboundmedal", -- The Honorbound
 	[2158] = "Interface\\Icons\\inv_faction_voldunai", -- Voldunai
 	[2103] = "Interface\\Icons\\inv_faction_zandalariempire", -- Zandalari Empire
-	[2391] = "Interface\\Icons\\inv_mechagon_junkyardtinkeringcrafting", -- Rustbolt Resistance
+	--[2391] = "Interface\\Icons\\inv_mechagon_junkyardtinkeringcrafting", -- Rustbolt Resistance
+	[2391] = "Interface\\Icons\\inv_faction_rustbolt", -- Rustbolt Resistance
 	[2415] = "Interface\\Icons\\inv_faction_83_rajani", -- Rajani 
 	[2417] = "Interface\\Icons\\inv_faction_83_uldumaccord", -- Uldum Accord
 	[2373] = "Interface\\Icons\\inv_faction_unshackled", -- The Unshackled
 	[2400] = "Interface\\Icons\\inv_faction_akoan", -- Waveblade Ankoan
+	[2395] = "Interface\\Icons\\inv_bee_default", -- Honeyback Hive
 	
 	-- Shadowlands
 }
@@ -310,6 +314,7 @@ local FACTION_KEY = {
 	[2417] = "Uldum Accord",
 	[2373] = "The Unshackled",
 	[2400] = "Waveblade Ankoan",
+	[2395] = "Honeyback Hive",
 	
 	-- Shadowlands
 	

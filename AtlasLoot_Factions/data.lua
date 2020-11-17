@@ -63,37 +63,117 @@ data["BFAFACTIONS"] = {
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1, "f2163rep6" },
-				{ 2, 160538, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, --Cape of the Scroll Keepers
-				{ 3, 162288, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, --Recipe: Bountiful Captain's Feast
-				{ 4, 162371, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, --Recipe: Contract: Tortollan Seekers
-				{ 5, 162373, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, --Recipe: Contract: Champions of Azeroth
-				{ 7, "f2163rep7" },
-				{ 8, 161494, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Sea-Treated Footwraps
-				{ 9, 161514, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Antiquity Handler's Gloves
-				{ 10, 161529, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Girdle of the Scroll-Sages
-				{ 11, 161544, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Vambraces of a Thousand Year Toil
-				{ 12, 162136, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Endless Tincture of Renewed Combat
-				{ 13, 162137, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Siren's Alchemist Stone
-				{ 14, 162287, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Galley Banquet
-				{ 15, 162289, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Bountiful Captain's Feast
-				{ 16, 162292, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Grilled Catfish
-				{ 17, 162293, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Seasoned Loins
-				{ 18, 162298, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Formula: Enchant Ring - Seal of Critical Strike
-				{ 19, 162301, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Formula: Enchant Ring - Seal of Versatility
-				{ 20, 162023, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Technique: Glyph of the Dolphin
-				{ 21, 162352, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Inscribed Vessel of Mysticism
---				{ 22, 162355, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Inked Vessel of Robust Regeneration
-				{ 22, 162358, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Codex of the Quiet Mind
-				{ 23, 162376, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Tome of the Quiet Mind
-				{ 24, 162377, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Recipe: Darkmoon Card of War
-				{ 25, 163026, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, --Pattern: Embroidered Deep Sea Bag
+				{ 2, 160538, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Cape of the Scroll Keepers
+				{ 3, 163215, [PRICE_EXTRA_ITTYPE] = "money:600000" }, -- Scroll of Combustible Critters	
+				{ 3, 162288, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Recipe: Bountiful Captain's Feast Rank 2
+				{ 4, 162371, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Recipe: Contract: Tortollan Seekers Rank 2
+				{ 5, 162373, [PRICE_EXTRA_ITTYPE] = "money:10000000" }, -- Recipe: Contract: Champions of Azeroth Rank 2
+				{ 8, "f2163rep7" },
+				{ 9, 161494, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Sea-Treated Footwraps
+				{ 10, 161514, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Antiquity Handler's Gloves
+				{ 11, 161529, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Girdle of the Scroll-Sages
+				{ 12, 161544, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Vambraces of a Thousand Year Toil
+				{ 13, 163513, [PRICE_EXTRA_ITTYPE] = "PetCharm:200" }, -- Cou'pa
+				{ 14, 162136, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Endless Tincture of Renewed Combat
+				{ 15, 162137, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Siren's Alchemist Stone Rank 3
+				{ 16, 162287, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Galley Banquet Rank 3
+				{ 17, 162289, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Bountiful Captain's Feast Rank 3
+				{ 18, 162292, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Grilled Catfish Rank 3
+				{ 19, 162293, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Seasoned Loins Rank 3
+				{ 20, 162298, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Formula: Enchant Ring - Seal of Critical Strike Rank 3
+				{ 21, 162301, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Formula: Enchant Ring - Seal of Versatility Rank 3
+				{ 22, 162023, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Technique: Glyph of the Dolphin
+				{ 23, 162352, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Inscribed Vessel of Mysticism Rank 3
+				{ 24, 162358, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Codex of the Quiet Mind Rank 3
+				{ 25, 162376, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Tome of the Quiet Mind Rank 3
+				{ 26, 162377, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Recipe: Darkmoon Card of War Rank 3
+				{ 27, 163026, [PRICE_EXTRA_ITTYPE] = "money:12000000" }, -- Pattern: Embroidered Deep Sea Bag Rank 2
 				{ 101, "f2163rep8" },
-				{ 102, 161503, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, --Wristwraps of Scrollbinding
-				{ 103, 161519, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, --Supple Moccasins of Pilgrimage
-				{ 104, 161534, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, --Legguards of Ai'twen's Resurgence
-				{ 105, 161549, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, --Shellbuckle Girdle
-				{ 106, 160543, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, --Tabard of the Tortollan Seekers
+				{ 102, 161503, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Wristwraps of Scrollbinding
+				{ 103, 161519, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Supple Moccasins of Pilgrimage
+				{ 104, 161534, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Legguards of Ai'twen's Resurgence
+				{ 105, 161549, [PRICE_EXTRA_ITTYPE] = "money:15000000" }, -- Shellbuckle Girdle
+				{ 106, 166263, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Sanguinated Feast Rank 2
+				{ 107, 166806, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Boralus Blood Sausage Rank 2
+				{ 108, 166368, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Seasoned Steak and Potatoes Rank 3
+				{ 109, 166367, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Wild Berry Bread Rank 3
+				{ 110, 160543, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tabard of the Tortollan Seekers
 			},    
+		},
+		{ -- AH Rustbolt Resistance
+			FactionID = 2391,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2391rep5" },
+				{ 2, 167693, [PRICE_EXTRA_ITTYPE] = "money:640000" }, -- Neural Autonomy
+				{ 3, 168400, [PRICE_EXTRA_ITTYPE] = "SpareCrate:2:Oscillator:1" }, -- Null Force Containment Unit
+				{ 4, 168842, [PRICE_EXTRA_ITTYPE] = "SpareCrate:2:Oscillator:1" }, -- Engine of Mecha-Perfection
+				{ 5, 168858, [PRICE_EXTRA_ITTYPE] = "SpareCrate:2:Oscillator:1" }, -- Titan Purification Protocols
+				{ 6, 168932, [PRICE_EXTRA_ITTYPE] = "SpareCrate:2:Oscillator:1" }, -- Reactive Existence Battery
+				{ 7, 169547, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Contract: Rustbolt Resistance
+				{ 9, "f2391rep6" },
+				{ 10, 169112, [PRICE_EXTRA_ITTYPE] = "money:20480000" }, -- Blueprint: Advanced Adventurer Augment
+				{ 11, 169380, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Mustyfur Snooter				
+				{ 12, 168566, [PRICE_EXTRA_ITTYPE] = "SpareCrate:3:Oscillator:2" }, -- Null Force Cooling Unit
+				{ 13, 168859, [PRICE_EXTRA_ITTYPE] = "SpareCrate:3:Oscillator:2" }, -- Targeted Purification Protocols
+				{ 14, 168933, [PRICE_EXTRA_ITTYPE] = "SpareCrate:3:Oscillator:2" }, -- Enhanced Existence Capacitor
+				{ 16, "f2391rep7" },
+				{ 17, 167672, [PRICE_EXTRA_ITTYPE] = "money:2560000" }, -- Cyclotronic Blast
+				{ 18, 169108, [PRICE_EXTRA_ITTYPE] = "money:5120000" }, -- Rustbolt Banner
+				{ 19, 169134, [PRICE_EXTRA_ITTYPE] = "money:20480000" }, -- Blueprint: Extraordinary Adventurer Augmentation
+				{ 20, 168533, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Schematic: Ub3r-Module: P.O.G.O.
+				{ 21, 168534, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Schematic: Ub3r-Module: Ub3r-Coil
+				{ 22, 168535, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Schematic: Ub3r-Module: Scrap Cannon				
+				{ 23, 168568, [PRICE_EXTRA_ITTYPE] = "SpareCrate:4:Oscillator:3" }, -- Null Force Nullifier
+				{ 24, 168860, [PRICE_EXTRA_ITTYPE] = "SpareCrate:4:Oscillator:3" }, -- Enhanced Purification Protocols
+				{ 25, 168934, [PRICE_EXTRA_ITTYPE] = "SpareCrate:4:Oscillator:3" }, -- Calibrated Existence Gauge
+				{ 101, "f2391rep8" },
+				{ 102, 168369, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Famine Evaluator And Snack Table
+				{ 103, 168619, [PRICE_EXTRA_ITTYPE] = "money:1280000" }, -- Rustbolt Resistance Tabard
+				{ 104, 168660, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Schematic: Blingtron 7000
+				{ 105, 168829, [PRICE_EXTRA_ITTYPE] = "money:5242880000" }, -- Rustbolt Resistor
+				{ 106, 168493, [PRICE_EXTRA_ITTYPE] = "money:10240000" }, -- Blueprint: Battle Box
+			},
+		},
+		{ -- AH Rajani
+			FactionID = 2415,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2415rep4" },
+				{ 2, 168436, [PRICE_EXTRA_ITTYPE] = "Mementos:10" }, -- Focused Star Point
+				{ 3, 168573, [PRICE_EXTRA_ITTYPE] = "Mementos:10" }, -- Death-Resistant Leaf
+				{ 4, 174649, [PRICE_EXTRA_ITTYPE] = "SerpentScale:1" }, -- Rajani Warserpent
+				{ 6, "f2415rep5" },
+				{ 7, 172009, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Contract: Rajan
+				{ 9, "f2415rep6" },
+				{ 11, "f2415rep7" },
+				{ 12, 174905, [PRICE_EXTRA_ITTYPE] = "Warresources:500" }, -- Troop Requisition: Rajani Sparkcaller
+				{ 13, 168440, [PRICE_EXTRA_ITTYPE] = "Mementos:50" }, -- Gleaming Star Shard Rank 3
+				{ 14, 168575, [PRICE_EXTRA_ITTYPE] = "Mementos:50" }, -- Branch of Rejuvenating Rings Rank 3
+				{ 16, "f2415rep8" },
+				{ 17, 174480, [PRICE_EXTRA_ITTYPE] = "PetCharm:300" }, -- Windfeather Quill
+				{ 18, 174647, [PRICE_EXTRA_ITTYPE] = "money:2400000" }, -- Rajani Tabard
+				{ 19, 174906, [PRICE_EXTRA_ITTYPE] = "money:500000000" }, -- Lightning-Forged Augment Rune
+			},
+		},
+		{ -- AH Uldum Accord
+			FactionID = 2417,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2417rep4" },
+				{ 2, 174925, [PRICE_EXTRA_ITTYPE] = "Mementos:1" }, -- Void Tendril Pet Leash
+				{ 4, "f2417rep5" },
+				{ 5, 172011, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Contract: Uldum Accord
+				{ 7, "f2417rep6" },
+				{ 8, 174995, [PRICE_EXTRA_ITTYPE] = "PetCharm:20:Mementos:100" }, -- Void Tendril Pet Leash (Toy)
+				{ 10, "f2417rep7" },
+				{ 11, 174904, [PRICE_EXTRA_ITTYPE] = "Warresources:500" }, -- Troop Requisition: Ramkahen Lancer
+				{ 12, 174477, [PRICE_EXTRA_ITTYPE] = "PetCharm:300" }, -- Pygmy Camel
+				{ 13, 173282, [PRICE_EXTRA_ITTYPE] = "Mementos:50" }, -- Token of Death's Glee Rank 3
+				{ 16, "f2417rep8" },
+				{ 17, 174648, [PRICE_EXTRA_ITTYPE] = "money:2400000" }, -- Uldum Accord Tabard
+				{ 18, 174754, [PRICE_EXTRA_ITTYPE] = "money:240000000" }, -- Wastewander Skyterror
+			},
 		},
 		{ -- A 7th Legion
 			FactionID = 2159,
@@ -241,6 +321,64 @@ data["BFAFACTIONS"] = {
 				{ 107, 160542, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, --Storm's Wake Tabard
 			},
 		},
+		{ -- A Waveblade Ankoan
+			FactionID = 2400,
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				{ 1, "f2400rep4" },
+				{ 2, 169885, [PRICE_EXTRA_ITTYPE] = "Manapearl:5" }, -- Budding Deepcoral
+				{ 3, 170204, [PRICE_EXTRA_ITTYPE] = "Manapearl:75" }, -- Symbol of Gral
+				{ 4, 169352, [PRICE_EXTRA_ITTYPE] = "Manapearl:150" }, -- Pearlescent Glimmershell
+				{ 6, "f2400rep5" },
+				{ 7, 168837, [PRICE_EXTRA_ITTYPE] = "Manapearl:10" }, -- Depth Forged Aegis
+				{ 8, 168863, [PRICE_EXTRA_ITTYPE] = "Manapearl:10" }, -- Unbound Azerite Slivershards
+				{ 9, 168928, [PRICE_EXTRA_ITTYPE] = "Manapearl:10" }, -- Tablet of the Balancing Tides
+				{ 10, 169364, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Prismatic Softshell
+				{ 11, 169548, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Contract: Ankoan
+				{ 16, "f2400rep6" },
+				{ 17, 163073, [PRICE_EXTRA_ITTYPE] = "money:65000000" }, -- Conch of Wa'mundi
+				{ 18, 168838, [PRICE_EXTRA_ITTYPE] = "Manapearl:25" }, -- Enduring Bulwark of the Depths
+				{ 19, 168864, [PRICE_EXTRA_ITTYPE] = "Manapearl:25" }, -- Sharpened Azerite Slivershards
+				{ 20, 168929, [PRICE_EXTRA_ITTYPE] = "Manapearl:25" }, -- Codex of the Never-Ending Tides
+				{ 101, "f2400rep7" },
+				{ 102, 174522, [PRICE_EXTRA_ITTYPE] = "Manapearl:20" }, -- Waveswept Abyssal Conch
+				{ 103, 168480, [PRICE_EXTRA_ITTYPE] = "Warresources:500" }, -- Troop Requisition
+				{ 104, 169530, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Critical Strike Rank 3
+				{ 105, 169531, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Haste Rank 3
+				{ 106, 169532, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Mastery Rank 3
+				{ 107, 169533, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Versatility Rank 3
+				{ 108, 169492, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Potion of Empowered Proximity Rank 3
+				{ 109, 169494, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Potion of Focused Resolve Rank 3
+				{ 110, 168839, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Regenerating Barrier of the Depths
+				{ 111, 168848, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Pearl of Perspicuous Intentions
+				{ 112, 168865, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Polarized Azerite Slivershards
+				{ 113, 168930, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Tome of the Quickening Tides
+				{ 116, "f2400rep8" },
+				{ 117, 168610, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tabard of the Waveblade Ankoan
+				{ 118, 167167, [PRICE_EXTRA_ITTYPE] = "Manapearl:250" }, -- Ankoan Waveray
+				{ 119, 169504, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Greater Mystical Cauldron Rank 3
+				{ 120, 168849, [PRICE_EXTRA_ITTYPE] = "Manapearl:75" }, -- Pearl of Luminous Designs
+			},
+		},
+		{ -- A Honeyback Hive
+			FactionID = 2395,
+			CoinTexture = "Reputation",
+			[ALLIANCE_DIFF] = {
+				{ 1, "f2395rep4" },
+				{ 2, 168822, [PRICE_EXTRA_ITTYPE] = "RoyalJelly:1" }, -- Thin Jelly
+				{ 3, 168825, [PRICE_EXTRA_ITTYPE] = "ThinJelly:4" }, -- Rich Jelly
+				{ 4, 168828, [PRICE_EXTRA_ITTYPE] = "ThinJelly:8" }, -- Royal Jelly
+				{ 6, "f2395rep5" },
+				{ 7, 169862, [PRICE_EXTRA_ITTYPE] = "ThinJelly:5" }, -- Alluring Bloom
+				{ 9, "f2395rep6" },
+				{ 10, 169395, [PRICE_EXTRA_ITTYPE] = "ThinJelly:15" }, -- Summit Zephyr
+				{ 12, "f2395rep7" },
+				{ 13, 169109, [PRICE_EXTRA_ITTYPE] = "RichJelly:20" }, -- Beeholder's Goggles
+				{ 16, "f2395rep8" },
+				{ 17, 169141, [PRICE_EXTRA_ITTYPE] = "RoyalJelly:25" }, -- Butterfly Net
+				{ 18, 172383, [PRICE_EXTRA_ITTYPE] = "RoyalJelly:35" }, -- Collected Tidebloom Honey
+			},
+		},
 		{ -- H Talanji's Expedition
 			FactionID = 2156,
 			CoinTexture = "Reputation",
@@ -383,37 +521,45 @@ data["BFAFACTIONS"] = {
 
 			},			
 		},
-		{ -- AH Rustbolt Resistance
-			FactionID = 2391,
+		{ -- H The Unshackled
+			FactionID = 2373,
 			CoinTexture = "Reputation",
-			[NORMAL_DIFF] = {
-				{ 1, "f2391rep4" },
-				{ 2, 168908, }, -- Blueprint: Experimental Adventurer Augment
-				{ 4, "f2391rep5" },
-				{ 5, 168906, }, -- Blueprint: Holographic Digitalization Relay
-				{ 6, 168960, }, -- Contract: Rustbolt Resistance
-				{ 7, 167693, }, -- Neural Autonomy
-				{ 9, "f2391rep6" },
-				{ 10, 169112, }, -- Blueprint: Advanced Adventurer Augment
-				{ 11, 169380, }, -- Mustyfur Snooter
-				{ 13, "f2391rep7" },
-				{ 14, 167672, }, -- Cyclotronic Blast
-				{ 15, 169134, }, -- Blueprint: Extraordinary Adventurer Augment
-				{ 16, 169547, }, -- Recipe: Contract: Rustbolt Resistance
-				{ 17, 168533, }, -- Schematic: Ub3r-Module: P.O.G.O.
-				{ 18, 168534, }, -- Schematic: Ub3r-Module: Ub3r-Coil
-				{ 19, 168535, }, -- Schematic: Ub3r-Module: Scrap Cannon
-				{ 20, 169108, }, -- Rustbolt Banner
-				{ 22, "f2391rep7" },
-				{ 23, 168368, }, -- Recipe: Famine Evaluator And Snack Table
-				{ 24, 168369, }, -- Recipe: Famine Evaluator And Snack Table
-				{ 25, 168493, }, -- Blueprint: Battle Box
-				{ 26, 168619, }, -- Rustbolt Resistance Tabard
-				{ 27, 168660, }, -- Schematic: Blingtron 7000
-				{ 28, 168829, }, -- Rustbolt Resistor
-			},    
+			[HORDE_DIFF] = {
+				{ 1, "f2373rep4" },
+				{ 2, 169885, [PRICE_EXTRA_ITTYPE] = "Manapearl:5" }, -- Budding Deepcoral
+				{ 3, 170204, [PRICE_EXTRA_ITTYPE] = "Manapearl:75" }, -- Symbol of Gral
+				{ 4, 169352, [PRICE_EXTRA_ITTYPE] = "Manapearl:150" }, -- Pearlescent Glimmershell
+				{ 6, "f2373rep5" },
+				{ 7, 168837, [PRICE_EXTRA_ITTYPE] = "Manapearl:10" }, -- Depth Forged Aegis
+				{ 8, 168863, [PRICE_EXTRA_ITTYPE] = "Manapearl:10" }, -- Unbound Azerite Slivershards
+				{ 9, 168928, [PRICE_EXTRA_ITTYPE] = "Manapearl:10" }, -- Tablet of the Balancing Tides
+				{ 10, 169365, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Damplight Slug
+				{ 11, 169549, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Contract: Unshackled
+				{ 16, "f2373rep6" },
+				{ 17, 171151, [PRICE_EXTRA_ITTYPE] = "money:65000000" }, -- Conch of Wa'mundi
+				{ 18, 168838, [PRICE_EXTRA_ITTYPE] = "Manapearl:25" }, -- Enduring Bulwark of the Depths
+				{ 19, 168864, [PRICE_EXTRA_ITTYPE] = "Manapearl:25" }, -- Sharpened Azerite Slivershards
+				{ 20, 168929, [PRICE_EXTRA_ITTYPE] = "Manapearl:25" }, -- Codex of the Never-Ending Tides
+				{ 101, "f2373rep7" },
+				{ 102, 174523, [PRICE_EXTRA_ITTYPE] = "Manapearl:20" }, -- Waveswept Abyssal Conch
+				{ 103, 168479, [PRICE_EXTRA_ITTYPE] = "Warresources:500" }, -- Troop Requisition
+				{ 104, 169605, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Critical Strike Rank 3
+				{ 105, 169531, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Haste Rank 3
+				{ 106, 169606, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Mastery Rank 3
+				{ 107, 169607, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Formula: Accord of Versatility Rank 3
+				{ 108, 169600, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Potion of Empowered Proximity Rank 3
+				{ 109, 169602, [PRICE_EXTRA_ITTYPE] = "money:14000000" }, -- Recipe: Potion of Focused Resolve Rank 3
+				{ 110, 168839, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Regenerating Barrier of the Depths
+				{ 111, 168848, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Pearl of Perspicuous Intentions
+				{ 112, 168865, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Polarized Azerite Slivershards
+				{ 113, 168930, [PRICE_EXTRA_ITTYPE] = "Manapearl:50" }, -- Tome of the Quickening Tides
+				{ 116, "f2373rep8" },
+				{ 117, 169274, [PRICE_EXTRA_ITTYPE] = "money:5000000" }, -- Tabard of the Unshackled
+				{ 118, 167170, [PRICE_EXTRA_ITTYPE] = "Manapearl:250" }, -- Unshackled Waveray
+				{ 119, 169603, [PRICE_EXTRA_ITTYPE] = "money:19000000" }, -- Recipe: Greater Mystical Cauldron Rank 3
+				{ 120, 168849, [PRICE_EXTRA_ITTYPE] = "Manapearl:75" }, -- Pearl of Luminous Designs
+			},
 		},
-
 	}
 }
 
@@ -1228,6 +1374,7 @@ data["MOPFACTIONS"] = {
 				{ 19, 79802, "mount", [PRICE_EXTRA_ITTYPE] = "money:24000000" },	-- Reins of the Jade Cloud Serpent
 				{ 20, 89796, [PRICE_EXTRA_ITTYPE] = "money:80000" },	-- Order of the Cloud Serpent Tabard
 				{ 21, 83877, [PRICE_EXTRA_ITTYPE] = "money:1600000" },	-- Design: Jeweled Onyx Panther (p12 600)
+				{ 22, 183123, [PRICE_EXTRA_ITTYPE] = "money:400000" },	-- How to School Your Serpent
 			},
 		},
 		{	--ShadoPan

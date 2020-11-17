@@ -1339,6 +1339,20 @@ data["Azeroth"] = {
 				{ 11, 161381 }, -- Permafrost-Encrusted Heart
 			},
 		},
+		{ -- Warbringer Yenajz
+			EncounterJournalID = 2198,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161349 }, -- Amice of the Rending Abyss
+				{ 2, 161351 }, -- Wristwraps of Warped Reality
+				{ 3, 161353 }, -- Shadow-Wreathed Gloves
+				{ 4, 161355 }, -- Yenajz's Chitinous Stompers
+				{ 5, 161357 }, -- Spaulders of the Enveloping Maw
+				{ 6, 161359 }, -- Band of Intense Gravitation
+				{ 7, 161376 }, -- Prism of Dark Intensity
+				{ 8, 161354 }, -- Leggings of the Endless Void
+				{ 9, 161358 }, -- Existence-Shattering Gauntlets
+			},
+		},
 		{ -- Azurethos, The Winged Typhoon
 			EncounterJournalID = 2199,
 			[NORMAL_RAID_DIFF] = {
@@ -1353,6 +1367,20 @@ data["Azeroth"] = {
 				{ 9, 161378 }, -- Plume of the Seaborne Avian
 				{ 10, 161360 }, -- Roost-Defender's Legguards
 				{ 11, 161350 }, -- Windcaller's Down Handwraps
+			},
+		},
+		{ -- Dunegorger Kraulok
+			EncounterJournalID = 2210,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161400 }, -- Raider's Shrouding Thobe
+				{ 2, 161402 }, -- Gloves of the Desert Assassin
+				{ 3, 161419 }, -- Kraulok's Claw
+				{ 4, 161406 }, -- Shrouded Sandscale Bracers
+				{ 5, 161408 }, -- Sandswept Legionnaire's Legplates
+				{ 6, 161399 }, -- Cord of Flowing Sands
+				{ 7, 161404 }, -- Hood of the Sinuous Devilsaur
+				{ 8, 161405 }, -- Dunegorger's Grips
+				{ 9, 164385 }, -- Desert Nomad's Wrap
 			},
 		},
 		{ -- Doom's Howl
@@ -1371,34 +1399,6 @@ data["Azeroth"] = {
 				{ 11, 161465 }, -- Warcaster's Arcane Mantle
 			},
 		},
-		{ -- Warbringer Yenajz
-			EncounterJournalID = 2198,
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 161349 }, -- Amice of the Rending Abyss
-				{ 2, 161351 }, -- Wristwraps of Warped Reality
-				{ 3, 161353 }, -- Shadow-Wreathed Gloves
-				{ 4, 161355 }, -- Yenajz's Chitinous Stompers
-				{ 5, 161357 }, -- Spaulders of the Enveloping Maw
-				{ 6, 161359 }, -- Band of Intense Gravitation
-				{ 7, 161376 }, -- Prism of Dark Intensity
-				{ 8, 161354 }, -- Leggings of the Endless Void
-				{ 9, 161358 }, -- Existence-Shattering Gauntlets
-			},
-		},
-		{ -- Dunegorger Kraulok
-			EncounterJournalID = 2210,
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 161400 }, -- Raider's Shrouding Thobe
-				{ 2, 161402 }, -- Gloves of the Desert Assassin
-				{ 3, 161419 }, -- Kraulok's Claw
-				{ 4, 161406 }, -- Shrouded Sandscale Bracers
-				{ 5, 161408 }, -- Sandswept Legionnaire's Legplates
-				{ 6, 161399 }, -- Cord of Flowing Sands
-				{ 7, 161404 }, -- Hood of the Sinuous Devilsaur
-				{ 8, 161405 }, -- Dunegorger's Grips
-				{ 9, 164385 }, -- Desert Nomad's Wrap
-			},
-		},
 		{ -- Ivus the Decayed
 			EncounterJournalID = 2345,
 			[NORMAL_RAID_DIFF] = {
@@ -1415,6 +1415,21 @@ data["Azeroth"] = {
 				{ 11, 166687 }, -- Warring Ancient's Mask
 			},
 		},
+		{ -- Ulmath, the Soulbinder
+			EncounterJournalID = 2362,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 170092 }, -- Netherdancer's Knife
+				{ 2, 170094 }, -- Temple Guardian's Saber
+				{ 3, 170089 }, -- Liara's Spire
+				{ 4, 170091 }, -- Willbinder's Halberd
+				{ 5, 170093 }, -- Tyr'mar's Greatsword
+				{ 6, 170095 }, -- Moon Priestess' Baton
+				{ 7, 169317 }, -- Enthraller's Bindstone
+				{ 8, 170088 }, -- Ulmath's Soulseeker
+				{ 9, 170090 }, -- Merciless Pincher
+				{ 10, 168603 }, -- Cloak of Restless Spirits
+			},
+		},
 		{ -- Wekemara
 			EncounterJournalID = 2363,
 			[NORMAL_RAID_DIFF] = {
@@ -1429,19 +1444,24 @@ data["Azeroth"] = {
 				{ 9, 168366 }, -- Tidal Lurker's Greathelm
 			},
 		},
-		{ -- Ulmath, the Soulbinder
-			EncounterJournalID = 2362,
+		{ -- Grand Empress Shek'zara
+			EncounterJournalID = 2378,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 170092 }, -- Netherdancer's Knife
-				{ 2, 170094 }, -- Temple Guardian's Saber
-				{ 3, 170089 }, -- Liara's Spire
-				{ 4, 170091 }, -- Willbinder's Halberd
-				{ 5, 170093 }, -- Tyr'mar's Greatsword
-				{ 6, 170095 }, -- Moon Priestess' Baton
-				{ 7, 169317 }, -- Enthraller's Bindstone
-				{ 8, 170088 }, -- Ulmath's Soulseeker
-				{ 9, 170090 }, -- Merciless Pincher
-				{ 10, 168603 }, -- Cloak of Restless Spirits
+				{ 1, 174234 }, -- Maniacal Speaker's Cover
+				{ 2, 174243 }, -- Guise of the Voracious Prowler
+				{ 3, 174255 }, -- Greaves of Shattered Thoughts
+				{ 4, 174264 }, -- Chitinous Conqueror's Legplates
+				{ 5, 174268 }, -- Loop of Abhorrent Celerity
+			},
+		},
+		{ -- Vuk'laz the Earthbreaker
+			EncounterJournalID = 2381,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 174237 }, -- Breeches of Faithful Execution
+				{ 2, 174247 }, -- Grotesque Mutilator's Leggings
+				{ 3, 174250 }, -- Psyche Tormentor's Visage
+				{ 4, 174258 }, -- Greathelm of Indiscriminate Brutality
+				{ 5, 174469 }, -- Band of Insidious Ruminations
 			},
 		},
 	}

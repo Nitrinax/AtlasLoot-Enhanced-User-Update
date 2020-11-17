@@ -1,0 +1,6 @@
+- list of goods sold by mother
+- list of loot from N'Zoth
+- list of loot from Mogu
+- list of loot from Schwarzes Imperium
+- list of loot from Aqir
+- etc
