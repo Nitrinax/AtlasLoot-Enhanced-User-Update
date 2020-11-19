@@ -1,3 +1,20 @@
+# CHANGES from r4839-u5 to r4839-u6
+
+Atlasloot
+
+	Core
+
+		ItemStrings.lua
+
+			- function for SLMaxItemLvl added
+			- constant for LEGION_MAX_UPGRADELVL, BFA_MAX_UPGRADELVL, SL_MAX_UPGRADELVL added
+
+AtlasLoot_Sdhadowlands
+
+		- added new custom module for shadowlands expansion
+		- all currently available shadowlands dungeons included
+		- all currently available shadowlands raids  included
+
 # CHANGES from r4839-u4 to r4839-u5
 
 Atlasloot
