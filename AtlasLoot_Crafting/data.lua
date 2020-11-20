@@ -638,39 +638,6 @@ data["Alchemy"] = {
 			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
 			-- },
 		},
-		{	--AlchemyOils
-			name = AL["Oil"],
-			[SL_DIFF] = {
-				{ 1, 171286, 307119 }, -- Embalmer's Oil
-				{ 2, 171285, 307118 }, -- Shadowcore Oil
-			},
-			-- [BFA_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
-			-- [LEGION_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
-			-- [WOD_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
-			[MOP_DIFF] = {
-				{ 1, 87872, 114761, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Desecrated Oil : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
-			},
-			-- [CATA_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
-			-- [WOTLK_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
-			-- [BC_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
-			[CLASSIC_DIFF] = {
-				{ 1, 8956, 11451 },	-- Oil of Immolation : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
-				{ 2, 3829, 3454 },	-- Frost Oil : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Hillsbrad Foothills"]
-				{ 3, 3824, 3449 },	-- Shadow Oil : =ds=#sr# 165 : =ds=AtlasLoot["Vendor"]
-			}
-		},
 		{	--AlchemyReagents
 			name = AL["Reagents"],
 			[SL_DIFF] = {
@@ -963,6 +930,8 @@ data["Alchemy"] = {
 				{ 11, 182026, 338196 }, -- Pulverized Breezebloom
 				{ 12, 182071, 338203 }, -- Refined Submission
 				{ 14, 180751, 334413 }, -- Red Noggin Candle
+				{ 16, 171286, 307119 }, -- Embalmer's Oil
+				{ 17, 171285, 307118 }, -- Shadowcore Oil
 			},
 			[BFA_DIFF] = {
 				{ 1, 165744, 278420 }, -- Potion of Herb Tracking
@@ -976,9 +945,9 @@ data["Alchemy"] = {
 			[WOD_DIFF] = {				
 				{ 1, 116981, 172542, [ATLASLOOT_IT_AMOUNT1] = "4+" },	-- Fire Ammonite Oil (Learnt by item 111364)
 			},
-			-- [MOP_DIFF] = {
-			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
-			-- },
+			[MOP_DIFF] = {
+				{ 1, 87872, 114761, [ATLASLOOT_IT_AMOUNT1] = 2 },	-- Desecrated Oil : =ds=#sr# 550 : =ds=AtlasLoot["Discovery"]
+			},
 			[CATA_DIFF] = {
 				{ 1, 65891, 93328 }, -- Vial of the Sands
 			},
@@ -989,7 +958,10 @@ data["Alchemy"] = {
 			-- 	{ 1, 000000, 000000 }, -- XXXXXXXXXX
 			-- },
 			[CLASSIC_DIFF] = {
-				{ 1, 19931, 24266, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Gurubashi Mojo Madness : =ds=#sr# 300 : =ds=AtlasLoot["No Longer Available"]
+				{ 1, 8956, 11451 },	-- Oil of Immolation : =ds=#sr# 205 : =ds=AtlasLoot["Trainer"]
+				{ 2, 3829, 3454 },	-- Frost Oil : =ds=#sr# 200 : =ds=AtlasLoot["Vendor"]: AtlasLoot_IngameLocales["Hillsbrad Foothills"]
+				{ 3, 3824, 3449 },	-- Shadow Oil : =ds=#sr# 165 : =ds=AtlasLoot["Vendor"]
+				{ 5, 19931, 24266, [ATLASLOOT_IT_AMOUNT1] = 3 },	-- Gurubashi Mojo Madness : =ds=#sr# 300 : =ds=AtlasLoot["No Longer Available"]
 			},
 		},
 	}

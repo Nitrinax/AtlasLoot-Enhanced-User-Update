@@ -306,4 +306,3 @@ AL["Special Events"] = "Spezielle Events"
 --DeathsRising
 AL["DeathsRising"] = "Die Flut des Todes"
 --crafting rework
-AL["Oil"] = "Öl"

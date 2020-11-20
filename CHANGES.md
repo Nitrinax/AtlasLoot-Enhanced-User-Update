@@ -19,7 +19,6 @@ AtlasLoot_Crafting
 
 			- research
 			- anti-venom
-			- oils
 			- cauldrons
 			- potions
 			- elixirs
