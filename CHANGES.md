@@ -1,3 +1,21 @@
+# CHANGES from r4839-u7 to r4839-u8
+
+AtlasLoot_Factions
+
+	data.lua
+
+		- shadowlands factions addded
+
+			- Court of Harvesters
+			- Court of Night (only see with Night Fae covenant active)
+			- Marasmius (only see with Night Fae covenant active)
+			- Stitchmasters
+			- The Ascended
+			- The Avowed
+			- The Ember Court
+			- The Undying Army
+			- The Wild Hunt
+
 # CHANGES from r4839-u6 to r4839-u7
 
 AtlasLoot_Classic
@@ -6,7 +24,7 @@ AtlasLoot_Classic
 
 		- Darkmaul Citadel in Exil's Reach added as the first dungeon
 
-AtlasLoot_Sdhadowlands
+AtlasLoot_Shadowlands
 
 	data.lua
 
@@ -24,7 +42,7 @@ Atlasloot
 			- constant for LEGION_MAX_UPGRADELVL, BFA_MAX_UPGRADELVL changed
 			- constant for SL_MAX_UPGRADELVL added
 
-AtlasLoot_Sdhadowlands
+AtlasLoot_Shadowlands
 
 		- added new custom module for shadowlands expansion
 		- all currently available shadowlands dungeons included

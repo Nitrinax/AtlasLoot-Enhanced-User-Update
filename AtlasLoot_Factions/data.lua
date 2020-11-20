@@ -29,6 +29,243 @@ local FACTION_CONTENT = data:AddContentType(AL["Factions"], ATLASLOOT_FACTION_CO
 	-- if rep index is in between 11 and 16, means it has friendship reputation
 ]]
 
+data["SLFACTIONS"] = {
+	name = EXPANSION_NAME8,
+	ContentType = FACTION_CONTENT,
+	items = {
+		-- { -- AH FACTIONNAME
+		-- 	FactionID = 0000,
+		-- 	CoinTexture = "Reputation",
+		-- 	[NORMAL_DIFF] = {
+		-- 		{ 1, "f2164rep5" }, -- Friendly
+		-- 		{ 2, 000000 }, -- 
+		-- 		{ 4, "f2164rep6" }, -- Honored
+		-- 		{ 5, 000000 }, -- 
+		-- 		{ 7, "f2164rep7" }, -- Revered
+		-- 		{ 8, 000000 }, -- 
+		-- 		{ 16, "f2164rep8" }, -- Exalted
+		-- 		{ 17, 000000 }, -- 
+		-- 	},
+		-- },
+		{ -- AH Court of Harvesters
+			FactionID = 2413,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2413rep5" }, -- Friendly
+				{ 2, 173062 }, -- Contract: Court of Harvesters
+				{ 4, "f2413rep6" }, -- Honored
+				{ 5, 183099 }, -- Design: Revitalizing Jewel Doublet
+				{ 6, 184723 }, -- Bedazzled Belt				
+				{ 7, 184721 }, -- Flourished Cummerbund
+				{ 8, 184722 }, -- Ostentatious Buckle
+				{ 9, 184720 }, -- Reflective Waistguard
+				{ 10, 183900 }, -- Sinvyr Tea Set
+				{ 12, "f2413rep7" }, -- Revered
+				{ 13, 180593 }, -- Court Messenger Scroll
+				{ 14, 182668 }, -- Recipe: Feast of Gluttonous Hedonism
+				{ 15, 183102 }, -- Technique: Contract: Court of Harvesters
+				{ 16, 183839 }, -- Pattern: Heavy Desolate Hide
+				{ 17, 184726 }, -- Courtier's Mantle
+				{ 18, 184724 }, -- Courtier's Pauldron
+				{ 19, 184727 }, -- Courtier's Shoulderguard
+				{ 20, 184725 }, -- Courtier's Shoulderplate				
+				{ 21, 183708 }, -- Glittering Gold Sinstone Chain
+				{ 22, 183245 }, -- Memory of Norgannon
+				{ 24, "f2413rep8" }, -- Exalted
+				{ 25, 179282 }, -- Court of Harvesters Tabard
+				{ 26, 184755 }, -- Reinforced High Collar				
+				{ 27, 182207 }, -- Illusion: Sinsedge
+				{ 28, 183518 }, -- Court Sinrunner			
+			},
+		},
+		{ -- AH Court of Night
+			-- Court of Night reputation requires you to be part of the Night Fae covenant and to direct your anima conductor to certain places to gain reputation.
+			FactionID = 2464,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2464rep5" }, -- Friendly
+				{ 2, 182174 }, -- Leonine Soul
+				{ 3, 182182 }, -- Lupine Soul
+				{ 4, 182664 }, -- Stemmins
+				{ 5, 180636 }, -- Willowbreeze
+				{ 7, "f2464rep6" }, -- Honored
+				{ 8, 181308 }, -- Winterwoven Bulb
+				{ 9, 181312 }, -- Winterwoven Pack
+				{ 11, "f2464rep7" }, -- Revered
+				{ 12, 183053 }, -- Umbral Scythehorn
+				{ 13, 180415 }, -- Winterborn Runestag
+				{ 16, "f2464rep8" }, -- Exalted
+				{ 17, 184114 }, -- Ensemble: Winterborn Regalia
+			},
+		},
+		{ -- AH Marasmius
+			-- To unlock this reputation you need Night Fae Covenant and complete a quickly questline.
+			FactionID = 2464,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2464rep5" }, -- Friendly
+				{ 2, 182181 }, -- Tiger Soul
+				{ 3, 182166 }, -- Ursine Soul
+				{ 4, 182674 }, -- Sir Reginald
+				{ 5, 182661 }, -- Fun Guss
+				{ 5, 180638 }, -- Fuzzy Shimmermoth
+				{ 7, "f2464rep6" }, -- Honored
+				{ 8, 181305 }, -- Faewoven Bulb
+				{ 9, 181303 }, -- Night Courtier's Branches
+				{ 11, "f2464rep7" }, -- Revered
+				{ 12, 183801 }, -- Vibrant Flutterwing
+				{ 13, 180724 }, -- Enchanted Winterborn Runestag
+				{ 16, "f2464rep8" }, -- Exalted
+				{ 17, 184118 }, -- Arsenal: Winterborn Weapons
+			},
+		},
+		{ -- AH Stitchmasters
+			FactionID = 2462,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				-- { 1, "f2462rep5" }, -- Friendly
+				-- { 2, 000000 }, -- 
+				-- { 4, "f2462rep6" }, -- Honored
+				-- { 5, 000000 }, -- 
+				-- { 7, "f2462rep7" }, -- Revered
+				-- { 8, 000000 }, -- 
+				{ 1, "f2462rep8" }, -- Exalted
+				{ 2, 184303 }, -- Arsenal: Stitchmasters' Weapons
+			},
+		},
+		{ -- AH The Ascended
+			FactionID = 2407,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2407rep5" }, -- Friendly
+				{ 2, 173051 }, -- Contract: The Ascended
+				{ 3, 183098 }, -- Technique: Codex of the Still Mind
+				{ 5, "f2407rep6" }, -- Honored
+				{ 6, 184756 }, -- Smoothed Loop of Contemplation
+				{ 7, 183094 }, -- Plans: Shadowsteel Helm
+				{ 9, "f2407rep7" }, -- Revered
+				{ 10, 183103 }, -- Technique: Contract: The Ascended				
+				{ 11, 184732 }, -- Manacles of Burden				
+				{ 12, 184735 }, -- Wristclasps of Shame
+				{ 13, 184734 }, -- Bracers of Regret
+				{ 14, 184733 }, -- Wristclamps of Remorse
+				{ 15, 183243 }, -- Memory of the Arbiter's Judgment
+				{ 16, "f2407rep8" }, -- Exalted
+				{ 17, 184729 }, -- Masque of the Path
+				{ 18, 184731 }, -- Gorget of the Path
+				{ 19, 184730 }, -- Cowl of the Path
+				{ 20, 184728 }, -- Casque of the Path
+				{ 21, 184351 }, -- Illusion: Devoted Spirit
+				{ 22, 183097 }, -- Schematic: PHA7-YNX
+				{ 23, 178991 }, -- Tabard of the Ascended
+			},
+		},
+		{ -- AH The Avowed
+			FactionID = 2439,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				--{ 1, "f2439rep5" }, -- Friendly
+				--{ 2, 000000 }, -- 
+				--{ 4, "f2439rep6" }, -- Honored
+				--{ 5, 000000 }, -- 
+				{ 1, "f2439rep7" }, -- Revered
+				{ 2, 183866 }, -- Formula: Crafter's Mark III
+				{ 3, 183869 }, -- Pattern: Crafter's Mark III
+				{ 4, 183871 }, -- Pattern: Crafter's Mark III
+				{ 5, 183864 }, -- Plans: Crafter's Mark III
+				{ 6, 183868 }, -- Recipe: Crafter's Mark III
+				{ 7, 183867 }, -- Schematic: Crafter's Mark III
+				{ 8, 183865 }, -- Technique: Crafter's Mark III
+				{ 9, 184219 }, -- Treatise on Sinstone Fragment Acquisition
+				{ 10, 182890 }, -- Rapid Recitation Quill
+				{ 11, 180940 }, -- Ebony Crypt Keeper's Mantle
+				{ 16, "f2439rep8" }, -- Exalted
+				{ 17, 184221 }, -- Archivist's Quill
+				{ 18, 184218 }, -- Vulgarity Arbiter
+				{ 19, 183940 }, -- Avowed Archivist's Tome
+				{ 20, 184220 }, -- Encyclopedia of Sinstone Fragment Recovery
+			},
+		},
+		{ -- AH The Ember Court
+			FactionID = 2445,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				-- { 1, "f2445rep5" }, -- Friendly
+				-- { 2, 000000 }, -- 
+				-- { 4, "f2445rep6" }, -- Honored
+				-- { 5, 000000 }, -- 
+				{ 1, "f2445rep7" }, -- Revered
+				{ 2, 183854 }, -- Battie's Pendant
+				-- { 16, "f2445rep8" }, -- Exalted
+				-- { 17, 000000 }, -- 
+			},
+		},
+		{ -- AH The Undying Army
+			FactionID = 2410,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2410rep5" }, -- Friendly
+				{ 2, 175924 }, -- Contract: The Undying Army
+				{ 4, "f2410rep6" }, -- Honored
+				{ 5, 184741 }, -- Apprentice Necromancer's Gloves
+				{ 6, 184739 }, -- Pallid Stitched Gloves
+				{ 7, 184742 }, -- Rattling Bonefists
+				{ 8, 184740 }, -- Fortified Jawcrackers
+				{ 9, 183101 }, -- Pattern: Shadowlace Cloak
+				{ 10, 183095 }, -- Plans: Shadowsteel Pauldrons
+				{ 11, 183858 }, -- Schematic: Wormhole Generator: Shadowlands
+				{ 13, "f2410rep7" }, -- Revered
+				{ 14, 183104 }, -- Technique: Contract: The Undying Army
+				{ 15, 181272 }, -- Toenail
+				{ 16, 184744 }, -- Gnarled Boneloop
+				{ 17, 183244 }, -- Memory of the Rattle of the Maw
+				{ 19, "f2410rep8" }, -- Exalted
+				{ 20, 184736 }, -- Robe of the March Warden
+				{ 21, 184745 }, -- Tunic of the March Warden
+				{ 22, 184738 }, -- Chainmail of the March Warden
+				{ 23, 184737 }, -- Chestplate of the March Warden
+				{ 24, 180646 }, -- Supplies of the Undying Army
+				{ 25, 183189 }, -- Illusion: Undying Spirit
+				{ 26, 180456 }, -- Colors of the Undying Army
+				{ 27, 181808 }, -- Death Fetish
+				{ 28, 181807 }, -- Barbarous Osteowings
+				{ 29, 182082 }, -- Lurid Bloodtusk
+			},
+		},
+		{ -- AH The Wild Hunt
+			FactionID = 2465,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2465rep5" }, -- Friendly
+				{ 2, 173053 }, -- Contract: The Wild Hunt
+				{ 3, 180641 }, -- Floofa
+				{ 5, "f2465rep6" }, -- Honored
+				{ 6, 183096 }, -- Formula: Sacred Shard
+				{ 7, 183100 }, -- Pattern: Heavy Desolate Armor Kit
+				{ 8, 182168 }, -- Crane Soul
+				{ 9, 184754 }, -- Glitterwing Scarf
+				{ 11, "f2465rep7" }, -- Revered
+				{ 12, 183093 }, -- Technique: Contract: The Wild Hunt
+				{ 13, 184747 }, -- Gamekeeper's Slippers
+				{ 14, 184749 }, -- Gametender's Bramblewards
+				{ 15, 184748 }, -- Gametender's Wading Boots
+				{ 16, 184746 }, -- Gametender's Muckstompers
+				{ 17, 181309 }, -- Faewoven Pack
+				{ 18, 183106 }, -- Recipe: Eternal Cauldron
+				{ 19, 183242 }, -- Memory of Eonar
+				{ 21, "f2465rep8" }, -- Exalted
+				{ 22, 184751 }, -- Cycle-Tender's Pantaloons
+				{ 23, 184753 }, -- Tree-Scaler's Britches
+				{ 24, 184752 }, -- Gormscale Leggings
+				{ 25, 184750 }, -- Amber-Plated Legguards
+				{ 26, 183134 }, -- Illusion: Hunt's Favor
+				{ 27, 180729 }, -- Duskflutter Ardenmoth
+				{ 28, 178336 }, -- Tabard of the Wild Hunt
+			},
+		},
+	}
+}
+
 data["BFAFACTIONS"] = {
 	name = EXPANSION_NAME7,
 	ContentType = FACTION_CONTENT,

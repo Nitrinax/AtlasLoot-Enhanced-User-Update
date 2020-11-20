@@ -1,2 +1,3 @@
-- shadowlands factions
+- shadowlands covenats
 - shadowlands crafting
+- shadowlands currencies
