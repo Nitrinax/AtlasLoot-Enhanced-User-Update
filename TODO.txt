@@ -1,3 +1,4 @@
+- crafting rework
 - shadowlands covenats
 - shadowlands crafting
 - shadowlands currencies

@@ -639,7 +639,7 @@ data["Alchemy"] = {
 			-- },
 		},
 		{	--AlchemyOils
-			name = AL["Oils"],
+			name = AL["Oil"],
 			[SL_DIFF] = {
 				{ 1, 171286, 307119 }, -- Embalmer's Oil
 				{ 2, 171285, 307118 }, -- Shadowcore Oil
@@ -710,7 +710,7 @@ data["Alchemy"] = {
 			},
 		},
 		{	--AlchemyTransmutation
-			name = AL["Transmutation"],
+			name = AL["Transmutes"],
 			[SL_DIFF] = {
 				{ 1, 171428, 307142 }, -- Shadowghast Ingot
 				{ 2, 180457, 307143 }, -- Shadestone

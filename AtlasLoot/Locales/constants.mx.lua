@@ -276,3 +276,5 @@ AL["Horrific Visions"] = "Visiones horripilantes"
 AL["Special Events"] = "Eventos especiales"
 --DeathsRising
 AL["DeathsRising"] = "Muerte emergente"
+--crafting rework
+AL["Oil"] = "Petróleo"

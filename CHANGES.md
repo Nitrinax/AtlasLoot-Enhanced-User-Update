@@ -5,7 +5,7 @@ Atlasloot
 	Locales
 
 		- added locale strings for resorted AtlasLoot_Crafting to constants.<lang>.lua
-		- added translations for resorted AtlasLoot_Crafting  in most languages except for cn, tw and kr
+		- added translations for resorted AtlasLoot_Crafting in most languages except for cn, tw and kr
 
 AtlasLoot_Crafting
 
