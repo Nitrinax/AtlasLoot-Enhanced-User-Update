@@ -7,13 +7,20 @@ Atlasloot
 		ItemStrings.lua
 
 			- function for SLMaxItemLvl added
-			- constant for LEGION_MAX_UPGRADELVL, BFA_MAX_UPGRADELVL, SL_MAX_UPGRADELVL added
+			- constant for LEGION_MAX_UPGRADELVL, BFA_MAX_UPGRADELVL changed
+			- constant for SL_MAX_UPGRADELVL added
 
 AtlasLoot_Sdhadowlands
 
 		- added new custom module for shadowlands expansion
 		- all currently available shadowlands dungeons included
-		- all currently available shadowlands raids  included
+		- all currently available shadowlands raids included
+
+		- loot for following bosses unknown
+			- Dealer Xy'exa
+			- General Kaal
+			- Amarth <The Harvester>
+			- Mordretha, the Endless Empress
 
 # CHANGES from r4839-u4 to r4839-u5
 
