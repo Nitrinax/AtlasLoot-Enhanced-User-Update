@@ -114,18 +114,6 @@ data["InstanceName"] = {
 }
 ]]
 
--- 1609 	Darkmaul Citadel - Bonebreaker Hall
--- 1610 	Darkmaul Citadel - Terrace of Reanimation
--- data["Darkmaul Citadel"] = {
--- 	--EncounterJournalID = 968,
--- 	MapID = 1609,
--- 	--AtlasMapID = "Darkmaul Citadel",
--- 	ContentType = DUNGEON_CONTENT,
--- 	items = 
--- 	{
--- 	},
--- }
-
 -- 1677 	De Other Side - Ardenweald
 -- 1678 	De Other Side - Mechagon
 -- 1679 	De Other Side - Zul'Gurub

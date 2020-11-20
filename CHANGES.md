@@ -1,3 +1,17 @@
+# CHANGES from r4839-u6 to r4839-u7
+
+AtlasLoot_Classic
+
+	data.lua
+
+		- Darkmaul Citadel in Exil's Reach added as the first dungeon
+
+AtlasLoot_Sdhadowlands
+
+	data.lua
+
+		- data for Darkmaul Citadel moved to AtlasLoot_Classic
+
 # CHANGES from r4839-u5 to r4839-u6
 
 Atlasloot
