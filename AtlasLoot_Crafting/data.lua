@@ -26,6 +26,16 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 local PRIMPROFESSION_CONTENT = data:AddContentType(AL["Primary Professions"], ATLASLOOT_PRIMPROFESSION_COLOR)
 local SECPROFESSION_CONTENT = data:AddContentType(AL["Secondary Professions"], ATLASLOOT_SECPROFESSION_COLOR)
 
+
+--shadowlands	51
+--kul-tiran		148
+--legion		84
+--draenor		46
+--pandaria		35
+--cataclysm		45
+--northrend		66
+--outland		70
+--classic		113
 data["Alchemy"] = {
 	name = GetSpellInfo(2259),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -967,6 +977,15 @@ data["Alchemy"] = {
 	}
 }
 
+--shadowlands	81
+--kul-tiran		201
+--legion		110
+--draenor		29
+--pandaren		167
+--cataclysm		94
+--northrend		130
+--outland		131
+--clasic		243
 data["Blacksmithing"] = {
 	name = GetSpellInfo(2018),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -2135,6 +2154,15 @@ data["Blacksmithing"] = {
 	}
 }
 
+--shadowlands	45
+--kul-tiran		114
+--legion		85
+--draenor		37
+--pandaren		37
+--cataclysm		53
+--northrend		66
+--outland		64
+--clasic		135
 data["Enchanting"] = {
 	name = GetSpellInfo(7411),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -2848,6 +2876,15 @@ data["Enchanting"] = {
 	}
 }
 
+--shadowlands	38
+--kul-tiran		147
+--legion		66
+--draenor		30
+--pandaria		46
+--cataclysm		36
+--northrend		48
+--outland		71
+--clasic		156
 data["Engineering"] = {
 	name = GetSpellInfo(4036),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -3597,6 +3634,15 @@ data["Engineering"] = {
 	}
 }
 
+--shadowlands	45
+--kul-tiran		115
+--legion		149
+--draenor		26
+--pandaria		38
+--cataclysm		38
+--northrend		29
+--outland		11
+--clasic		87
 data["Inscription"] = {
 	name = GetSpellInfo(45357),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -4210,6 +4256,15 @@ data["Inscription"] = {
 	}
 }
 
+--shadowlands	56
+--kul-tiran		78
+--legion		110
+--draenor		36
+--pandaria		197
+--cataclysm		221
+--northrend		215
+--outland		152
+--clasic		74
 data["Jewelcrafting"] = {
 	name = GetSpellInfo(25229),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -5507,6 +5562,15 @@ data["Jewelcrafting"] = {
 	}
 }
 
+--shadowlands	120
+--kul-tiran		228
+--legion		140
+--draenor		62
+--pandaria		255
+--cataclysm		98
+--northrend		160
+--outland		139
+--clasic		269
 data["Leatherworking"] = {
 	name = GetSpellInfo(2108),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -6818,6 +6882,15 @@ data["Leatherworking"] = {
 	}
 }
 
+--shadowlands	
+--kul-tiran		
+--legion		
+--draenor		
+--pandaria		2
+--cataclysm		4
+--northrend		4
+--outland		9
+--clasic		13
 data["Mining"] = {
 	name = GetSpellInfo(2575),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -6935,6 +7008,15 @@ data["Mining"] = {
 	}
 }
 
+--shadowlands	74
+--kul-tiran		143
+--legion		97
+--draenor		31
+--pandaria		132
+--cataclysm		73
+--northrend		100
+--outland		96
+--clasic		241
 data["Tailoring"] = {
 	name = GetSpellInfo(3908),
 	ContentType = PRIMPROFESSION_CONTENT,
@@ -7857,6 +7939,15 @@ data["Tailoring"] = {
 	}
 }
 
+--shadowlands	
+--kul-tiran		
+--legion		
+--draenor		44
+--pandaria		34
+--cataclysm		14
+--northrend		7
+--outland		20
+--clasic		90
 data["Archaeology"] = {
 	name = GetSpellInfo(78670),
 	ContentType = SECPROFESSION_CONTENT,
@@ -8213,6 +8304,15 @@ data["Archaeology"] = {
 	}
 }
 
+--shadowlands	29
+--kul-tiran		75
+--legion		65
+--draenor		29
+--pandaria		67
+--cataclysm		33
+--northrend		46
+--outland		24
+--clasic		110
 data["Cooking"] = {
 	name = GetSpellInfo(2550),
 	ContentType = SECPROFESSION_CONTENT,

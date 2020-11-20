@@ -1,4 +1,15 @@
 - crafting rework
+    - alchemy           100%
+    - blacksmithing     -
+    - enchanting        -
+    - engineering       -
+    - inscription       -
+    - jewelcrafting     -
+    - leatherworking    -
+    - mining            -
+    - tailoring         -
+    - archaeology       stay
+    - cooking           -
+
 - shadowlands covenats
-- shadowlands crafting
 - shadowlands currencies
