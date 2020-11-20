@@ -1,3 +1,135 @@
+# CHANGES from r4839-u8 to r4839-u9
+
+Atlasloot
+
+	Locales
+
+		- added locale strings for resorted AtlasLoot_Crafting to constants.<lang>.lua
+		- added translations for resorted AtlasLoot_Crafting  in most languages except for cn, tw and kr
+
+AtlasLoot_Crafting
+
+	data.lua
+
+		- alchemy recipes checked 100%
+
+		- re-sorts categories in the recipe list to make it look like the list in the in-game recipe book but not identical
+		
+		- categories used for alchemy
+
+			- research
+			- anti-venom
+			- oils
+			- cauldrons
+			- potions
+			- elixirs
+			- flasks
+			- reagents
+			- transmutation
+			- conversion
+			- trinkets			
+			- misc
+
+		Alchemy
+
+			- shadowlands recipes added
+
+				- Bramblethorn Juice
+				- Brutal Oil
+				- Crafter's Mark I
+				- Crafter's Mark II
+				- Crushed Bones
+				- Distilled Resolve
+				- Draught of Grotesque Strength
+				- Elixir of Humility
+				- Embalmer's Oil
+				- Eternal Cauldron
+				- Flask of Measured Discipline
+				- Ground Death Blossom
+				- Ground Marrowroot
+				- Ground Nightshade	
+				- Ground Rising Glory
+				- Ground Vigil's Torch
+				- Ground Widowbloom
+				- Liquid Sleep
+				- Novice Crafter's Mark
+				- Potion of Deathly Fixation
+				- Potion of Divine Awakening
+				- Potion of Empowered Exorcisms
+				- Potion of Hardened Shadows	
+				- Potion of Hibernal Rest
+				- Potion of Phantom Fire
+				- Potion of Sacrificial Anima
+				- Potion of Shaded Sight
+				- Potion of Soul Purity
+				- Potion of Specter Swiftness
+				- Potion of Spectral Agility
+				- Potion of Spectral Intellect
+				- Potion of Spectral Stamina
+				- Potion of Spectral Strength
+				- Potion of Spiritual Clarity
+				- Potion of the Hidden Spirit
+				- Potion of the Psychopomp's Speed
+				- Potion of Unhindered Passing
+				- Powdered Dreamroot
+				- Pulverized Breezebloom
+				- Red Noggin Candle
+				- Refined Submission
+				- Shadestone
+				- Shadowcore Oil
+				- Shadowghast Ingot
+				- Spectral Flask of Power
+				- Spectral Flask of Stamina
+				- Spiritual  Stone
+				- Spiritual Anti-Venom
+				- Spiritual Healing Potion
+				- Spiritual Mana Potion
+				- Spiritual Rejuvenation Potion
+
+			- bfa recipes added
+
+				- Greater Mystical Cauldron
+				- Imbued Alchemist Stone
+				- Emblazoned Alchemist Stone
+				- Eternal Alchemist Stone
+				- Crushing Alchemist Stone
+				- Abyssal Alchemist Stone
+				- Ascended Alchemist Stone
+				- Awakened Alchemist Stone
+				- Peerless Alchemist Stone
+				- Abyssal Healing Potion
+				- Potion of Focused Resolve
+				- Potion of Empowered Proximity
+				- Potion of Unbridled Fury
+				- Potion of Wild Mending
+				- Superior Battle Potion of Stamina
+				- Superior Battle Potion of Agility
+				- Superior Battle Potion of Intellect
+				- Superior Battle Potion of Strength
+				- Superior Steelskin Potion
+				- Vial of Obfuscation
+				- Silas' Sphere of Transmutation
+				- Potion of the Unveiling Eye
+
+			- legion recipes added
+
+				- Potion of Prolonged Power
+				- Silvery Salve
+
+			- warlords recipes added
+
+				- Fire Ammonite Oil
+				- Blackwater Anti-Venom
+				- Healing Tonic
+
+			- cataclysm recipes added
+
+				- Deathblood Venom
+
+			- classic recipes added
+
+				- Potion of Petrification
+
 # CHANGES from r4839-u7 to r4839-u8
 
 AtlasLoot_Factions
