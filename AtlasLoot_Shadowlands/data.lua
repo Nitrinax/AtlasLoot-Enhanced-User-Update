@@ -141,7 +141,7 @@ data["De Other Side"] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 			},
 		},
-		{ -- Millificent Manastorm
+		{ -- Millificent Manastorm <Engineering Genius>
 			EncounterJournalID = 1688,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1, 179335 }, -- Manastorm's Magnificent Threads
@@ -163,17 +163,15 @@ data["De Other Side"] = {
 			},
 		},
 		{ -- Dealer Xy'exa
-			-- currently no dungeon loot known
 			EncounterJournalID = 2398,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1, 000000 }, -- XXXXXXXXXX
-				{ 2, 000000 }, -- XXXXXXXXXX
-				{ 3, 000000 }, -- XXXXXXXXXX
-				{ 4, 000000 }, -- XXXXXXXXXX
-				{ 5, 000000 }, -- XXXXXXXXXX
-				{ 6, 000000 }, -- XXXXXXXXXX
-				{ 7, 000000 }, -- XXXXXXXXXX
-				--{ 7, 179349 }, -- Dealer Xy'exa's Cape
+				{ 1, 179343 }, -- Sash of Exquisite Acquisitions
+				{ 2, 179344 }, -- Far Traveler's Shoulderpads
+				{ 3, 179345 }, -- Spatial Rift Striders
+				{ 4, 179346 }, -- Breastplate of Fatal Contrivances
+				{ 5, 179349 }, -- Dealer Xy'exa's Cape				
+				{ 6, 179350 }, -- Inscrutable Quantum Device			
+				{ 8, 183265 }, -- Memory of a Wildfire Cluster
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -194,6 +192,7 @@ data["De Other Side"] = {
 				{ 8, 183350 }, -- Memory of the Great Sundering
 				{ 9, 183282 }, -- Memory of the Fatal Touch
 				{ 10, 183329 }, -- Memory of a Prism of Shadow and Fire
+				{ 16, 182178 }, -- Raptor Soul
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -325,10 +324,10 @@ data["Mists of Tirna Scithe"] = {
 				{ 5, 178697 }, -- Prankster's Pauldrons
 				{ 6, 178710 }, -- Tanglewood Thorn
 				{ 7, 178707 }, -- Trailspinner Pendant
-				{ 8, 178715 }, -- Mistcaller Ocarina
-				{ 10, 182305 }, -- Crown of Autumnal Flora
-				{ 12, 183266 }, -- Memory of the Disciplinary Command
-				{ 13, 183336 }, -- Memory of the Duskwalker's Patch
+				{ 8, 178715 }, -- Mistcaller Ocarina				
+				{ 10, 183266 }, -- Memory of the Disciplinary Command
+				{ 11, 183336 }, -- Memory of the Duskwalker's Patch
+				{ 16, 182305 }, -- Crown of Autumnal Flora
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -510,18 +509,17 @@ data["Sanguine Depths"] = {
 			},
 		},
 		{ -- General Kaal
-			-- currently no dungeon loot known
 			EncounterJournalID = 2407,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1, 000000 }, -- XXXXXXXXXX
-				{ 2, 000000 }, -- XXXXXXXXXX
-				{ 3, 000000 }, -- XXXXXXXXXX
-				{ 4, 000000 }, -- XXXXXXXXXX
-				{ 5, 000000 }, -- XXXXXXXXXX
-				{ 6, 000000 }, -- XXXXXXXXXX
-				{ 7, 000000 }, -- XXXXXXXXXX
-				{ 9, 000000 }, -- XXXXXXXXXX
-				{ 10, 000000 }, -- XXXXXXXXXX
+				{ 1, 178860 }, -- Cowl of the Devoted General
+				{ 2, 178858 }, -- Wicked Bladewing Pauldrons
+				{ 3, 178840 }, -- Guilewind Stone Talons
+				{ 4, 178857 }, -- Stone General's Edge
+				{ 5, 178856 }, -- Kaal's Gloomblade
+				{ 6, 178861 }, -- Decanter of Anima-Charged Winds
+				{ 7, 178862 }, -- Bladedancer's Armor Kit				
+				{ 9, 183358 }, -- Memory of an Earthen Harmony
+				{ 10, 183289 }, -- Memory of Stormstout
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -650,17 +648,15 @@ data["The Necrotic Wake"] = {
 			},
 		},
 		{ -- Amarth <The Harvester>
-			-- currently no dungeon loot known
 			EncounterJournalID = 2391,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1, 000000 }, -- XXXXXXXXXX
-				{ 2, 000000 }, -- XXXXXXXXXX
-				{ 3, 000000 }, -- XXXXXXXXXX
-				{ 4, 000000 }, -- XXXXXXXXXX
-				{ 5, 000000 }, -- XXXXXXXXXX
-				{ 6, 000000 }, -- XXXXXXXXXX
-				{ 7, 000000 }, -- XXXXXXXXXX
-				--{ 7, 178737 }, -- Amarth's Spellblade
+				{ 1, 178740 }, -- Reanimator's Mantle
+				{ 2, 178741 }, -- Risen Monstrosity Cuffs
+				{ 3, 178738 }, -- Rattling Deadeye Hood
+				{ 4, 178739 }, -- Legplates of Unholy Frenzy
+				{ 5, 178737 }, -- Amarth's Spellblade
+				{ 6, 178742 }, -- Bottled Flayedwing Toxin
+				{ 8, 183387 }, -- Memory of the Deathmaker
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
@@ -723,7 +719,7 @@ data["Theater of Pain"] = {
 	ContentType = DUNGEON_CONTENT,
 	items = 
 	{
-		{ -- An Affront of Challengers
+		{ -- Dessia the Decapitator (An Affront of Challengers)
 			EncounterJournalID = 2397,
 			[NORMAL_DUNGEON_DIFF] = {
 				{ 1, 178803 }, -- Plague-Licked Amice
@@ -798,16 +794,17 @@ data["Theater of Pain"] = {
 			},
 		},
 		{ -- Mordretha, the Endless Empress
-			-- currently no dungeon loot known
 			EncounterJournalID = 2417,
 			[NORMAL_DUNGEON_DIFF] = {
-				{ 1, 000000 }, -- XXXXXXXXXX
-				{ 2, 000000 }, -- XXXXXXXXXX
-				{ 3, 000000 }, -- XXXXXXXXXX
-				{ 4, 000000 }, -- XXXXXXXXXX
-				{ 5, 000000 }, -- XXXXXXXXXX
-				{ 6, 000000 }, -- XXXXXXXXXX
-				{ 7, 000000 }, -- XXXXXXXXXX
+				{ 1, 178804 }, -- Fallen Empress's Cord
+				{ 2, 178797 }, -- Vanquished Usurper's Footpads
+				{ 3, 178802 }, -- Unyielding Combatant's Pauldrons
+				{ 4, 178867 }, -- Barricade of the Endless Empire
+				{ 5, 178868 }, -- Deathwalker's Promise
+				{ 6, 178872 }, -- Ring of Perpetual Conflict
+				{ 7, 178811 }, -- Grim Codex
+				{ 9, 183314 }, -- Memory of Cauterizing Shadows
+				{ 10, 183225 }, -- Memory of Lycara
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
