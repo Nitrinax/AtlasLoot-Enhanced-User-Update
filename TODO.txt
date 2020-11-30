@@ -1,1 +1,4 @@
-- shadowlands boe (collections)
+- shadowlands
+
+    - boe (collections)			https://de.wowhead.com/items/quality:3:4?filter=82:3:86;2:1:12;90001:0:0#items;0-2+18
+    - crafting

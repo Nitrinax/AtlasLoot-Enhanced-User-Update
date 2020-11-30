@@ -4,25 +4,27 @@ AtlasLoot_Shadowlands
 
 	Loot added
 
-		- De Other Side
+		Dungeons
 
-			- Dealer Xy'exa
+			- De Other Side
 
-			- Mueh'zala
+				- Dealer Xy'exa
 
-				- Raptor Soul
+				- Mueh'zala
 
-		- Sanguine Depths
+					- Raptor Soul
 
-			- General Kaal
+			- Sanguine Depths
 
-		- The Necrotic Wake
+				- General Kaal
 
-			- Amarth <The Harvester>
+			- The Necrotic Wake
 
-		- Theater of Pain
+				- Amarth <The Harvester>
 
-			- Mordretha, the Endless Empress
+			- Theater of Pain
+
+				- Mordretha, the Endless Empress
 
 # CHANGES from r4839-u8 to r4839-u9
 
