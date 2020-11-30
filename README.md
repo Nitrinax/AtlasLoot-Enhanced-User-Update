@@ -4,7 +4,7 @@
 
 #### This is not a **replacement** or **fork**. It is an update. Please read the [INSTALLATION](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/blob/main/INSTALLATION.md) instructions first.
 
-It based on the last Version of *AtlasLoot Enhanced* v8.13.00 from [curseforge](https://www.curseforge.com/wow/addons/atlasloot-enhanced) and Version r4839-alpha from [wowace](https://www.wowace.com/projects/atlasloot-enhanced/files)
+It based on the last *AtlasLoot Enhanced* Version v8.13.00 from [curseforge](https://www.curseforge.com/wow/addons/atlasloot-enhanced) and Version r4839-alpha from [wowace](https://www.wowace.com/projects/atlasloot-enhanced/files)
 
 See detailed changes in [CHANGES](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/blob/main/CHANGES.md) log.
 
