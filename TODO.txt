@@ -1,4 +1,35 @@
 - shadowlands
 
-    - boe (collections)			https://de.wowhead.com/items/quality:3:4?filter=82:3:86;2:1:12;90001:0:0#items;0-2+18
     - crafting
+
+    - dropquests from different areas as a new module
+
+    - covenants as a new module or integrated in factions
+
+    - vendor
+
+        - Ardenweald
+
+            - Master Clerk Salorn <Tickets and Patron Rewards>              https://www.wowhead.com/npc=163714/master-clerk-salorn
+
+            - Heart of the Forest
+
+                - Elwyn <Renown Quartermaster>                              https://www.wowhead.com/npc=174914/elwyn
+                - Mar'lan <Night Fae Armor Trader>                          https://www.wowhead.com/npc=175418/marlan
+                - Aithlyn <Wild Hunt Quartermaster>                         https://www.wowhead.com/npc=158556/aithlyn
+
+                - Nathrian Weaponsmith
+
+                    - Sparklebreeze <Raid Finder Nathrian Weaponsmith>      https://www.wowhead.com/npc=175413/sparklebreeze
+                    - Adera <Normal Nathrian Weaponsmith>                   https://www.wowhead.com/npc=175414/adera
+                    - Harkoth <Heroic Nathrian Weaponsmith>                 https://www.wowhead.com/npc=175415/harkoth
+                    - Sulanoom <Mythic Nathrian Weaponsmith>                https://www.wowhead.com/npc=175417/sulanoom
+
+        Oribos
+
+            - Purveyor Zo'kuul <Assessor of Conflict>                       https://www.wowhead.com/npc=164095/purveyor-zokuul
+
+        Torghast
+
+            - Broker Ve'ken                                                 https://www.wowhead.com/npc=152594/broker-veken
+            - Broker Ve'nott                                                https://www.wowhead.com/npc=170257/broker-venott

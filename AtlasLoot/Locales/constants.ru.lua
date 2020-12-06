@@ -306,3 +306,10 @@ AL["Special Events"] = "Специальные мероприятия"
 --DeathsRising
 AL["DeathsRising"] = "Приход Смерти"
 --crafting rework
+--shadowlands
+AL["Dubious"] = "Вопросник на"
+AL["Apprehensive"] = "Опасающийся"
+AL["Tentative"] = "Предварительный сайт"
+AL["Ambivalent"] = "Двусмысленный"
+AL["Cordial"] = "Сердечный"
+AL["Appreciative"] = "Благодарим"

@@ -22,6 +22,7 @@ local ClickHandler = AtlasLoot.ClickHandler
 	7. Revered
 	8. Exalted
 	-- if rep index is in between 11 and 16, means it has friendship reputation
+	-- if rep index is in between 21 and 26, means it has venari reputation
 ]]
 
 --[[
@@ -41,6 +42,30 @@ local FRIEND_REP_TEXT = {
 	[16] = BF["Best Friend"],
 }
 
+--[[
+	1 => 21 - Dubious
+	2 => 22 - Apprehensive
+	3 => 23 - Tentative
+	4 => 24 - Ambivalent
+	5 => 25 - Cordial
+	6 => 26 - Appreciative
+]]
+-- local VENARI_REP_TEXT = {
+-- 	[21] = BF["Dubious"],
+-- 	[22] = BF["Apprehensive"],
+-- 	[23] = BF["Tentative"],
+-- 	[24] = BF["Ambivalent"],
+-- 	[25] = BF["Cordial"],
+-- 	[26] = BF["Appreciative"],
+-- }
+local VENARI_REP_TEXT = {
+	[21] = AL["Dubious"],
+	[22] = AL["Apprehensive"],
+	[23] = AL["Tentative"],
+	[24] = AL["Ambivalent"],
+	[25] = AL["Cordial"],
+	[26] = AL["Appreciative"],
+}
 
 local FactionClickHandler
 local PlayerSex
@@ -189,6 +214,18 @@ local FACTION_IMAGES = {
 	[2395] = "Interface\\Icons\\inv_bee_default", -- Honeyback Hive
 	
 	-- Shadowlands
+	[2413] = "Interface\\Icons\\INV_Tabard_Revendreth_D_01", -- Court of Harvesters
+	--[2464] = "Interface\\Icons\\Achievement_Reputation_08", -- Court of Night
+	--[2463] = "Interface\\Icons\\Achievement_Reputation_08", -- Marasmius
+	--[2422] = "Interface\\Icons\\Achievement_Reputation_08", -- Night Fae
+	--[2462] = "Interface\\Icons\\Achievement_Reputation_08", -- Stitchmasters
+	[2407] = "Interface\\Icons\\INV_Tabard_Bastion_D_01", -- The Ascended
+	--[2439] = "Interface\\Icons\\Achievement_Reputation_08", -- The Avowed
+	--[2445] = "Interface\\Icons\\Achievement_Reputation_08", -- The Ember Court
+	[2410] = "Interface\\Icons\\INV_Tabard_Maldraxxus_D_01", -- The Undying Army
+	[2465] = "Interface\\Icons\\INV_Tabard_Ardenweald_D_01", -- The Wild Hunt
+	--[2432] = "Interface\\Icons\\Achievement_Reputation_08", -- Ve'nari
+
 }
 
 local FACTION_KEY = {
@@ -314,28 +351,42 @@ local FACTION_KEY = {
 	[2417] = "Uldum Accord",
 	[2373] = "The Unshackled",
 	[2400] = "Waveblade Ankoan",
-	[2395] = "Honeyback Hive",
-	
+	[2395] = "Honeyback Hive",	
 	-- Shadowlands
-	
-	--- Alliance
-	[2159] = "7th Legion",
-	[2160] = "Proudmoore Admiralty",
-	[2161] = "Order of Embers",
-	[2162] = "Storm's Wake",
-	--- Horde
-	[2157] = "The Honorbound",
-	[2103] = "Zandalari Empire",
-	[2156] = "Talanji's Expedition",
-	[2158] = "Voldunai",
-	--- All
-	[2163] = "Tortollan Seekers",
-	[2164] = "Champions of Azeroth",
+	[2450] = "Alexandros Mograine",
+	[2446] = "Baroness Vashj",
+	[2454] = "Choofa",
+	[2413] = "Court of Harvesters",
+	[2464] = "Court of Night",
+	[2455] = "Cryptkeeper Kassir",
+	[2456] = "Droman Aliothe",
+	[2457] = "Grandmaster Vole",
+	[2451] = "Hunt-Captain Korayn",
+	[2458] = "Kleia and Pelagos",
+	[2447] = "Lady Moonberry",
+	[2463] = "Marasmius",
+	[2448] = "Mikanikos",
+	[2422] = "Night Fae",
+	[2461] = "Plague Deviser Marileth",
+	[2452] = "Polemarch Adrestes",
+	[2453] = "Rendle and Cudgelface",
+	[2459] = "Sika",
+	[2462] = "Stitchmasters",
+	[2460] = "Stonehead",
+	[2407] = "The Ascended",
+	[2439] = "The Avowed",
+	[2449] = "The Countess",
+	[2445] = "The Ember Court",
+	[2410] = "The Undying Army",
+	[2465] = "The Wild Hunt",
+	[2432] = "Ve'nari",
 	
 }
 
 local function GetLocRepStanding(id)
-	if (id > 10) then
+	if (id > 20) then		
+		return VENARI_REP_TEXT[id] or FACTION_STANDING_LABEL4_FEMALE
+	elseif (id > 10) then
 		return FRIEND_REP_TEXT[id] or FACTION_STANDING_LABEL4_FEMALE
 	else
 		return PlayerSex==3 and _G["FACTION_STANDING_LABEL"..(id or 4).."_FEMALE"] or _G["FACTION_STANDING_LABEL"..(id or 4)]
@@ -486,7 +537,7 @@ function Faction.Refresh(button)
 		-- ##################
 		button.icon:SetTexture(FACTION_IMAGES[button.FactionID] or FACTION_IMAGES[0])
 		
-		local reqRepText = friendID and FRIEND_REP_TEXT[button.RepID] or GetLocRepStanding(button.RepID or standingID) or ""
+		local reqRepText = friendID and VENARI_REP_TEXT[button.RepID] or FRIEND_REP_TEXT[button.RepID] or GetLocRepStanding(button.RepID or standingID) or ""
 		
 		if button.RepID and standingID and button.RepID > standingID then
 			button.icon:SetDesaturated(true)
@@ -600,4 +651,3 @@ function Faction.ShowToolTipFrame(button)
 	frame:SetHeight(20+21+frame.desc:GetHeight()+5)
 	frame:Show()
 end
-

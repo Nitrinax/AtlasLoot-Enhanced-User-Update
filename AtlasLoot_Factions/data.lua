@@ -27,6 +27,7 @@ local FACTION_CONTENT = data:AddContentType(AL["Factions"], ATLASLOOT_FACTION_CO
 	7. Revered
 	8. Exalted
 	-- if rep index is in between 11 and 16, means it has friendship reputation
+	-- if rep index is in between 21 and 26, means it has venari reputation
 ]]
 
 data["SLFACTIONS"] = {
@@ -95,12 +96,15 @@ data["SLFACTIONS"] = {
 				{ 12, 183053 }, -- Umbral Scythehorn
 				{ 13, 180415 }, -- Winterborn Runestag
 				{ 16, "f2464rep8" }, -- Exalted
-				{ 17, 184114 }, -- Ensemble: Winterborn Regalia
+				{ 17, 184116 }, -- Ensemble: Winterborn Guise
+				{ 18, 184115 }, -- Ensemble: Winterborn Raiment
+				{ 19, 184114 }, -- Ensemble: Winterborn Regalia
+				{ 20, 184117 }, -- Ensemble: Winterborn Warbark
 			},
 		},
 		{ -- AH Marasmius
 			-- To unlock this reputation you need Night Fae Covenant and complete a quickly questline.
-			FactionID = 2464,
+			FactionID = 2463,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
 				{ 1, "f2464rep5" }, -- Friendly
@@ -150,14 +154,15 @@ data["SLFACTIONS"] = {
 				{ 13, 184734 }, -- Bracers of Regret
 				{ 14, 184733 }, -- Wristclamps of Remorse
 				{ 15, 183243 }, -- Memory of the Arbiter's Judgment
-				{ 16, "f2407rep8" }, -- Exalted
-				{ 17, 184729 }, -- Masque of the Path
-				{ 18, 184731 }, -- Gorget of the Path
-				{ 19, 184730 }, -- Cowl of the Path
-				{ 20, 184728 }, -- Casque of the Path
-				{ 21, 184351 }, -- Illusion: Devoted Spirit
-				{ 22, 183097 }, -- Schematic: PHA7-YNX
-				{ 23, 178991 }, -- Tabard of the Ascended
+				{ 16, 184410 }, -- Aspirant's Stretcher
+				{ 18, "f2407rep8" }, -- Exalted
+				{ 19, 184729 }, -- Masque of the Path
+				{ 20, 184731 }, -- Gorget of the Path
+				{ 21, 184730 }, -- Cowl of the Path
+				{ 22, 184728 }, -- Casque of the Path
+				{ 23, 184351 }, -- Illusion: Devoted Spirit
+				{ 24, 183097 }, -- Schematic: PHA7-YNX
+				{ 25, 178991 }, -- Tabard of the Ascended
 			},
 		},
 		{ -- AH The Avowed
@@ -166,19 +171,19 @@ data["SLFACTIONS"] = {
 			[NORMAL_DIFF] = {
 				--{ 1, "f2439rep5" }, -- Friendly
 				--{ 2, 000000 }, -- 
-				--{ 4, "f2439rep6" }, -- Honored
-				--{ 5, 000000 }, -- 
-				{ 1, "f2439rep7" }, -- Revered
-				{ 2, 183866 }, -- Formula: Crafter's Mark III
-				{ 3, 183869 }, -- Pattern: Crafter's Mark III
-				{ 4, 183871 }, -- Pattern: Crafter's Mark III
-				{ 5, 183864 }, -- Plans: Crafter's Mark III
-				{ 6, 183868 }, -- Recipe: Crafter's Mark III
-				{ 7, 183867 }, -- Schematic: Crafter's Mark III
-				{ 8, 183865 }, -- Technique: Crafter's Mark III
-				{ 9, 184219 }, -- Treatise on Sinstone Fragment Acquisition
-				{ 10, 182890 }, -- Rapid Recitation Quill
-				{ 11, 180940 }, -- Ebony Crypt Keeper's Mantle
+				{ 1, "f2439rep6" }, -- Honored
+				{ 2, 184222 }, -- Lemet's Requisition Orders
+				{ 4, "f2439rep7" }, -- Revered
+				{ 5, 183866 }, -- Formula: Crafter's Mark III
+				{ 6, 183869 }, -- Pattern: Crafter's Mark III
+				{ 7, 183871 }, -- Pattern: Crafter's Mark III
+				{ 8, 183864 }, -- Plans: Crafter's Mark III
+				{ 9, 183868 }, -- Recipe: Crafter's Mark III
+				{ 10, 183867 }, -- Schematic: Crafter's Mark III
+				{ 11, 183865 }, -- Technique: Crafter's Mark III
+				{ 12, 184219 }, -- Treatise on Sinstone Fragment Acquisition
+				{ 13, 182890 }, -- Rapid Recitation Quill
+				{ 14, 180940 }, -- Ebony Crypt Keeper's Mantle
 				{ 16, "f2439rep8" }, -- Exalted
 				{ 17, 184221 }, -- Archivist's Quill
 				{ 18, 184218 }, -- Vulgarity Arbiter
@@ -261,6 +266,39 @@ data["SLFACTIONS"] = {
 				{ 26, 183134 }, -- Illusion: Hunt's Favor
 				{ 27, 180729 }, -- Duskflutter Ardenmoth
 				{ 28, 178336 }, -- Tabard of the Wild Hunt
+			},
+		},
+		{ -- AH Ve'nari - https://de.wowhead.com/guides/venari-reputation-guide
+			FactionID = 2432,
+			CoinTexture = "Reputation",
+			[NORMAL_DIFF] = {
+				{ 1, "f2432rep21" }, -- Dubious
+				{ 2, 180817, [PRICE_EXTRA_ITTYPE] = "Stygia:60" }, -- Cypher of Relocation
+				{ 4, "f2432rep22" }, -- Apprehensive
+				{ 5, 184620, [PRICE_EXTRA_ITTYPE] = "Stygia:527" }, -- Vessel of Unfortunate Spirits
+				{ 6, 184615, [PRICE_EXTRA_ITTYPE] = "Stygia:800" }, -- Vessel of Unfortunate Spirits
+				{ 7, 180953, [PRICE_EXTRA_ITTYPE] = "Stygia:205" }, -- Soultwinning Scepter
+				{ 8, 181245, [PRICE_EXTRA_ITTYPE] = "Stygia:165" }, -- Oil of Ethereal Force
+				{ 10, "f2432rep23" }, -- Tentative
+				{ 11, 184651, [PRICE_EXTRA_ITTYPE] = "Stygia:230" }, -- Maw-Touched Miasma
+				{ 12, 184664, [PRICE_EXTRA_ITTYPE] = "Stygia:210" }, -- Sticky-Fingered Skeletal Hand
+				{ 13, 184617, [PRICE_EXTRA_ITTYPE] = "Stygia:1135" }, -- Bangle of Seniority
+				{ 14, 184605, [PRICE_EXTRA_ITTYPE] = "Stygia:666" }, -- Sigil of the Unseen
+				{ 15, 184653, [PRICE_EXTRA_ITTYPE] = "Stygia:1050" }, -- Animated Levitating Chain
+				{ 16, 180949, [PRICE_EXTRA_ITTYPE] = "Stygia:1650" }, -- Animaflow Stabilizer
+				{ 18, "f2432rep24" }, -- Ambivalent
+				{ 19, 184588, [PRICE_EXTRA_ITTYPE] = "Stygia:775" }, -- Soul-Stabilizing Talisman
+				{ 20, 184621, [PRICE_EXTRA_ITTYPE] = "Stygia:1025" }, -- Ritual Prism of Fortune
+				{ 21, 184652, [PRICE_EXTRA_ITTYPE] = "Stygia:3760" }, -- Phantasmic Infuser
+				{ 22, 183248, [PRICE_EXTRA_ITTYPE] = "Stygia:4986" }, -- Memory of Jailer's Eye
+				{ 24, "f2432rep25" }, -- Cordial
+				{ 25, 184619, [PRICE_EXTRA_ITTYPE] = "Stygia:1330" }, -- Loupe of Unusual Charm
+				{ 26, 184618, [PRICE_EXTRA_ITTYPE] = "Stygia:1575" }, -- Rank Insignia: Acquisitionist
+				{ 27, 184359, [PRICE_EXTRA_ITTYPE] = "Stygia:1900" }, -- Unbound Reality Fragment
+				{ 28, 183870, [PRICE_EXTRA_ITTYPE] = "Stygia:300" }, -- Recipe: Crafter's Mark II
+				{ 101, "f2432rep26" }, -- Appreciative
+				{ 102, 180952, [PRICE_EXTRA_ITTYPE] = "Stygia:1525" }, -- Possibility Matrix
+				{ 103, 184361, [PRICE_EXTRA_ITTYPE] = "Stygia:7200" }, -- Spatial Realignment Apparatus
 			},
 		},
 	}

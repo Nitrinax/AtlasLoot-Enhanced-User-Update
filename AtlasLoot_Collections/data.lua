@@ -47,6 +47,10 @@ end
 
 local NEUTRAL_DIFF = data:AddDifficulty(FACTION_STANDING_LABEL4)
 
+local NORMAL190_DIFF = data:AddDifficulty("QL190", "n", nil, 14)
+local NORMAL200_DIFF = data:AddDifficulty("QL200", "n", nil, 14)
+local NORMAL207_DIFF = data:AddDifficulty("QL207", "n", nil, 14)
+
 local NORMAL_ITTYPE = data:AddItemTableType("Item", "Item")
 local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Warforged...
 local SET_ITTYPE = data:AddItemTableType("Set", "Item") -- Normal, Thunder-/Warforged...
@@ -698,12 +702,87 @@ data["BOEWORLDEPICS"] = {
 	name = AL["BoE World Epics"],
 	ContentType = COLLECTION_CONTENT,
 	items = {
-		-- { -- Shadowlands
-		-- 	name = EXPANSION_NAME8,
-		-- 	[NORMAL_DIFF] = {
-		-- 		{ 1, 000000 },	-- XXXXXXXXXX
-		-- 	},
-		-- },
+		{ -- Shadowlands
+			name = EXPANSION_NAME8,
+			[NORMAL_DIFF] = {
+				--wrist
+				{ 1, 180552 },	-- Wristguards of the Dark Keepers
+				--1hand
+				{ 3, 183974 },	-- Ember Court Ceremonial Dagger
+			},
+			[NORMAL190_DIFF] = {
+				--shoulder
+				{ 1, 184809 },	-- Tabone's Branded Pauldrons
+				--back
+				{ 3, 184781 },	-- Fate-Sewn Shawl
+				--hands
+				{ 5, 184808 },	-- Desm's Fistos
+				--waist
+				{ 7, 184788 },	-- Kit Jin's Sultry Cinch
+				--feet
+				{ 9, 184789 },	-- Nyte's Mischievous Treads
+				{ 10, 184792 },	-- Haru Kiemund's Sabatons
+				--finger
+				{ 12, 184783 },	-- Muirnne's Stormforged Signet
+				--1hand
+				{ 16, 184797 },	-- Zink's Subtle Shank
+				{ 17, 184798 },	-- Hishtar's Severe Stiletto
+				{ 18, 184799 },	-- Wolf-Fanged Fist
+				{ 19, 184802 },	-- Jenrette's Jagged Warglaive
+				{ 20, 184800 },	-- Klontzas' Precise Pummeler
+				{ 21, 184801 },	-- Locke's Essential Scepter
+				--2hand
+				{ 23, 184804 },	-- Ulfius' Calming Claymore
+				{ 24, 184803 },	-- Halberd of Agthia
+				--ranged
+				{ 26, 184805 },	-- Ballista of Buried Kings
+				--shield
+				{ 28, 184806 },	-- Kudebeh's Remarkable Targe
+				{ 29, 181393 },	-- Sylvan Whiteshield
+			},
+			[NORMAL200_DIFF] = {
+				--back
+				{ 1, 184778 },	-- Decadent Nathrian Shawl
+				--wrist
+				{ 3, 183017 },	-- Acolyte's Velvet Bindings
+				{ 4, 182978 },	-- Barkweave Wristwraps
+				{ 5, 182982 },	-- Watchful Arbelist's Bracers
+				{ 6, 183031 },	-- Soldier's Stoneband Wristguards
+				--hands
+				{ 8, 183008 },	-- Supple Supplicant's Gloves
+				{ 9, 183013 },	-- Fallen Templar's Gauntlets
+				--feet
+				{ 11, 183010 },	-- Stud-Scarred Footwear
+				{ 12, 182990 },	-- Legionnaire's Bloodstained Sabatons
+				--finger
+				{ 14, 183035 },	-- Ardent Sunstar Signet
+			},
+			[NORMAL207_DIFF] = {
+				--head
+				{ 1, 184791 },	-- Azsharys' Lunar Veil
+				--neck
+				{ 3, 184785 },	-- Gaiazelle's Spiked Collar
+				--shoulder
+				{ 5, 184787 },	-- Elohin's Burden of Patience
+				--back
+				{ 7, 184782 },	-- Gast's Cloak of Compression
+				--chest
+				{ 9, 184786 },	-- Joyia's Raiment of Conviction
+				{ 10, 184795 },	-- Tharatos' Charred Chestplate
+				--hands
+				{ 12, 184790 },	-- Archdruid Van-Yali's Greenthumbs
+				--waist
+				{ 14, 184794 },	-- Viller's Traveling Chain
+				--legs
+				{ 16, 184793 },	-- Huntmaster Sullivan's Greaves
+				--feet
+				{ 18, 184796 },	-- Baetheas' Ironclad Warboots
+				--finger
+				{ 20, 184784 },	-- Punishing Loop
+				--trinket
+				{ 22, 184807 },	-- Relic of the First Ones
+			},
+		},
 		{ -- Battle for Azeroth
 			name = EXPANSION_NAME7,
 			[NORMAL_DIFF] = {

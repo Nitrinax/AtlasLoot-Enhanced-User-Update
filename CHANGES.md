@@ -1,3 +1,132 @@
+# CHANGES from r4839-u11 to r4839-u12
+
+Atlasloot
+
+	Button
+
+		Extra_Price_type.lua
+
+			- shadowlands currencies added
+
+				- Phantasma
+				- Stygia
+				- Honor
+				- Redeemed Soul
+				- Reservoir Anima
+				- Sinstone Fragments
+				- Medallion of Service
+				- Infused Ruby
+				- Renown
+				- Soul Ash
+				- Grateful Offering
+
+		Faction_type.lua
+
+			- Ve'nari rep table added 
+
+			- code added to include Ve'nari rep table
+
+			- shadowlands faction id's added
+
+				- Alexandros Mograine
+				- Baroness Vashj
+				- Choofa
+				- Court of Harvesters
+				- Court of Night
+				- Cryptkeeper Kassir
+				- Droman Aliothe
+				- Grandmaster Vole
+				- Hunt-Captain Korayn
+				- Kleia and Pelagos
+				- Lady Moonberry
+				- Marasmius
+				- Mikanikos
+				- Night Fae
+				- Plague Deviser Marileth
+				- Polemarch Adrestes
+				- Rendle and Cudgelface
+				- Sika
+				- Stitchmasters
+				- Stonehead
+				- The Ascended
+				- The Avowed
+				- The Countess
+				- The Ember Court
+				- The Undying Army
+				- The Wild Hunt
+				- Ve'nari
+
+			- faction icons added
+
+				- Court of Harvesters
+				- Court of Night
+				- Marasmius
+				- Night Fae
+				- Stitchmasters
+				- The Ascended
+				- The Avowed
+				- The Ember Court
+				- The Undying Army
+				- The Wild Hunt
+				- Ve'nari
+
+			- Ve'nari rep table modified to use own translations, because LibBabble-Faction-3.0 has no translations for the steps of the venari rep table
+
+	Locales
+
+		- added locale strings for Ve'nari rep table to constants.<lang>.lua
+		- added translations for Ve'nari rep table in most languages except for cn, tw and kr, but im not sure that the translations are correct
+
+AtlasLoot_Collections
+
+	data.lua
+
+		- shadowlands epic world drops (boe) added
+
+AtlasLoot_Factions
+
+	data.lua
+
+		Faction loot added
+
+			Court of Night
+
+				- Ensemble: Winterborn Guise
+				- Ensemble: Winterborn Raiment
+				- Ensemble: Winterborn Warbark
+
+			The Ascended
+
+				- Aspirant's Stretcher
+
+			The Avowed
+
+				- Lemet's Requisition Orders
+
+			Ve'nari
+
+				- Cypher of Relocation
+				- Vessel of Unfortunate Spirits
+				- Vessel of Unfortunate Spirits
+				- Soultwinning Scepter
+				- Oil of Ethereal Force
+				- Maw-Touched Miasma
+				- Sticky-Fingered Skeletal Hand
+				- Bangle of Seniority
+				- Sigil of the Unseen
+				- Animated Levitating Chain
+				- Animaflow Stabilizer
+				- Soul-Stabilizing Talisman
+				- Ritual Prism of Fortune
+				- Phantasmic Infuser
+				- Memory of Jailer's Eye
+				- Loupe of Unusual Charm
+				- Rank Insignia: Acquisitionist
+				- Unbound Reality Fragment
+				- Recipe: Crafter's Mark II
+				- Possibility Matrix
+				- Spatial Realignment Apparatus
+
 # CHANGES from r4839-u10 to r4839-u11
 
 Code Cleanup

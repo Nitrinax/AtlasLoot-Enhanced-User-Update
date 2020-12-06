@@ -29,6 +29,8 @@ local STRING_RED = "|cffff0000"
 local STRING_GREEN = "|cff1eff00"
 
 local PRICE_INFO = {
+	--["XXXXXXXXXX"] 	= { itemID = 000000 }, -- 
+	-- shadowlands
 	-- items
 	["SerpentScale"] = { itemID = 174230 }, -- Pristine Cloud Serpent Scale, added in patch 8.3.0.33062
 	["RoyalJelly"] = { itemID = 168828 }, -- Royal Jelly, added in patch 8.2.5.31958
@@ -147,7 +149,21 @@ local PRICE_INFO = {
 	["78875"] = { itemID = 78875 }, -- Shoulders of the Corrupted Conqueror
 	["78876"] = { itemID = 78876 }, -- Shoulders of the Corrupted Protector
 	-- currencies
-	["ArgentCommendation"] = { currencyID = 1754 }, -- Argent Commendation, added in patch 9.0.1.36216					
+	--["XXXXXXXXXX"] 	= { currencyID = 000000 }, -- 
+	-- shadowlands	
+	["Phantasma"] 	= { currencyID = 1728 }, -- Phantasma, Added in patch 9.0.1.36216
+	["ArgentCommendation"] = { currencyID = 1754 }, -- Argent Commendation, added in patch 9.0.1.36216
+	["Stygia"] 	= { currencyID = 1767 }, -- Stygia, Added in patch 9.0.1.36216
+	["Honor"] 	= { currencyID = 1792 }, -- Honor,Added in patch 9.0.1.36216
+	["RedeemedSoul"] 	= { currencyID = 1810 }, -- Redeemed Soul, Added in patch 9.0.1.36216
+	["ReservoirAnima"] 	= { currencyID = 1813 }, -- Reservoir Anima, Added in patch 9.0.1.36216
+	["SinstoneFragments"] 	= { currencyID = 1816 }, -- Sinstone Fragments, Added in patch 9.0.1.36216
+	["MedallionofService"] 	= { currencyID = 1819 }, -- Medallion of Service, Added in patch 9.0.1.36216
+	["InfusedRuby"] 	= { currencyID = 1820 }, -- Infused Ruby, Added in patch 9.0.1.36216
+	["Renown"] 	= { currencyID = 1822 }, -- Renown, Added in patch 9.0.1.36216
+	["SoulAsh"] 	= { currencyID = 1828 }, --Soul Ash, Added in patch 9.0.1.36216
+	["GratefulOffering"] 	= { currencyID = 1885 }, -- Grateful Offering, Added in patch 9.0.2.36639	
+	--- bfa			
 	["EchoesofNyalotha"]	= { currencyID = 1803 }, -- Echoes of Nyalotha, added in patch 8.3.7.35249
 	["CoalescingVisions"]	= { currencyID = 1755 }, -- Coalescing Visions, added in patch 8.3.0.33062
 	["CorruptedMementos"]	= { currencyID = 1719 }, -- Corrupted Mementos, added in patch 8.3.0.33062

@@ -198,3 +198,10 @@ AL["Special Events"] = "Eventos especiais"
 --DeathsRising
 AL["DeathsRising"] = "Morte Ascendente"
 --crafting rework
+--shadowlands
+AL["Dubious"] = "Dubious"
+AL["Apprehensive"] = "Apreensivo"
+AL["Tentative"] = "Tentativa"
+AL["Ambivalent"] = "Ambivalente"
+AL["Cordial"] = "Cordial"
+AL["Appreciative"] = "Apreciativo"

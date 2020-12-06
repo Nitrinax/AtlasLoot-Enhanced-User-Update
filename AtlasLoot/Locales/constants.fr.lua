@@ -305,3 +305,10 @@ AL["Special Events"] = "Événements spéciaux"
 --DeathsRising
 AL["DeathsRising"] = "Nécromancie"
 --crafting rework
+--shadowlands
+AL["Dubious"] = "Douteux"
+AL["Apprehensive"] = "Inquiétude"
+AL["Tentative"] = "Tentative"
+AL["Ambivalent"] = "Ambivalent"
+AL["Cordial"] = "Cordial"
+AL["Appreciative"] = "Appréciations"
