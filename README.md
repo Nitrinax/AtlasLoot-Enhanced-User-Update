@@ -9,3 +9,6 @@ It based on the last *AtlasLoot Enhanced* Version v8.13.00 from [curseforge](htt
 See detailed changes in [CHANGES](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/blob/main/CHANGES.md) log.
 
 Please report Bugs on the [Issues](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/issues) Page.
+
+```diff
+- Please note: The next update will not be released until January.
