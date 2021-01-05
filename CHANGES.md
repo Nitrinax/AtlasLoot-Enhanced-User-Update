@@ -1,3 +1,9 @@
+# CHANGES from r4839-u12 to r4839-u13
+
+AtlasLoot_Shadowlands
+
+	- AtlasLoot_Shadowlands.toc file fixed
+
 # CHANGES from r4839-u11 to r4839-u12
 
 Atlasloot
@@ -70,7 +76,7 @@ Atlasloot
 				- The Wild Hunt
 				- Ve'nari
 
-			- Ve'nari rep table modified to use own translations, because LibBabble-Faction-3.0 has no translations for the steps of the venari rep table
+			- Ve'nari rep table modified to use own translations, because LibBabble-Faction-3.0 has no translations for the steps of the Ve'nari rep table
 
 	Locales
 
