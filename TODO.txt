@@ -1,10 +1,53 @@
-- shadowlands
+- AtlasLoot_PvP
 
-    - crafting
+        - new module
+        - pushing pvp content to this module
+        - add shadowlands pvp content
 
-    - dropquests from different areas as a new module
+- AtlasLoot_MicroEvents
 
-    - covenants as a new module or integrated in factions
+        - new module
+
+- AtlasLoot_Crafting
+
+        - rework
+
+            - reorganization of categories according to ingame profession window
+            - add new recipes
+            - add forgotten recipes
+            - adjust modified recipes
+            - remove removed recipes
+
+- AtlasLoot_WorldEvents
+
+        - *maybe* rework module
+
+- AtlasLoot_Collections
+
+    - integrating
+
+        - raid token info
+
+        - mount equipment
+
+        - dropquests from different areas
+
+        - class specials for class specific spells
+
+            - hunter knowledge of taming
+            - mage sheep variants
+            - shaman hex variants
+            - warlock spell color
+            - paladin mount
+            ...
+
+- AtlasLoot_Shadowlands
+
+    - *maybe* covenants as a new module
+
+    - *maybe* souldbinds as a new module
+
+    - *maybe* Runecarving Power for legendary armor as a new module
 
     - vendor
 

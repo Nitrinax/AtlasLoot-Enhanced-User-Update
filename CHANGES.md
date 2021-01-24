@@ -1,5 +1,9 @@
 # CHANGES from r4839-u12 to r4839-u13
 
+File KNOWNBUGS.md added
+
+TODO.txt reworked
+
 AtlasLoot_Shadowlands
 
 	- AtlasLoot_Shadowlands.toc file fixed
