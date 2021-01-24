@@ -9,3 +9,6 @@ It based on the last *AtlasLoot Enhanced* Version v8.13.00 from [curseforge](htt
 See detailed changes in [CHANGES](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/blob/main/CHANGES.md) log.
 
 Please report Bugs on the [Issues](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/issues) Page.
+
+If translations are incorrect or missing, please open an [issue](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/issues).
+Especially chinese, korean and taiwanese I can't translate. But also translations into other languages can be missing or incorrect.
