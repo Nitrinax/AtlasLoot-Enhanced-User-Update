@@ -1,3 +1,7 @@
+```diff
+- Please note: The next update will not be released until January 2021.
+```
+
 # AtlasLoot Enhanced User Update
 
 ### This is an *AtlasLoot Enhanced* User Update that contains changes and/or additions that are not yet included in the current *AtlasLoot Enhanced* version.
