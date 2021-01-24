@@ -1,13 +1,3 @@
-- AtlasLoot_PvP
-
-        - new module
-        - pushing pvp content to this module
-        - add shadowlands pvp content
-
-- AtlasLoot_MicroEvents
-
-        - new module
-
 - AtlasLoot_Crafting
 
         - rework
@@ -18,9 +8,12 @@
             - adjust modified recipes
             - remove removed recipes
 
-- AtlasLoot_WorldEvents
+- AtlasLoot_PvP
 
-        - *maybe* rework module
+        - rework
+
+            - push pvp content to this module
+            - add shadowlands pvp content
 
 - AtlasLoot_Collections
 
@@ -42,12 +35,6 @@
             ...
 
 - AtlasLoot_Shadowlands
-
-    - *maybe* covenants as a new module
-
-    - *maybe* souldbinds as a new module
-
-    - *maybe* Runecarving Power for legendary armor as a new module
 
     - vendor
 
