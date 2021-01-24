@@ -8,7 +8,7 @@ AtlasLoot_Shadowlands
 
 	- Loader.lua
 		
-		- ATLASLOOT_MODULE_LIST
+		- added to ATLASLOOT_MODULE_LIST
 
 File PLANNED.md added
 
