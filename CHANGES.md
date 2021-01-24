@@ -2,7 +2,13 @@
 
 AtlasLoot_Shadowlands
 
-	- added to ATLASLOOT_INSTANCE_MODULE_LIST and ATLASLOOT_MODULE_LIST
+	- AtlasLoot.lua
+
+		- added to ATLASLOOT_INSTANCE_MODULE_LIST
+
+	- Loader.lua
+		
+		- ATLASLOOT_MODULE_LIST
 
 File PLANNED.md added
 
