@@ -849,8 +849,7 @@ data["Theater of Pain"] = {
 
 -- world bosses
 data["Shadowlands"] = {
-	--EncounterJournalID = 1028,
-	--MapID = 0,
+	MapID = 1550,
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,
 	items = 
