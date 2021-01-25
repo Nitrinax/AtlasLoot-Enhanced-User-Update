@@ -1,3 +1,14 @@
+# CHANGES from r4839-u14 to r4839-u15
+
+AtlasLoot_Shadowlands
+
+	- world bosses added
+		
+        - Valinor, the Light of Eons (Bastion)
+        - Mortanis (Maldraxxus)
+        - Oranomonos the Everbranching (Ardenweald)
+		- Muckformed (Revendreth)
+
 # CHANGES from r4839-u13 to r4839-u14
 
 AtlasLoot_Shadowlands

@@ -847,6 +847,73 @@ data["Theater of Pain"] = {
 -- Raid
 -- /////////////////////////////////
 
+-- world bosses
+data["Shadowlands"] = {
+	--EncounterJournalID = 1028,
+	--MapID = 0,
+	ContentType = RAID_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
+		{ -- Valinor, the Light of Eons
+			EncounterJournalID = 2430,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 184170 }, -- Doubtweaver's Handwraps
+				{ 2, 184136 }, -- Anima-Charged Wristbanding
+				{ 3, 184125 }, -- Servo-Chain Waistguard
+				{ 4, 184139 }, -- Valinor's Ground Pounders
+				{ 5, 184132 }, -- Oversized Centurion Helm
+				{ 6, 184141 }, -- Shroud of the Penitent
+				{ 8, 183325 }, -- Memory of Archbishop Benedictus
+				{ 9, 183311 }, -- Memory of the Final Verdict
+				{ 10, 183353 }, -- Memory of the Windspeaker's Lava Resurgence
+			},
+		},
+		{ -- Mortanis
+			EncounterJournalID = 2431,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 184133 }, -- Spine Crawler Waistcord
+				{ 2, 184140 }, -- Bone-Cleated Footpads				
+				{ 3, 184128 }, -- Mortanis's Ribcage
+				{ 4, 184173 }, -- Bone Crushing Vicegrips
+				{ 5, 184135 }, -- Shoulderblade Vambraces
+				{ 6, 184143 }, -- Band of the Risen Bonelord
+				{ 8, 183341 }, -- Memory of a Guile Charm
+				{ 9, 183386 }, -- Memory of Fujieda
+				{ 10, 183295 }, -- Memory of Keefer
+			},
+		},
+		{ -- Oranomonos the Everbranching
+			EncounterJournalID = 2432,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 184127 }, -- Slippers of the Leafy Undergrowth
+				{ 2, 184172 }, -- Seed-Tender's Handwraps
+				{ 3, 184129 }, -- Oranomonos's Diaphanous Leggings
+				{ 4, 184126 }, -- Ironroot Bindings
+				{ 5, 184138 }, -- Stonebark Girdle
+				{ 6, 184142 }, -- Twisted Witherroot Band
+				{ 8, 183274 }, -- Memory of a Fevered Incantation
+				{ 9, 183261 }, -- Memory of Surging Shots
+				{ 10, 183238 }, -- Memory of the Verdant Infusion
+			},
+		},
+		{ -- Nurgash Muckformed
+			EncounterJournalID = 2433,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 184131 }, -- Comfortable Slumberwraps
+				{ 2, 184137 }, -- Sinstone Shoulderpadding
+				{ 3, 184130 }, -- Nurgash's Belt of Many Sinstones
+				{ 4, 184134 }, -- Jingling Stone Stompers
+				{ 5, 184171 }, -- Hardened Castle Crushers
+				{ 6, 184144 }, -- Muckformed Chain Choker
+				{ 8, 182638 }, -- Memory of a Frenzied Monstrosity
+				{ 9, 183215 }, -- Memory of an Erratic Fel Core
+				{ 10, 183376 }, -- Memory of Azj'Aqir's Madness
+			},
+		},
+	}
+}
+
 -- 1735 	Castle Nathria - The Grand Walk
 -- 1744 	Castle Nathria - The Purloined Stores
 -- 1745 	Castle Nathria - Halls of the Faithful

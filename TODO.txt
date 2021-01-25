@@ -55,11 +55,11 @@
                     - Harkoth <Heroic Nathrian Weaponsmith>                 https://www.wowhead.com/npc=175415/harkoth
                     - Sulanoom <Mythic Nathrian Weaponsmith>                https://www.wowhead.com/npc=175417/sulanoom
 
-        Oribos
+        - Oribos
 
             - Purveyor Zo'kuul <Assessor of Conflict>                       https://www.wowhead.com/npc=164095/purveyor-zokuul
 
-        Torghast
+        - Torghast
 
             - Broker Ve'ken                                                 https://www.wowhead.com/npc=152594/broker-veken
             - Broker Ve'nott                                                https://www.wowhead.com/npc=170257/broker-venott

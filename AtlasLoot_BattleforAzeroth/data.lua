@@ -1287,7 +1287,7 @@ data["Operation: Mechagon"] = {
 -- /////////////////////////////////
 
 data["Azeroth"] = {
-	EncounterJournalID = 1028,
+	--EncounterJournalID = 1028,
 	--MapID = 0,
 	ContentType = RAID_CONTENT,
 	TableType = RAID_ITTYPE,

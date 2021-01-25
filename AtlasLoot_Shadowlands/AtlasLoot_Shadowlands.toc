@@ -1,6 +1,6 @@
 ## Interface: 90001
 ## Author: Lag, Arith	
-## Version: r4839-u13
+## Version: r4839-u15
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
 
