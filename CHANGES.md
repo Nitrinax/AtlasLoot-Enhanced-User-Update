@@ -1,3 +1,104 @@
+# CHANGES from r4839-u16 to r4839-u17
+
+## achievement update
+
+AtlasLoot_Shadowlands						
+
+	- achievement Shadowlands Dungeon Hero added
+
+	- achievement Glory of the Shadowlands Hero added
+
+	- achievements for each dungeon boss added
+
+		- De Other Side
+		- Halls of Atonement
+		- Mists of Tirna Scithe
+		- Plaguefall
+		- Sanguine Depths
+		- Spires Of Ascension
+		- The Necrotic Wake
+		- Theater of Pain
+	
+	- achievements for raid bosses added
+
+		- castle nathria
+
+# CHANGES from r4839-u15 to r4839-u16
+
+## world boss update
+
+AtlasLoot
+
+	- Constants.lua
+
+		- color for world boss content added
+
+	- Locale
+
+		- constants.<language>.lua
+
+			- name strings for cataclysm world bosses added because there is no EncounterJournalID available
+
+AtlasLoot_BurningCrusade
+
+	- world bosses moved from raid content to a own category
+
+AtlasLoot_Cataclysm
+
+	- world bosses added
+
+		- Akma'hat <Dirge of the Eternal Sands>
+		- Garr
+		- Julak-Doom <The Eye of Zor>
+		- Mobus <The Crushing Tide>
+		- Whale Shark
+		- Xariona
+
+		- special world boss loot added
+
+		- shared world boss loot added		
+
+AtlasLoot_MistsofPandaria
+
+	- world bosses moved from raid content to a own category
+
+AtlasLoot_WarlordsofDraenor
+
+	- world bosses moved from raid content to a own category
+
+	- world boss achievements added
+
+AtlasLoot_Legion
+
+	- world bosses moved from raid content to a own category
+
+	- world boss loot resorted (cloth>leather>mail>plate>other)
+
+	- Greater Invasion Points world bosses added
+
+	- world boss achievements added
+
+AtlasLoot_BattleforAzeroth
+
+	- world bosses moved from raid content to a own category
+
+	- world boss loot resorted (cloth>leather>mail>plate>other)
+
+	- warfront world bosses added
+
+		- The Lion's Roar
+		- Ivus the Forest Lord
+
+	- world boss loot added
+
+		- Dunegorger Kraulok
+
+			- Slightly Damp Pile of Fur added	
+
+AtlasLoot_Shadowlands
+
+	- world bosses moved from raid content to a own category
+
 # CHANGES from r4839-u14 to r4839-u15
 
 AtlasLoot_Shadowlands
@@ -571,7 +672,7 @@ AtlasLoot_BattleforAzeroth
 
 	data.lua
 
-		- added world bosses loot for
+		- added world boss loot for
 
 			- Grand Empress Shek'zara
 			- Vuk'laz the Earthbreaker

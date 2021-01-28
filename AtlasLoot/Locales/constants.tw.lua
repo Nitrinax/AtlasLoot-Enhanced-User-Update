@@ -312,3 +312,10 @@ AL["Tentative"] = "Tentative"
 AL["Ambivalent"] = "Ambivalent"
 AL["Cordial"] = "Cordial"
 AL["Appreciative"] = "Appreciative"
+--cataclysm
+AL["CatWB_Akmahat"] = "Akma'hat <Dirge of the Eternal Sands>"   -- Akma'hat <Dirge of the Eternal Sands>
+AL["CatWB_Garr"] = "Garr"                                       -- Garr
+AL["CatWB_JulakDoom"] = "Julak-Doom <The Eye of Zor>"           -- Julak-Doom <The Eye of Zor>
+AL["CatWB_Mobus"] = "Mobus <The Crushing Tide>"                 -- Mobus <The Crushing Tide>
+AL["CatWB_WhaleShark"] = "Whale Shark"                          -- Whale Shark
+AL["CatWB_Xariona"] = "Xariona"                                 -- Xariona

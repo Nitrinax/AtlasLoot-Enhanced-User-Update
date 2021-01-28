@@ -92,6 +92,7 @@ local RAID_ITTYPE = data:AddItemTableType("Item", "Item") -- Normal, Thunder-/Wa
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local DUNGEON_CONTENT = data:AddContentType(AL["Dungeons"], ATLASLOOT_DUNGEON_COLOR)
+local WORLDBOSS_CONTENT = data:AddContentType(AL["World Bosses"], ATLASLOOT_WORLDBOSS_COLOR)
 local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
 
 -- Shared loot tables
@@ -1286,164 +1287,250 @@ data["Operation: Mechagon"] = {
 -- Raid
 -- /////////////////////////////////
 
-data["Azeroth"] = {
-	--EncounterJournalID = 1028,
-	--MapID = 0,
-	ContentType = RAID_CONTENT,
+-- 875 	Zandalar
+-- 876 	Kul Tiras
+-- 1355 Nazjatar
+-- 14	Arathi Highlands
+-- 62	Darkshore
+-- 1530	Vale of Eternal Blossoms
+-- 1527	Uldum
+
+-- world bosses
+data["Zandalar"] = {
+	MapID = 875,
+	ContentType = WORLDBOSS_CONTENT,
 	TableType = RAID_ITTYPE,
 	items = 
 	{
-		{ -- T'zane
-			EncounterJournalID = 2139,
+		{ -- Dunegorger Kraulok
+			EncounterJournalID = 2210,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 161392 }, -- Bindings of Eternal Fears
-				{ 2, 161396 }, -- Petrified Mask of the Afterlife
-				{ 3, 164383 }, -- Death Devouring Girdle
-				{ 4, 161387 }, -- Wailing Terror Leggings
-				{ 5, 161389 }, -- Cinch of All-Consuming Death
-				{ 6, 161391 }, -- Deathshambler's Shoulderpads
-				{ 7, 161393 }, -- Legguards of the Barkbound Dead
-				{ 8, 161395 }, -- Swampwalker's Soul-Treads
-				{ 9, 161397 }, -- Soulplank Vambraces
-				{ 10, 161411 }, -- T'zane's Barkspines
-				{ 11, 161412 }, -- Spiritbound Voodoo Burl
+				{ 1, 161400 }, -- Raider's Shrouding Thobe
+				{ 2, 161399 }, -- Cord of Flowing Sands
+				{ 3, 161404 }, -- Hood of the Sinuous Devilsaur
+				{ 4, 161402 }, -- Gloves of the Desert Assassin
+				{ 5, 161406 }, -- Shrouded Sandscale Bracers
+				{ 6, 161405 }, -- Dunegorger's Grips
+				{ 7, 161408 }, -- Sandswept Legionnaire's Legplates
+				{ 8, 164385 }, -- Desert Nomad's Wrap
+				{ 9, 161419 }, -- Kraulok's Claw
+				{ 10, 174842 }, -- Slightly Damp Pile of Fur
 			},
 		},
 		{ -- Ji'arak
 			EncounterJournalID = 2141,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 161407 }, -- Windshear Leggings
-				{ 2, 161409 }, -- Stormcrash Chestguard
-				{ 3, 161388 }, -- Gloves of Enveloping Winds
-				{ 4, 161394 }, -- Hurricane Cinch
-				{ 5, 164384 }, -- Windswept Dinorider's Cape
-				{ 6, 161401 }, -- Matriarch's Shadowveil
-				{ 7, 161403 }, -- Avian Clutch Belt
-				{ 8, 161390 }, -- Savage Terrorwing Leggings
-				{ 9, 161371 }, -- Galebreaker's Sabatons
+				{ 1, 161401 }, -- Matriarch's Shadowveil
+				{ 2, 161388 }, -- Gloves of Enveloping Winds
+				{ 3, 161403 }, -- Avian Clutch Belt
+				{ 4, 161390 }, -- Savage Terrorwing Leggings
+				{ 5, 161394 }, -- Hurricane Cinch
+				{ 6, 161407 }, -- Windshear Leggings
+				{ 7, 161409 }, -- Stormcrash Chestguard
+				{ 8, 161371 }, -- Galebreaker's Sabatons
+				{ 9, 164384 }, -- Windswept Dinorider's Cape
 			},
 		},
-		{ -- Hailstone Construct
-			EncounterJournalID = 2197,
+		{ -- T'zane
+			EncounterJournalID = 2139,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 161362 }, -- Frostbreath Leggings
-				{ 2, 161364 }, -- Chill's End Wristguards
-				{ 3, 161366 }, -- Ice Stalker Boots
-				{ 4, 161368 }, -- Freezing Tempest Waistguard
-				{ 5, 161370 }, -- Glacial Spike Gauntlets
-				{ 6, 161372 }, -- Ice-Carved Shoulderplates
-				{ 7, 161361 }, -- Ice-Rimed Slippers
-				{ 8, 161380 }, -- Drust-Runed Icicle
-				{ 9, 161367 }, -- Hailstone Hauberk
-				{ 10, 164386 }, -- Girdle of Biting Winds
-				{ 11, 161381 }, -- Permafrost-Encrusted Heart
+				{ 1, 161389 }, -- Cinch of All-Consuming Death
+				{ 2, 161387 }, -- Wailing Terror Leggings
+				{ 3, 161391 }, -- Deathshambler's Shoulderpads
+				{ 4, 161392 }, -- Bindings of Eternal Fears
+				{ 5, 161393 }, -- Legguards of the Barkbound Dead
+				{ 6, 161395 }, -- Swampwalker's Soul-Treads
+				{ 7, 161396 }, -- Petrified Mask of the Afterlife
+				{ 8, 164383 }, -- Death Devouring Girdle
+				{ 9, 161397 }, -- Soulplank Vambraces
+				{ 10, 161411 }, -- T'zane's Barkspines
+				{ 11, 161412 }, -- Spiritbound Voodoo Burl
 			},
 		},
+	}
+}
+
+data["Kul Tiras"] = {
+	MapID = 876,
+	ContentType = WORLDBOSS_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
 		{ -- Warbringer Yenajz
 			EncounterJournalID = 2198,
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 161349 }, -- Amice of the Rending Abyss
 				{ 2, 161351 }, -- Wristwraps of Warped Reality
 				{ 3, 161353 }, -- Shadow-Wreathed Gloves
-				{ 4, 161355 }, -- Yenajz's Chitinous Stompers
+				{ 4, 161354 }, -- Leggings of the Endless Void
 				{ 5, 161357 }, -- Spaulders of the Enveloping Maw
-				{ 6, 161359 }, -- Band of Intense Gravitation
-				{ 7, 161376 }, -- Prism of Dark Intensity
-				{ 8, 161354 }, -- Leggings of the Endless Void
-				{ 9, 161358 }, -- Existence-Shattering Gauntlets
+				{ 6, 161355 }, -- Yenajz's Chitinous Stompers
+				{ 7, 161358 }, -- Existence-Shattering Gauntlets
+				{ 8, 161359 }, -- Band of Intense Gravitation
+				{ 9, 161376 }, -- Prism of Dark Intensity
 			},
 		},
 		{ -- Azurethos, The Winged Typhoon
 			EncounterJournalID = 2199,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 161377 }, -- Azurethos' Singed Plumage
-				{ 2, 161379 }, -- Galecaller's Beak
-				{ 3, 161398 }, -- Talonscored Azure Vambraces
-				{ 4, 161363 }, -- Sandals of Rustling Rage
-				{ 5, 161365 }, -- Footpads of the Encircling Storm
-				{ 6, 161352 }, -- Chestguard of Dire Winds
-				{ 7, 161369 }, -- Bindings of the Winged Typhoon
-				{ 8, 161356 }, -- Feathered Galeforce Crest
-				{ 9, 161378 }, -- Plume of the Seaborne Avian
-				{ 10, 161360 }, -- Roost-Defender's Legguards
-				{ 11, 161350 }, -- Windcaller's Down Handwraps
+				{ 1, 161350 }, -- Windcaller's Down Handwraps
+				{ 2, 161363 }, -- Sandals of Rustling Rage
+				{ 3, 161352 }, -- Chestguard of Dire Winds
+				{ 4, 161365 }, -- Footpads of the Encircling Storm
+				{ 5, 161356 }, -- Feathered Galeforce Crest
+				{ 6, 161369 }, -- Bindings of the Winged Typhoon
+				{ 7, 161398 }, -- Talonscored Azure Vambraces
+				{ 8, 161360 }, -- Roost-Defender's Legguards
+				{ 9, 161377 }, -- Azurethos' Singed Plumage
+				{ 10, 161379 }, -- Galecaller's Beak
+				{ 11, 161378 }, -- Plume of the Seaborne Avian
 			},
 		},
-		{ -- Dunegorger Kraulok
-			EncounterJournalID = 2210,
+		{ -- Hailstone Construct
+			EncounterJournalID = 2197,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 161400 }, -- Raider's Shrouding Thobe
-				{ 2, 161402 }, -- Gloves of the Desert Assassin
-				{ 3, 161419 }, -- Kraulok's Claw
-				{ 4, 161406 }, -- Shrouded Sandscale Bracers
-				{ 5, 161408 }, -- Sandswept Legionnaire's Legplates
-				{ 6, 161399 }, -- Cord of Flowing Sands
-				{ 7, 161404 }, -- Hood of the Sinuous Devilsaur
-				{ 8, 161405 }, -- Dunegorger's Grips
-				{ 9, 164385 }, -- Desert Nomad's Wrap
+				{ 1, 161362 }, -- Frostbreath Leggings
+				{ 2, 161361 }, -- Ice-Rimed Slippers
+				{ 3, 161364 }, -- Chill's End Wristguards
+				{ 4, 161366 }, -- Ice Stalker Boots
+				{ 5, 161367 }, -- Hailstone Hauberk
+				{ 6, 161368 }, -- Freezing Tempest Waistguard
+				{ 7, 161372 }, -- Ice-Carved Shoulderplates
+				{ 8, 164386 }, -- Girdle of Biting Winds
+				{ 9, 161370 }, -- Glacial Spike Gauntlets
+				{ 10, 161380 }, -- Drust-Runed Icicle
+				{ 11, 161381 }, -- Permafrost-Encrusted Heart
 			},
 		},
-		{ -- Doom's Howl
-			EncounterJournalID = 2213,
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 161467 }, -- Vest of the Veiled Gryphon
-				{ 2, 161469 }, -- Sharpshooter's Chainmail Hauberk
-				{ 3, 161471 }, -- Lion's Roar Pauldrons
-				{ 4, 161473 }, -- Lion's Guile
-				{ 5, 161464 }, -- Alliance Bowman's Coif
-				{ 6, 161466 }, -- Battlemage's Collar
-				{ 7, 161468 }, -- Gilded-Wing Shoulderguards
-				{ 8, 161470 }, -- Polished Shieldbearer's Breastplate
-				{ 9, 161472 }, -- Lion's Grace
-				{ 10, 161474 }, -- Lion's Strength
-				{ 11, 161465 }, -- Warcaster's Arcane Mantle
-			},
-		},
-		{ -- Ivus the Decayed
-			EncounterJournalID = 2345,
-			[NORMAL_RAID_DIFF] = {
-				{ 1, 161417 }, -- Ancient Knot of Wisdom
-				{ 2, 161415 }, -- Forest Lord's Razorleaf
-				{ 3, 166691 }, -- Forest Protector's Shoulderguards
-				{ 4, 166683 }, -- Garments of the Forest Lord
-				{ 5, 166694 }, -- Gnarled Bough Gauntlets
-				{ 6, 166686 }, -- Ivus's Tanglemoss Waistcord
-				{ 7, 161413 }, -- Knot of Ancient Fury
-				{ 8, 166695 }, -- Petrified Ironbark Crown
-				{ 9, 166690 }, -- Protector's Tangleroot Belt
-				{ 10, 166698 }, -- Stoneroot Stompers
-				{ 11, 166687 }, -- Warring Ancient's Mask
-			},
-		},
-		{ -- Ulmath, the Soulbinder
+	}
+}
+
+data["Nazjatar"] = {
+	MapID = 1355,
+	ContentType = WORLDBOSS_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
+		{ -- Ulmath <The Soulbinder>
 			EncounterJournalID = 2362,
 			[NORMAL_RAID_DIFF] = {
 				{ 1, 170092 }, -- Netherdancer's Knife
-				{ 2, 170094 }, -- Temple Guardian's Saber
-				{ 3, 170089 }, -- Liara's Spire
-				{ 4, 170091 }, -- Willbinder's Halberd
-				{ 5, 170093 }, -- Tyr'mar's Greatsword
-				{ 6, 170095 }, -- Moon Priestess' Baton
-				{ 7, 169317 }, -- Enthraller's Bindstone
+				{ 2, 170090 }, -- Merciless Pincher
+				{ 3, 170095 }, -- Moon Priestess' Baton
+				{ 4, 170094 }, -- Temple Guardian's Saber
+				{ 5, 170089 }, -- Liara's Spire
+				{ 6, 170093 }, -- Tyr'mar's Greatsword
+				{ 7, 170091 }, -- Willbinder's Halberd
 				{ 8, 170088 }, -- Ulmath's Soulseeker
-				{ 9, 170090 }, -- Merciless Pincher
-				{ 10, 168603 }, -- Cloak of Restless Spirits
+				{ 9, 168603 }, -- Cloak of Restless Spirits
+				{ 10, 169317 }, -- Enthraller's Bindstone
 			},
 		},
 		{ -- Wekemara
 			EncounterJournalID = 2363,
 			[NORMAL_RAID_DIFF] = {
-				{ 1, 169927 }, -- Deepcaller's Clasp
-				{ 2, 168358 }, -- Chestguard of the Submerged
+				{ 1, 168340 }, -- Naga Ritualist's Mantle
+				{ 2, 169925 }, -- Serpentskin Splashers
 				{ 3, 168351 }, -- Spitcharged Shoulderguards
-				{ 4, 169928 }, -- Wekemara's Warboots
-				{ 5, 168340 }, -- Naga Ritualist's Mantle
-				{ 6, 169926 }, -- Belt of Rising Guardians
-				{ 7, 169318 }, -- Shockbiter's Fang
-				{ 8, 169925 }, -- Serpentskin Splashers
-				{ 9, 168366 }, -- Tidal Lurker's Greathelm
+				{ 4, 169926 }, -- Belt of Rising Guardians
+				{ 5, 168358 }, -- Chestguard of the Submerged
+				{ 6, 169927 }, -- Deepcaller's Clasp
+				{ 7, 168366 }, -- Tidal Lurker's Greathelm
+				{ 8, 169928 }, -- Wekemara's Warboots
+				{ 9, 169318 }, -- Shockbiter's Fang
 			},
 		},
+	}
+}
+
+data["Arathi Highlands"] = {
+	MapID = 14,
+	ContentType = WORLDBOSS_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
+		{ -- The Lion's Roar
+			EncounterJournalID = 2212,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161455 }, -- Battlemage's Collar
+				{ 2, 161454 }, -- Warcaster's Doom Mantle
+				{ 3, 161457 }, -- Dire-Tooth Spaulders
+				{ 4, 161456 }, -- Doom's Howl Vest
+				{ 5, 161453 }, -- Warscout's Horned Helm
+				{ 6, 161458 }, -- Scalemail Battle Harness
+				{ 7, 161460 }, -- Spiked Dreadshield Pauldrons
+				{ 8, 161459 }, -- Molded War Machine Grill
+				{ 9, 161463 }, -- Doom's Fury
+				{ 10, 161461 }, -- Doom's Hatred
+				{ 11, 161462 }, -- Doom's Wake
+			},
+		},
+		{ -- Doom's Howl
+			EncounterJournalID = 2213,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 161466 }, -- Battlemage's Collar
+				{ 2, 161465 }, -- Warcaster's Arcane Mantle
+				{ 3, 161468 }, -- Gilded-Wing Shoulderguards
+				{ 4, 161467 }, -- Vest of the Veiled Gryphon
+				{ 5, 161464 }, -- Alliance Bowman's Coif
+				{ 6, 161469 }, -- Sharpshooter's Chainmail Hauberk
+				{ 7, 161471 }, -- Lion's Roar Pauldrons
+				{ 8, 161470 }, -- Polished Shieldbearer's Breastplate
+				{ 9, 161472 }, -- Lion's Grace
+				{ 10, 161473 }, -- Lion's Guile
+				{ 11, 161474 }, -- Lion's Strength
+			},
+		},
+	}
+}
+
+data["Darkshore"] = {
+	MapID = 62,
+	ContentType = WORLDBOSS_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
+		{ -- Ivus the Forest Lord
+			EncounterJournalID = 2329,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 166684 }, -- Garments of the Forest Lord
+				{ 2, 166685 }, -- Ivus' Tanglemoss Waistcord
+				{ 3, 166688 }, -- Warring Ancient's Crown
+				{ 4, 166689 }, -- Protector's Tangleroot Belt
+				{ 5, 166692 }, -- Forest Protector's Shoulderguards
+				{ 6, 166693 }, -- Gnarled Bough Gauntlets
+				{ 7, 166696 }, -- Petrified Ironbark Crown
+				{ 8, 166697 }, -- Stoneroot Stompers
+				{ 9, 166793 }, -- Ancient Knot of Wisdom
+				{ 10, 166794 }, -- Forest Lord's Razorleaf
+				{ 11, 166795 }, -- Knot of Ancient Fury
+			},
+		},
+		{ -- Ivus the Decayed
+			EncounterJournalID = 2345,
+			[NORMAL_RAID_DIFF] = {
+				{ 1, 166683 }, -- Garments of the Forest Lord
+				{ 2, 166686 }, -- Ivus's Tanglemoss Waistcord
+				{ 3, 166687 }, -- Warring Ancient's Mask
+				{ 4, 166690 }, -- Protector's Tangleroot Belt
+				{ 5, 166691 }, -- Forest Protector's Shoulderguards
+				{ 6, 166694 }, -- Gnarled Bough Gauntlets
+				{ 7, 166695 }, -- Petrified Ironbark Crown
+				{ 8, 166698 }, -- Stoneroot Stompers
+				{ 9, 161417 }, -- Ancient Knot of Wisdom
+				{ 10, 161415 }, -- Forest Lord's Razorleaf
+				{ 11, 161413 }, -- Knot of Ancient Fury
+			},
+		},
+	}
+}
+
+data["Vale of Eternal Blossoms"] = {
+	MapID = 1530,
+	ContentType = WORLDBOSS_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
 		{ -- Grand Empress Shek'zara
 			EncounterJournalID = 2378,
 			[NORMAL_RAID_DIFF] = {
@@ -1454,6 +1541,15 @@ data["Azeroth"] = {
 				{ 5, 174268 }, -- Loop of Abhorrent Celerity
 			},
 		},
+	}
+}
+
+data["Uldum"] = {
+	MapID = 1527,
+	ContentType = WORLDBOSS_CONTENT,
+	TableType = RAID_ITTYPE,
+	items = 
+	{
 		{ -- Vuk'laz the Earthbreaker
 			EncounterJournalID = 2381,
 			[NORMAL_RAID_DIFF] = {

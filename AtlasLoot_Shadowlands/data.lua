@@ -92,7 +92,44 @@ local RAID_ITTYPE = data:AddItemTableType("Item", "Item")
 local AC_ITTYPE = data:AddItemTableType("Achievement", "Item")
 
 local DUNGEON_CONTENT = data:AddContentType(AL["Dungeons"], ATLASLOOT_DUNGEON_COLOR)
+local WORLDBOSS_CONTENT = data:AddContentType(AL["World Bosses"], ATLASLOOT_WORLDBOSS_COLOR)
 local RAID_CONTENT = data:AddContentType(AL["Raids"], ATLASLOOT_RAID_COLOR)
+
+-- Shared loot tables
+local SHADOWLANDS_DUNGEON_HERO_AC_TABLE = {	--[Shadowlands Dungeon Hero]
+	name = select(2, GetAchievementInfo(14418)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[HEROIC_DIFF] = {
+		{ 1, 14418 },
+		{ 2, 14408 },			{ 17, 14198 },
+		{ 3, 14410 },			{ 18, 14324 },
+		{ 4, 14412 },			{ 19, 14367 },
+		{ 5, 14414 },			{ 20, 14416 },
+	},
+}
+local SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE = {	--[Glory of the Shadowlands Hero]
+	name = select(2, GetAchievementInfo(14322)),
+	TableType = AC_ITTYPE,
+	ExtraList = true,
+	CoinTexture = "Achievement",
+	[MYTHIC_DIFF] = {
+		{ 1, 14322 },
+		{ 2, 14295 },			{ 17, 14320 },
+		{ 3, 14285 },			{ 18, 14503 },
+		{ 4, 14291 },			{ 19, 14375 },
+		{ 5, 14347 },			{ 20, 14296 },
+		{ 6, 14292 },			{ 21, 14567 },
+		{ 7, 14284 },			{ 22, 14352 },
+		{ 8, 14374 },			{ 23, 14354 },
+		{ 9, 14606 },			{ 24, 14331 },
+		{ 10, 14323 },			{ 25, 14327 },
+		{ 11, 14297 },			{ 26, 14607 },
+		{ 12, 14533 },			{ 27, 14286 },
+		{ 13, 14290 },			{ 28, 14289 },
+	},
+}
 
 -- /////////////////////////////////
 -- Instance
@@ -139,6 +176,7 @@ data["De Other Side"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14354" },
 			},
 		},
 		{ -- Millificent Manastorm <Engineering Genius>
@@ -160,6 +198,8 @@ data["De Other Side"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14354" },
+				{ 17, "ac14374" },
 			},
 		},
 		{ -- Dealer Xy'exa
@@ -178,6 +218,8 @@ data["De Other Side"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14354" },
+				{ 17, "ac14606" },
 			},
 		},
 		{ -- Mueh'zala
@@ -192,16 +234,23 @@ data["De Other Side"] = {
 				{ 8, 183350 }, -- Memory of the Great Sundering
 				{ 9, 183282 }, -- Memory of the Fatal Touch
 				{ 10, 183329 }, -- Memory of a Prism of Shadow and Fire
-				{ 16, 182178 }, -- Raptor Soul
+				{ 12, 182178 }, -- Raptor Soul
+				{ 16, "ac14373" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14408" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14409" },
+				{ 17, "ac14379" },
+				{ 18, "ac14354" },
 			},
 		},
-	},
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1663 	Halls of Atonement - Halls of Atonement
@@ -246,6 +295,7 @@ data["Halls of Atonement"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14284" },
 			},
 		},
 		{ -- High Adjudicator Aleez
@@ -276,15 +326,22 @@ data["Halls of Atonement"] = {
 				{ 5, 178829 }, -- Nathrian Ferula
 				{ 7, 183241 }, -- Memory of the Dark Titan
 				{ 8, 183275 }, -- Memory of the Firestorm
+				{ 16, "ac14370" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14410" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14411" },
+				{ 17, "ac14380" },
+				{ 18, "ac14352" },
 			},
-		},
-	},
+		},		
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1669 	Mists of Tirna Scithe
@@ -312,6 +369,7 @@ data["Mists of Tirna Scithe"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14503" },
 			},
 		},
 		{ -- Mistcaller
@@ -334,6 +392,7 @@ data["Mists of Tirna Scithe"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14291" },
 			},
 		},
 		{ -- Tred'ova
@@ -348,15 +407,22 @@ data["Mists of Tirna Scithe"] = {
 				{ 7, 178712 }, -- Acidslough Bulwark
 				{ 8, 178714 }, -- Lakali's Spire of Knowledge
 				{ 10, 183229 }, -- Memory of a Timeworn Dreambinder
+				{ 16, "ac14371" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14412" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14375" },
+				{ 17, "ac14413" },
+				{ 18, "ac14382" },
 			},
-		},
-	},
+		},		
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1674 	Plaguefall - Plaguefall
@@ -380,6 +446,8 @@ data["Plaguefall"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14347" },
+				{ 17, "ac14292" },
 			},
 		},
 		{ -- Doctor Ickus
@@ -397,6 +465,8 @@ data["Plaguefall"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14296" },
+				{ 17, "ac14292" },
 			},
 		},
 		{ -- Domina Venomblade
@@ -417,6 +487,7 @@ data["Plaguefall"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14292" },
 			},
 		},
 		{ -- Margrave Stradama
@@ -432,15 +503,22 @@ data["Plaguefall"] = {
 				{ 9, 183212 }, -- Memory of a Darkglare Medallion
 				{ 10, 182637 }, -- Memory of Death's Certainty
 				{ 11, 183319 }, -- Memory of my Crystalline Reflection
+				{ 16, "ac14369" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14414" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14292" },
+				{ 17, "ac14415" },
+				{ 18, "ac14383" },
 			},
 		},
-	},
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1675 	Sanguine Depths - Depths of Despair
@@ -486,6 +564,7 @@ data["Sanguine Depths"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14286" },
 			},
 		},
 		{ -- Grand Proctor Beryllia
@@ -508,6 +587,13 @@ data["Sanguine Depths"] = {
 				{ 11, 180591 }, -- Vial of Roiling Emotions
 			},
 		},
+		{ -- Duraka the Unbreakable
+			--EncounterJournalID = 2407,
+			name = "Duraka the Unbreakable",
+			[MYTHICD_DUNGEON_DIFF] = {
+				{ 1, "ac14290" }, -- I Only Have Eyes For You
+			},
+		},
 		{ -- General Kaal
 			EncounterJournalID = 2407,
 			[NORMAL_DUNGEON_DIFF] = {
@@ -520,15 +606,22 @@ data["Sanguine Depths"] = {
 				{ 7, 178862 }, -- Bladedancer's Armor Kit				
 				{ 9, 183358 }, -- Memory of an Earthen Harmony
 				{ 10, 183289 }, -- Memory of Stormstout
+				{ 16, "ac14197" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14198" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14289" },
+				{ 17, "ac14199" },
+				{ 18, "ac14200" },
 			},
 		},
-	},
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1692 	Spires Of Ascension - Honor's Ascent
@@ -595,6 +688,7 @@ data["Spires Of Ascension"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14331" },
 			},
 		},
 		{ -- Devos <Paragon of Doubt>
@@ -610,15 +704,23 @@ data["Spires Of Ascension"] = {
 				{ 9, 183290 }, -- Memory of Ancient Teachings
 				{ 10, 183354 }, -- Memory of the Doom Winds
 				{ 11, 183257 }, -- Memory of the Rylakstalker's Fangs
+				{ 16, "ac14326" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14324" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14323" },
+				{ 17, "ac14327" },
+				{ 18, "ac14325" },
+				{ 19, "ac14384" },
 			},
 		},
-	},
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1666 	The Necrotic Wake - The Necrotic Wake
@@ -663,6 +765,7 @@ data["The Necrotic Wake"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14295" },
 			},
 		},
 		{ -- Surgeon Stitchflesh
@@ -683,6 +786,7 @@ data["The Necrotic Wake"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14320" },
 			},
 		},
 		{ -- Nalthor the Rimebinder
@@ -697,16 +801,23 @@ data["The Necrotic Wake"] = {
 				{ 7, 178783 }, -- Siphoning Phylactery Shard
 				{ 9, 182633 }, -- Memory of the Biting Cold
 				{ 10, 183278 }, -- Memory of the Cold Front
+				{ 16, "ac14366" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14367" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
 				{ 12, 181819 }, -- Marrowfang's Reins
+				{ 16, "ac14285" },
+				{ 17, "ac14368" },
+				{ 18, "ac14381" },
 			},
 		},
-	},
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1683 	Theater of Pain - Theater of Pain
@@ -736,6 +847,7 @@ data["Theater of Pain"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14297" },
 			},
 		},
 		{ -- Gorechop
@@ -752,6 +864,7 @@ data["Theater of Pain"] = {
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14607" },
 			},
 		},
 		{ -- Xav the Unfallen
@@ -805,15 +918,22 @@ data["Theater of Pain"] = {
 				{ 7, 178811 }, -- Grim Codex
 				{ 9, 183314 }, -- Memory of Cauterizing Shadows
 				{ 10, 183225 }, -- Memory of Lycara
+				{ 16, "ac14372" },
 			},
 			[HEROIC_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14416" },
 			},
 			[MYTHICD_DUNGEON_DIFF] = {
 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
+				{ 16, "ac14533" },
+				{ 17, "ac14417" },
+				{ 18, "ac14385" },
 			},
 		},
-	},
+		SHADOWLANDS_DUNGEON_HERO_AC_TABLE,
+		SHADOWLANDS_GLORY_OF_THE_WARTORN_HERO_AC_TABLE,
+	}
 }
 
 -- 1762 	Torghast, Tower of the Damned
@@ -850,7 +970,7 @@ data["Theater of Pain"] = {
 -- world bosses
 data["Shadowlands"] = {
 	MapID = 1550,
-	ContentType = RAID_CONTENT,
+	ContentType = WORLDBOSS_CONTENT,
 	TableType = RAID_ITTYPE,
 	items = 
 	{
@@ -930,7 +1050,7 @@ data["Castle Nathria"] = {
 		-- ## Blood From Stone
 		{ -- Shriekwing
 			EncounterJournalID = 2393,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 182979 }, -- Slippers of the Forgotten Heretic
 				{ 2, 182993 }, -- Chiropteran Leggings
 				{ 3, 182976 }, -- Double-Chained Utility Belt
@@ -938,19 +1058,24 @@ data["Castle Nathria"] = {
 				{ 5, 183034 }, -- Cowled Batwing Cloak
 				{ 6, 184016 }, -- Skulker's Wing
 			},
-			[HEROIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 16, "ac14293" },	
+				{ 17, "ac14459" },
+											
+			},
+			[HEROIC_PRE_DIFF] = {	
+				GetItemsFromDiff = NORMAL_RAID_DIFF,			
+				{ 18, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 18, "ac14356" },
 			},
 		},
 		{ -- Sludgefist
 			EncounterJournalID = 2394,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 183022 }, -- Impossibly Oversized Mitts
 				{ 2, 182981 }, -- Leggings of Lethal Reverberations
 				{ 3, 183005 }, -- Heedless Pugilist's Harness
@@ -971,19 +1096,23 @@ data["Castle Nathria"] = {
 				{ 25, 183374 }, -- Memory of Azj'Aqir's Cinders
 				{ 26, 183389 }, -- Memory of the Berserker's Will
 			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 28, "ac14294" },
+				{ 29, "ac14459" },
+			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14363" },
 			},
 		},
 		{ -- Stone Legion Generals
 			EncounterJournalID = 2425,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 182998 }, -- Robes of the Cursed Commando
 				{ 2, 183029 }, -- Wicked Flanker's Gorget
 				{ 3, 182991 }, -- Oathsworn Soldier's Gauntlets
@@ -1003,22 +1132,25 @@ data["Castle Nathria"] = {
 				{ 24, 183330 }, -- Memory of Bloodfang's Essence
 				{ 25, 183346 }, -- Memory of an Ancestral Reminder
 				{ 26, 183367 }, -- Memory of Demonic Synergy
-				{ 27, 183381 }, -- Memory of the Tormented Kings
+				{ 27, 183381 }, -- Memory of the Tormented Kings				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 29, "ac14459" },
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14364" },
 			},
 		},
 		-- ### The Leeching Vaults
 		{ -- Huntsman Altimor
 			EncounterJournalID = 2429,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 182996 }, -- Grim Pursuant's Maille
 				{ 2, 182995 }, -- Spell-Woven Tourniquet
 				{ 3, 182988 }, -- Master Huntsman's Bandolier
@@ -1028,21 +1160,25 @@ data["Castle Nathria"] = {
 				{ 8, 183892 }, -- Mystic Anima Spherule
 				{ 16, 183235 }, -- Memory of the Natural Order
 				{ 17, 183258 }, -- Memory of Eagletalon's True Focus
-				{ 18, 183361 }, -- Memory of the Spiritwalker's Tidal Totem
+				{ 18, 183361 }, -- Memory of the Spiritwalker's Tidal Totem				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 28, "ac14523" },
+				{ 29, "ac14459" },				
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14357" },
 			},
 		},
 		{ -- Hungering Destroyer
 			EncounterJournalID = 2428,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 183028 }, -- Cinch of Infinite Tightness
 				{ 2, 183009 }, -- Miasma-Lacquered Jerkin
 				{ 3, 183024 }, -- Volatile Shadestitch Legguards
@@ -1054,21 +1190,25 @@ data["Castle Nathria"] = {
 				{ 9, 184022 }, -- Consumptive Infusion
 				{ 11, 183891 }, -- Venerated Anima Spherule
 				{ 16, 182630 }, -- Memory of Gorefiend's Domination
-				{ 17, 183391 }, -- Memory of the Wall
+				{ 17, 183391 }, -- Memory of the Wall				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 28, "ac14376" },
+				{ 29, "ac14459" },
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14358" },
 			},
 		},
 		{ -- Lady Inerva Darkvein
 			EncounterJournalID = 2420,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 183021 }, -- Confidant's Favored Cap
 				{ 2, 183026 }, -- Gloves of Phantom Shadows
 				{ 3, 182985 }, -- Memento-Laden Cuisses
@@ -1077,22 +1217,25 @@ data["Castle Nathria"] = {
 				{ 6, 184025 }, -- Memory of Past Sins
 				{ 8, 183894 }, -- Thaumaturgic Anima Bead
 				{ 16, 183218 }, -- Memory of a Fortified Fel Flame
-				{ 17, 183240 }, -- Memory of the Mother Tree
+				{ 17, 183240 }, -- Memory of the Mother Tree				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 29, "ac14459" },
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14361" },
 			},
 		},
 		-- ### Reliquary of Opulence
 		{ -- Artificer Xy'Mox
 			EncounterJournalID = 2418,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 183004 }, -- Shadewarped Sash
 				{ 2, 183019 }, -- Precisely Calibrated Chronometer
 				{ 3, 183012 }, -- Greaves of Enigmatic Energies
@@ -1102,21 +1245,25 @@ data["Castle Nathria"] = {
 				{ 8, 183960 }, -- Portable Pocket Dimension
 				{ 10, 183888 }, -- Apogee Anima Bead
 				{ 16, 183296 }, -- Memory of the Last Emperor
-				{ 17, 183370 }, -- Memory of the Core of the Balespider
+				{ 17, 183370 }, -- Memory of the Core of the Balespider				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 28, "ac14617" },
+				{ 29, "ac14459" },				
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14359" },
 			},
 		},
 		{ -- Sun King's Salvation
 			EncounterJournalID = 2422,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 182986 }, -- High Torturer's Smock
 				{ 2, 183007 }, -- Bleakwing Assassin's Grips
 				{ 3, 182977 }, -- Bangles of Errant Pride
@@ -1127,21 +1274,25 @@ data["Castle Nathria"] = {
 				{ 8, 184019 }, -- Soul Igniter
 				{ 10, 183893 }, -- Abominable Anima Spherule
 				{ 16, 183277 }, -- Memory of the Sun King
-				{ 17, 183304 }, -- Memory of the Shadowbreaker
+				{ 17, 183304 }, -- Memory of the Shadowbreaker				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 28, "ac14608" },
+				{ 29, "ac14459" },				
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14360" },
 			},
 		},
 		{ -- The Council of Blood
 			EncounterJournalID = 2426,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 183011 }, -- Courtier's Costume Trousers
 				{ 2, 183023 }, -- Sparkling Glass Slippers
 				{ 3, 182989 }, -- Corset of the Deft Duelist
@@ -1152,22 +1303,25 @@ data["Castle Nathria"] = {
 				{ 8, 184024 }, -- Macabre Sheet Music
 				{ 10, 183899 }, -- Zenith Anima Spherule
 				{ 16, 183328 }, -- Memory of Talbadar
-				{ 17, 183334 }, -- Memory of the Dashing Scoundrel
+				{ 17, 183334 }, -- Memory of the Dashing Scoundrel				
+			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 29, "ac14459" },
 			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14720" },
 			},
 			[MYTHIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 30, "ac14362" },
 			},
 		},
 		-- ### An Audience with Arrogance
 		{ -- Sire Denathrius
 			EncounterJournalID = 2424,
-			[NORMAL_RAID_DIFF] = {
+			[RF_DIFF] = {
 				{ 1, 183020 }, -- Shawl of the Penitent
 				{ 2, 182980 }, -- Sadist's Sinister Mask
 				{ 3, 183003 }, -- Pauldrons of Fatal Finality
@@ -1194,14 +1348,19 @@ data["Castle Nathria"] = {
 				{ 26, 183362 }, -- Memory of a Malefic Wrath
 				{ 27, 183384 }, -- Memory of the Exploiter
 			},
+			[NORMAL_RAID_DIFF] = {
+				GetItemsFromDiff = RF_DIFF,
+				{ 101, "ac14610" }, { 116, "ac14459" },				
+			},
 			[HEROIC_PRE_DIFF] = {
 				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				{ 104, "ac14460" }, { 117, "ac14720" },								
 			},
 			[MYTHIC_PRE_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
-			},
-			[RF_DIFF] = {
-				GetItemsFromDiff = NORMAL_RAID_DIFF,
+				GetItemsFromDiff = NORMAL_RAID_DIFF,				
+				{ 102, "ac14365" },	{ 117, "ac14652" },
+				{ 104, "ac14460" }, { 119, "ac14649" },
+				{ 105, "ac14461" }, { 120, "ac14650" },
 			},
 		},
 	},

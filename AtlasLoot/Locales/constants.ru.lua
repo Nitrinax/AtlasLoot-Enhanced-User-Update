@@ -313,3 +313,10 @@ AL["Tentative"] = "Предварительный сайт"
 AL["Ambivalent"] = "Двусмысленный"
 AL["Cordial"] = "Сердечный"
 AL["Appreciative"] = "Благодарим"
+--cataclysm
+AL["CatWB_Akmahat"] = "Акма'хат <Погребальная песнь вечных песков>" -- Akma'hat <Dirge of the Eternal Sands>
+AL["CatWB_Garr"] = "Гарр"                                           -- Garr
+AL["CatWB_JulakDoom"] = "Джулак-Рок <Око Зора>"                     -- Julak-Doom <The Eye of Zor>
+AL["CatWB_Mobus"] = "Мобус <Крушащая волна>"                        -- Mobus <The Crushing Tide>
+AL["CatWB_WhaleShark"] = "Китовая акула"                            -- Whale Shark
+AL["CatWB_Xariona"] = "Зариона"                                     -- Xariona
