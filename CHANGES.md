@@ -1,3 +1,21 @@
+# CHANGES from r4839-u17 to r4839-u18
+
+AtlasLoot
+
+	- LibBabble-SubZone-3.0 integrated to translate names for sub-zones e.g. Torghast wings
+
+AtlasLoot_Factions
+
+	- removed an unused link
+
+AtlasLoot_Shadowlands
+
+	- torghast dungeon added
+
+	- torghast achievements added
+
+	- translation for torghast wing "Twisting Corridors" added, because libbabble-subzone has no translation currently
+
 # CHANGES from r4839-u16 to r4839-u17
 
 ## achievement update

@@ -320,3 +320,5 @@ AL["CatWB_JulakDoom"] = "Джулак-Рок <Око Зора>"                 
 AL["CatWB_Mobus"] = "Мобус <Крушащая волна>"                        -- Mobus <The Crushing Tide>
 AL["CatWB_WhaleShark"] = "Китовая акула"                            -- Whale Shark
 AL["CatWB_Xariona"] = "Зариона"                                     -- Xariona
+--Torghast, Tower of the Damned
+AL["Twisting Corridors"] = "Извилистые коридоры"

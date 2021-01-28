@@ -1,20 +1,3 @@
-- AtlasLoot_Crafting
-
-        - rework
-
-            - reorganization of categories according to ingame profession window
-            - add new recipes
-            - add forgotten recipes
-            - adjust modified recipes
-            - remove removed recipes
-
-- AtlasLoot_PvP
-
-        - rework
-
-            - push pvp content to this module
-            - add shadowlands pvp content
-
 - AtlasLoot_Collections
 
     - integrating
@@ -63,8 +46,3 @@
 
             - Broker Ve'ken                                                 https://www.wowhead.com/npc=152594/broker-veken
             - Broker Ve'nott                                                https://www.wowhead.com/npc=170257/broker-venott
-
-    - 
-
-        - torghast achievements ?
-

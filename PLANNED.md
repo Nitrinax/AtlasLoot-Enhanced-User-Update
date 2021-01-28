@@ -1,4 +1,21 @@
 
+# AtlasLoot_Crafting
+
+        - rework module
+
+            - reorganization of categories according to ingame profession window
+            - add new recipes
+            - add forgotten recipes
+            - adjust modified recipes
+            - remove removed recipes
+
+# AtlasLoot_PvP
+
+        - rework module
+
+            - push all pvp content to this module
+            - add shadowlands pvp content
+
 # AtlasLoot_WorldEvents
 
     - rework module

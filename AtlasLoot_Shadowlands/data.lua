@@ -17,6 +17,7 @@ local AtlasLoot = _G.AtlasLoot
 local data = AtlasLoot.ItemDB:Add(addonname, 8)
 
 local AL = AtlasLoot.Locales
+local BSZ = AtlasLoot.LibBabble:Get("LibBabble-SubZone-3.0")
 
 local RF_DIFF = data:AddDifficulty(AL["Raid Finder"], "LFRWithPreset", {
 	Item = {
@@ -936,32 +937,98 @@ data["Theater of Pain"] = {
 	}
 }
 
+-- Torghast, Tower of the Damned
+-- Skoldus Hall
+-- Fracture Chambers
+-- The Soulforges
+-- Coldheart Interstitia
+-- Mort'regar
+-- The Upper Reaches
+-- Twisting Corridors
+
 -- 1762 	Torghast, Tower of the Damned
--- data["Torghast"] = {
--- 	MapID = 1762,
--- 	ContentType = DUNGEON_CONTENT,
--- 	items = 
--- 	{
--- 		{ -- BOSSNAME
--- 			EncounterJournalID = 0000,
--- 			[NORMAL_DUNGEON_DIFF] = {
--- 				{ 1, 000000 }, -- XXXXXXXXXX
--- 				{ 2, 000000 }, -- XXXXXXXXXX
--- 				{ 3, 000000 }, -- XXXXXXXXXX
--- 				{ 4, 000000 }, -- XXXXXXXXXX
--- 				{ 5, 000000 }, -- XXXXXXXXXX
--- 				{ 6, 000000 }, -- XXXXXXXXXX
--- 				{ 7, 000000 }, -- XXXXXXXXXX
--- 			},
--- 			[HEROIC_DUNGEON_DIFF] = {
--- 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
--- 			},
--- 			[MYTHICD_DUNGEON_DIFF] = {
--- 				GetItemsFromDiff = NORMAL_DUNGEON_DIFF,
--- 			},
--- 		},
--- 	},
--- }
+data["Torghast"] = {
+	MapID = 1762,
+	ContentType = DUNGEON_CONTENT,
+	items = 
+	{
+		{ -- Torghast, Tower of the Damned
+			--EncounterJournalID = 0000,
+			name = BSZ["Torghast, Tower of the Damned"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14521" }, -- Torghast: Into Torghast
+				{ 2, "ac14808" }, -- Touring Torghast
+				{ 3, "ac14809" }, -- Traversing Torghast
+				{ 4, "ac14810" }, -- Terror of Torghast
+				{ 6, "ac14773" }, -- Explosive Extermination
+				{ 7, "ac14776" }, -- For the Hoarder!
+				{ 8, "ac14498" }, -- Gatekeepers of Torghast
+				{ 16, "ac14596" }, -- Torghast: Tracking - Completed Layer 1
+				{ 17, "ac14597" }, -- Torghast: Tracking - Completed Layer 2
+				{ 18, "ac14598" }, -- Torghast: Tracking - Completed Layer 3
+				{ 19, "ac14599" }, -- Torghast: Tracking - Completed Layer 4
+				{ 20, "ac14600" }, -- Torghast: Tracking - Completed Layer 5
+				{ 21, "ac14601" }, -- Torghast: Tracking - Completed Layer 6
+				{ 22, "ac14602" }, -- Torghast: Tracking - Completed Layer 7
+				{ 23, "ac14603" }, -- Torghast: Tracking - Completed Layer 8
+				{ 24, "ac14604" }, -- Torghast: Tracking - Completed Layer 9
+			},
+		},
+		{ -- Skoldus Hall
+			name = BSZ["Skoldus Hall"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14463" }, -- Skoldus Hall
+			},
+		},
+		{ -- Fracture Chambers
+			name = BSZ["The Fracture Chambers"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14473" }, -- Fracture Chambers
+			},
+		},
+		{ -- The Soulforges
+			name = BSZ["The Soulforges"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14478" }, -- The Soulforges
+			},
+		},
+		{ -- Coldheart Interstitia
+			name = BSZ["Coldheart Interstitia"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14483" }, -- Coldheart Interstitia
+			},
+		},
+		{ -- Mort'regar
+			name = BSZ["Mort'regar"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14488" }, -- Mort'regar
+			},
+		},
+		{ -- The Upper Reaches
+			name = BSZ["The Upper Reaches"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14493" }, -- The Upper Reaches
+			},
+		},
+		{ -- Twisting Corridors
+			--EncounterJournalID = 0000,
+			--name = BSZ["Twisting Corridors"],
+			name = AL["Twisting Corridors"],
+			[NORMAL_DUNGEON_DIFF] = {
+				{ 1, "ac14848" }, -- Torghast: Tracking - Twisting Corridors Unlocked
+				{ 3, "ac14468" }, -- Twisting Corridors: Layer 1
+				{ 4, "ac14469" }, { 19, 183412 },-- Twisting Corridors: Layer 2
+				{ 5, "ac14470" }, -- Twisting Corridors: Layer 3
+				{ 6, "ac14471" }, { 21, 184223 }, -- Helm of the Dominated, Twisting Corridors: Layer 4
+				{ 7, "ac14472" }, -- Twisting Corridors: Layer 5
+				{ 8, "ac14568" }, -- Twisting Corridors: Layer 6
+				{ 9, "ac14569" }, -- Twisting Corridors: Layer 7
+				{ 10, "ac14570" }, { 25, 184166 },-- Corridor Creeper, Twisting Corridors: Layer 8
+				{ 11, "ac14571" }, -- Twisting Corridors: Layer 9
+			},
+		},
+	},
+}
 
 -- /////////////////////////////////
 -- Raid

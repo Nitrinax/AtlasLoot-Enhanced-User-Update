@@ -320,3 +320,5 @@ AL["CatWB_JulakDoom"] = "Julak-Doom <Das Auge von Zor>"       -- Julak-Doom <The
 AL["CatWB_Mobus"] = "Mobus <Der Wellenbrecher>"               -- Mobus <The Crushing Tide>
 AL["CatWB_WhaleShark"] = "Walhai"                             -- Whale Shark
 AL["CatWB_Xariona"] = "Xariona"                               -- Xariona
+--Torghast, Tower of the Damned
+AL["Twisting Corridors"] = "Die Gewundenen Korridore"

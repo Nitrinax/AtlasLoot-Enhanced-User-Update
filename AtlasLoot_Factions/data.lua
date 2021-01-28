@@ -268,7 +268,7 @@ data["SLFACTIONS"] = {
 				{ 28, 178336 }, -- Tabard of the Wild Hunt
 			},
 		},
-		{ -- AH Ve'nari - https://de.wowhead.com/guides/venari-reputation-guide
+		{ -- AH Ve'nari
 			FactionID = 2432,
 			CoinTexture = "Reputation",
 			[NORMAL_DIFF] = {
