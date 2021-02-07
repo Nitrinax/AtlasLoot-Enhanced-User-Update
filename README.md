@@ -11,4 +11,6 @@ See detailed changes in [CHANGES](https://github.com/Nitrinax/AtlasLoot-Enhanced
 Please report Bugs on the [Issues](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/issues) Page.
 
 If translations are incorrect or missing, please open an [issue](https://github.com/Nitrinax/AtlasLoot-Enhanced-User-Update/issues).
-Especially chinese, korean and taiwanese I can't translate. But also translations into other languages can be missing or incorrect.
+Especially chinese, korean and taiwanese I can't translate. But translations into other languages may also be missing or incorrect.
+
+If you want to help with the translation, you can find the translation table at [google docs](https://docs.google.com/spreadsheets/d/1nEoKkZ3jfGFb_xbpv5-iRcjmxenxKNpJT820y5t0MSE/edit?usp=sharing).
